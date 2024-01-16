@@ -20,7 +20,6 @@ with st.sidebar:
                 [GitHub](https://github.com/njgootee)"""
     )
 
-
 # title and information
 st.title("Talisman Finder")
 with st.expander("Information", expanded=False):
