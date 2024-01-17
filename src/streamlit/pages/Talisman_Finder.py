@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+import matplotlib
 
 # read data in
 player_data = pd.read_csv("data/2023/player_data.csv")
