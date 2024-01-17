@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # read data in
-player_data = pd.read_csv("../../data/2023/player_data.csv")
+player_data = pd.read_csv("data/2023/player_data.csv")
 
 # page config
 st.set_page_config(

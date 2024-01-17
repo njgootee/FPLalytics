@@ -4,7 +4,7 @@ import numpy as np
 import altair as alt
 
 # read data in
-odm_data = pd.read_csv("../../data/2023/fixture_data.csv")
+odm_data = pd.read_csv("data/2023/fixture_data.csv")
 
 # page config
 st.set_page_config(

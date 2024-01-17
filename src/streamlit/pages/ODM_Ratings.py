@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 
 # load data
-odm_data = pd.read_csv("../../data/2023/odm_rating.csv")
+odm_data = pd.read_csv("data/2023/odm_rating.csv")
 odm_data = odm_data.tail(20)
 
 # page config

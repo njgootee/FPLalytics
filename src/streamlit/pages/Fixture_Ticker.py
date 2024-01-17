@@ -4,8 +4,8 @@ import numpy as np
 import altair as alt
 
 # read data in
-fixtures = pd.read_csv("../../data/2023/season_data.csv")
-odm_data = pd.read_csv("../../data/2023/odm_rating.csv")
+fixtures = pd.read_csv("data/2023/season_data.csv")
+odm_data = pd.read_csv("data/2023/odm_rating.csv")
 odm_data = odm_data.tail(20)
 curr_gw = odm_data["gameweek"].max()
 
