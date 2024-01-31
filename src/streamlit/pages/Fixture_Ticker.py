@@ -30,7 +30,7 @@ with st.expander("Information", expanded=False):
     st.markdown(
         """Use this tool to compare upcoming fixture difficulty for different teams and asset type.
 
-Fixtures are shaded based on the opponents ODM ratings: opponent defensive rating for the offence ticker, and opponent offensive rating for the defence ticker.
+Enumerated columns represent upcoming gameweeks, while fixtures are shaded based on the opponents ODM ratings: opponent defensive rating for the offence ticker, and opponent offensive rating for the defence ticker.
 Change the ODM rating data source in the options menu. The "Past 6 Gameweeks" option can be a better indicator of current fixture difficulty, but is more sensitive to outliers and variance.
 
 The fixture ratio (FR) represents the fixture strength over the selected number of gameweeks."""
