@@ -162,7 +162,7 @@ with d_tab:
             axis=None,
             cmap="RdYlGn_r",
             gmap=d_fixture_values,
-            subset=np.arange(gw_option[0], gw_option[1]),
+            subset=np.arange(gw_option[0], gw_option[1] + 1),
             vmax=max(o_rating_dict.values()),
             vmin=min(o_rating_dict.values()),
         )
