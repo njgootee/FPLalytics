@@ -5,7 +5,7 @@ import altair as alt
 
 # read data in
 odm_data = pd.read_csv("data/2023/odm_rating.csv")
-latest_gw = str(odm_data["gameweek"].max() - 1)
+latest_gw = odm_data["gameweek"].max() - 1
 
 # page config
 st.set_page_config(
@@ -17,7 +17,7 @@ with st.sidebar:
     st.markdown(
         """:chart_with_upwards_trend: :blue[FPL]*alytics*  
                 Latest gameweek data: :blue["""
-        + latest_gw
+        + str(latest_gw)
         + """]  
                 [GitHub](https://github.com/njgootee)"""
     )
@@ -34,10 +34,12 @@ Users are strongly encouraged to complement their experience with this app by in
 )
 
 # latest gameweek
-st.markdown("""#### Latest data from Gameweek :blue[""" + latest_gw + "]")
+st.markdown("##### Latest data from Gameweek :blue[" + str(latest_gw) + """] 
+Use our latest data, stats, and models to prepare your team for success in Gameweek """ + str(latest_gw + 1) + ".")
 
 # development updates
 st.markdown(
-    """#### Development Updates  
-FPLalytics is now available to the public!"""
+    """##### Development Updates  
+Fixture tickers have been updated to handle blank gameweeks and double gameweeks (or larger).  
+Fixture schedule has been updated to match official EPL/FPL."""
 )
