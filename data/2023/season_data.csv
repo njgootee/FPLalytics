@@ -560,25 +560,25 @@ fixture_id,datetime,team,opponent,gameweek
 22171,2024-03-09 19:00:00,Liverpool,Manchester City,28
 22170,2024-03-09 19:00:00,Crystal Palace,Luton,28
 22177,2024-03-16 19:00:00,Brentford,Burnley,29
-22176,2024-03-16 19:00:00,Brighton,Manchester City,29
-22178,2024-03-16 19:00:00,Newcastle United,Crystal Palace,29
-22179,2024-03-16 19:00:00,Liverpool,Everton,29
+22176,2024-03-16 19:00:00,Brighton,Manchester City,0
+22178,2024-03-16 19:00:00,Newcastle United,Crystal Palace,0
+22179,2024-03-16 19:00:00,Liverpool,Everton,0
 22180,2024-03-16 19:00:00,Tottenham,Fulham,29
 22181,2024-03-16 19:00:00,Nottingham Forest,Luton,29
-22182,2024-03-16 19:00:00,Sheffield United,Manchester United,29
+22182,2024-03-16 19:00:00,Sheffield United,Manchester United,0
 22183,2024-03-16 19:00:00,Aston Villa,West Ham,29
-22184,2024-03-16 19:00:00,Bournemouth,Wolverhampton Wanderers,29
-22176,2024-03-16 19:00:00,Manchester City,Brighton,29
-22175,2024-03-16 19:00:00,Chelsea,Arsenal,29
+22184,2024-03-16 19:00:00,Bournemouth,Wolverhampton Wanderers,0
+22176,2024-03-16 19:00:00,Manchester City,Brighton,0
+22175,2024-03-16 19:00:00,Chelsea,Arsenal,0
 22183,2024-03-16 19:00:00,West Ham,Aston Villa,29
-22182,2024-03-16 19:00:00,Manchester United,Sheffield United,29
+22182,2024-03-16 19:00:00,Manchester United,Sheffield United,0
 22181,2024-03-16 19:00:00,Luton,Nottingham Forest,29
 22180,2024-03-16 19:00:00,Fulham,Tottenham,29
-22179,2024-03-16 19:00:00,Everton,Liverpool,29
-22178,2024-03-16 19:00:00,Crystal Palace,Newcastle United,29
+22179,2024-03-16 19:00:00,Everton,Liverpool,0
+22178,2024-03-16 19:00:00,Crystal Palace,Newcastle United,0
 22177,2024-03-16 19:00:00,Burnley,Brentford,29
-22184,2024-03-16 19:00:00,Wolverhampton Wanderers,Bournemouth,29
-22175,2024-03-16 19:00:00,Arsenal,Chelsea,29
+22184,2024-03-16 19:00:00,Wolverhampton Wanderers,Bournemouth,0
+22175,2024-03-16 19:00:00,Arsenal,Chelsea,0
 22193,2024-03-30 19:00:00,Sheffield United,Fulham,30
 22186,2024-03-30 19:00:00,Aston Villa,Wolverhampton Wanderers,30
 22185,2024-03-30 19:00:00,Everton,Bournemouth,30
