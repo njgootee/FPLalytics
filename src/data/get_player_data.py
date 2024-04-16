@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-def get_player_data_func(GW):
+def get_player_data_func():
     # read in existing data
     fixture_data = pd.read_csv("data/2023/fixture_data.csv")
     player_data = pd.read_csv("data/2023/player_data.csv")

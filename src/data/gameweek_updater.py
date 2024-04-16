@@ -12,4 +12,4 @@ GW = int(sys.argv[1])
 # run data and model scripts
 get_fixture_data_func(GW)
 odm_func(GW + 1)
-get_player_data_func(GW)
+get_player_data_func()

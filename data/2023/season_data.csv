@@ -504,7 +504,7 @@ fixture_id,datetime,team,opponent,gameweek
 22146,2024-02-24 19:00:00,Arsenal,Newcastle United,26
 22147,2024-02-24 19:00:00,Aston Villa,Nottingham Forest,26
 22148,2024-02-24 19:00:00,Brighton,Everton,26
-22149,2024-02-24 19:00:00,Chelsea,Tottenham,0
+22149,2024-02-24 19:00:00,Chelsea,Tottenham,35
 22150,2024-02-24 19:00:00,Crystal Palace,Burnley,26
 22151,2024-02-24 19:00:00,Liverpool,Luton,25
 22152,2024-02-24 19:00:00,Manchester United,Fulham,26
@@ -513,7 +513,7 @@ fixture_id,datetime,team,opponent,gameweek
 22145,2024-02-24 19:00:00,Manchester City,Bournemouth,26
 22146,2024-02-24 19:00:00,Newcastle United,Arsenal,26
 22147,2024-02-24 19:00:00,Nottingham Forest,Aston Villa,26
-22149,2024-02-24 19:00:00,Tottenham,Chelsea,0
+22149,2024-02-24 19:00:00,Tottenham,Chelsea,35
 22150,2024-02-24 19:00:00,Burnley,Crystal Palace,26
 22151,2024-02-24 19:00:00,Luton,Liverpool,25
 22152,2024-02-24 19:00:00,Fulham,Manchester United,26
@@ -560,25 +560,25 @@ fixture_id,datetime,team,opponent,gameweek
 22171,2024-03-09 19:00:00,Liverpool,Manchester City,28
 22170,2024-03-09 19:00:00,Crystal Palace,Luton,28
 22177,2024-03-16 19:00:00,Brentford,Burnley,29
-22176,2024-03-16 19:00:00,Brighton,Manchester City,0
-22178,2024-03-16 19:00:00,Newcastle United,Crystal Palace,0
-22179,2024-03-16 19:00:00,Liverpool,Everton,0
+22176,2024-03-16 19:00:00,Brighton,Manchester City,34
+22178,2024-03-16 19:00:00,Newcastle United,Crystal Palace,34
+22179,2024-03-16 19:00:00,Liverpool,Everton,34
 22180,2024-03-16 19:00:00,Tottenham,Fulham,29
 22181,2024-03-16 19:00:00,Nottingham Forest,Luton,29
-22182,2024-03-16 19:00:00,Sheffield United,Manchester United,0
+22182,2024-03-16 19:00:00,Sheffield United,Manchester United,34
 22183,2024-03-16 19:00:00,Aston Villa,West Ham,29
-22184,2024-03-16 19:00:00,Bournemouth,Wolverhampton Wanderers,0
-22176,2024-03-16 19:00:00,Manchester City,Brighton,0
-22175,2024-03-16 19:00:00,Chelsea,Arsenal,0
+22184,2024-03-16 19:00:00,Bournemouth,Wolverhampton Wanderers,34
+22176,2024-03-16 19:00:00,Manchester City,Brighton,34
+22175,2024-03-16 19:00:00,Chelsea,Arsenal,34
 22183,2024-03-16 19:00:00,West Ham,Aston Villa,29
-22182,2024-03-16 19:00:00,Manchester United,Sheffield United,0
+22182,2024-03-16 19:00:00,Manchester United,Sheffield United,34
 22181,2024-03-16 19:00:00,Luton,Nottingham Forest,29
 22180,2024-03-16 19:00:00,Fulham,Tottenham,29
-22179,2024-03-16 19:00:00,Everton,Liverpool,0
-22178,2024-03-16 19:00:00,Crystal Palace,Newcastle United,0
+22179,2024-03-16 19:00:00,Everton,Liverpool,34
+22178,2024-03-16 19:00:00,Crystal Palace,Newcastle United,34
 22177,2024-03-16 19:00:00,Burnley,Brentford,29
-22184,2024-03-16 19:00:00,Wolverhampton Wanderers,Bournemouth,0
-22175,2024-03-16 19:00:00,Arsenal,Chelsea,0
+22184,2024-03-16 19:00:00,Wolverhampton Wanderers,Bournemouth,34
+22175,2024-03-16 19:00:00,Arsenal,Chelsea,34
 22193,2024-03-30 19:00:00,Sheffield United,Fulham,30
 22186,2024-03-30 19:00:00,Aston Villa,Wolverhampton Wanderers,30
 22185,2024-03-30 19:00:00,Everton,Bournemouth,30
@@ -659,22 +659,22 @@ fixture_id,datetime,team,opponent,gameweek
 22220,2024-04-13 19:00:00,Crystal Palace,Liverpool,33
 22222,2024-04-13 19:00:00,Tottenham,Newcastle United,33
 22217,2024-04-13 19:00:00,Brentford,Sheffield United,33
-22233,2024-04-20 19:00:00,Tottenham,Manchester City,34
-22226,2024-04-20 19:00:00,Brighton,Chelsea,34
+22233,2024-04-20 19:00:00,Tottenham,Manchester City,37
+22226,2024-04-20 19:00:00,Brighton,Chelsea,37
 22225,2024-04-20 19:00:00,Bournemouth,Aston Villa,34
-22226,2024-04-20 19:00:00,Chelsea,Brighton,34
+22226,2024-04-20 19:00:00,Chelsea,Brighton,37
 22227,2024-04-20 19:00:00,West Ham,Crystal Palace,34
 22228,2024-04-20 19:00:00,Nottingham Forest,Everton,34
 22229,2024-04-20 19:00:00,Liverpool,Fulham,34
 22230,2024-04-20 19:00:00,Brentford,Luton,34
-22231,2024-04-20 19:00:00,Newcastle United,Manchester United,34
+22231,2024-04-20 19:00:00,Newcastle United,Manchester United,37
 22232,2024-04-20 19:00:00,Burnley,Sheffield United,34
-22233,2024-04-20 19:00:00,Manchester City,Tottenham,34
+22233,2024-04-20 19:00:00,Manchester City,Tottenham,37
 22225,2024-04-20 19:00:00,Aston Villa,Bournemouth,34
 22234,2024-04-20 19:00:00,Arsenal,Wolverhampton Wanderers,34
 22234,2024-04-20 19:00:00,Wolverhampton Wanderers,Arsenal,34
 22232,2024-04-20 19:00:00,Sheffield United,Burnley,34
-22231,2024-04-20 19:00:00,Manchester United,Newcastle United,34
+22231,2024-04-20 19:00:00,Manchester United,Newcastle United,37
 22230,2024-04-20 19:00:00,Luton,Brentford,34
 22229,2024-04-20 19:00:00,Fulham,Liverpool,34
 22228,2024-04-20 19:00:00,Everton,Nottingham Forest,34
