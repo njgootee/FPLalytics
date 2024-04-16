@@ -43,7 +43,7 @@ with st.expander("Options", expanded=False):
     model_option = st.selectbox("Data Source", ("Full Season", "Past 6 Gameweeks"))
 
     # slider to select top/bottom n results
-    gw_option = st.slider("Gameweek Range", curr_gw, 38, (curr_gw, curr_gw + 5))
+    gw_option = st.slider("Gameweek Range", curr_gw, 38, (curr_gw, min(curr_gw + 5, 38)))
 
 # tab setup
 o_tab, d_tab = st.tabs(["Offence", "Defence"])
