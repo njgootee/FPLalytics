@@ -19,12 +19,27 @@ def get_player_data_func():
 
     # iterate through matches not yet recorded
     for fixture_id in new_fixture_ids:
-        # Get player performance data for fixture
         with UnderstatClient() as understat:
-            roster_data = understat.match(match=str(fixture_id)).get_roster_data()
+            curr_match = understat.match(match=str(fixture_id))
+            # Get player performance data
+            roster_data = curr_match.get_roster_data()
+            # Get shot data
+            shot_data = curr_match.get_shot_data()
+
+        # setup player data dataframe
         home_players = pd.json_normalize([{**v} for k, v in roster_data["h"].items()])
         away_players = pd.json_normalize([{**v} for k, v in roster_data["a"].items()])
         new_player_data = pd.concat([home_players, away_players])
+
+        # setup penalties dataframe
+        home_shots = pd.DataFrame(shot_data["h"])
+        away_shots = pd.DataFrame(shot_data["a"])
+        shots = pd.concat([home_shots, away_shots])
+        penalties = shots[shots["situation"] == "Penalty"][
+            ["player_id", "match_id"]
+        ].rename(columns={"match_id": "fixture_id"})
+        penalties = penalties.value_counts().reset_index(name="penalty")
+        penalties = penalties.astype('int64')
 
         # add fixture id feature
         new_player_data["fixture_id"] = int(fixture_id)
@@ -95,8 +110,15 @@ def get_player_data_func():
         # adjust dtypes
         new_player_data["xG"] = new_player_data["xG"].astype(float)
         new_player_data["xA"] = new_player_data["xA"].astype(float)
+        new_player_data["fixture_id"] = new_player_data["fixture_id"].astype("int64")
+        new_player_data["player_id"] = new_player_data["player_id"].astype("int64")
         # add xgi
         new_player_data["xGI"] = new_player_data["xG"] + new_player_data["xA"]
+        #add pen data, calculate non pen xg and xgi
+        new_player_data = new_player_data.merge(penalties, how='left', on=['fixture_id', 'player_id'])
+        new_player_data['penalty'] = new_player_data['penalty'].fillna(0).astype('int64')
+        new_player_data['npxG'] = new_player_data['xG'] - new_player_data['penalty'] * 0.7611688375473022
+        new_player_data['npxGI'] = new_player_data['npxG'] + new_player_data['xA']
         # add new player data to database
         player_data = pd.concat([player_data, new_player_data], ignore_index=True)
 
