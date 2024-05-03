@@ -5,10 +5,23 @@ import matplotlib
 
 # read data in
 player_data = pd.read_csv("data/2023/player_data.csv")
+player_mapping = pd.read_csv("data/2023/player_mapping.csv")
+
+# add fpl info
+player_mapping = player_mapping.dropna()
+player_mapping["web_name_pos"] = (
+    player_mapping["web_name"] + " " + player_mapping["pos"]
+)
+player_data = player_data.merge(
+    player_mapping[["player_id", "web_name_pos"]], how="left", on="player_id"
+)
+player_data = player_data.dropna(subset="web_name_pos")
 
 # page config
 st.set_page_config(
-    page_title="Talisman Finder • FPLalytics", page_icon=":chart_with_upwards_trend:"
+    page_title="Talisman Finder • FPLalytics",
+    page_icon=":chart_with_upwards_trend:",
+    layout="wide",
 )
 
 # sidebar
@@ -48,72 +61,79 @@ if model_option == "Past 6 Gameweeks":
     player_data = player_data[
         player_data["gameweek"] > (player_data["gameweek"].max() - 6)
     ]
-chart_df = player_data.groupby(["player"], as_index=False)[
+chart_df = player_data.groupby(["web_name_pos"], as_index=False)[
     ["xGI", "team_xG", "xG", "xA", "time"]
 ].sum()
 chart_df["t_score"] = (chart_df["xGI"] / chart_df["team_xG"]) * 100
 chart_df["xG_perc"] = (chart_df["xG"] / chart_df["xGI"]) * 100
-chart_df = chart_df.nlargest(5, "t_score")
+chart_df = chart_df.nlargest(8, "t_score")
 
+col1, col2 = st.columns(2)
 # Talisman chart
-tman_chart = (
-    alt.Chart(chart_df)
-    .mark_point()
-    .encode(
-        x=alt.X("team_xG", type="quantitative", title="Team xG"),
-        y=alt.Y("t_score", type="quantitative", title="Talisman Score"),
-        color=alt.Color("xG_perc:Q", title="xG%", scale=alt.Scale(scheme="blues")),
-        tooltip=[
-            alt.Tooltip("player", title="Player"),
-            alt.Tooltip("t_score", title="Talisman Score", format=".2f"),
-            alt.Tooltip("team_xG", title="Team xG", format=".2f"),
-            alt.Tooltip("xG_perc", title="xG%", format=".2f"),
-        ],
+with col1:
+    tman_chart = (
+        alt.Chart(chart_df)
+        .mark_point()
+        .encode(
+            x=alt.X("xG_perc", type="quantitative", title="xG%"),
+            y=alt.Y("t_score", type="quantitative", title="Talisman Score (%)"),
+            color=alt.Color(
+                "team_xG:Q", title="Team xG", scale=alt.Scale(scheme="blues")
+            ),
+            tooltip=[
+                alt.Tooltip("web_name_pos", title="Player"),
+                alt.Tooltip("t_score", title="Talisman Score", format=".2f"),
+                alt.Tooltip("team_xG", title="Team xG", format=".2f"),
+                alt.Tooltip("xG_perc", title="xG%", format=".2f"),
+            ],
+        )
     )
-)
-st.altair_chart(tman_chart, use_container_width=True)
+    st.altair_chart(tman_chart, use_container_width=True)
 
 # Talisman table
-st.dataframe(
-    chart_df.style.background_gradient(axis=0, subset=["t_score"], cmap="Blues").format(
-        {
-            "t_score": "{:.2f} %",
-            "xG_perc": "{:.2f} %",
+with col2:
+    st.dataframe(
+        chart_df.style.background_gradient(
+            axis=0, subset=["t_score"], cmap="Blues"
+        ).format(
+            {
+                "t_score": "{:.2f} %",
+                "xG_perc": "{:.2f} %",
+            },
+            precision=2,
+        ),
+        column_config={
+            "web_name_pos": "Player",
+            "team_name": "Team",
+            "t_score": st.column_config.NumberColumn(
+                "Talisman Score",
+                help="Player xGI as % of Team xG",
+            ),
+            "xGI": st.column_config.NumberColumn(
+                "xGI",
+                help="Expected Goal Involvement: xG + xA",
+            ),
+            "xG_perc": st.column_config.NumberColumn(
+                "xG%",
+                help="xG % of xGI",
+            ),
+            "team_xG": st.column_config.NumberColumn(
+                "Team xG",
+                help="Team total xG (when player makes appearance)",
+            ),
+            "time": "Minutes",
         },
-        precision=2,
-    ),
-    column_config={
-        "player": "Player",
-        "team_name": "Team",
-        "t_score": st.column_config.NumberColumn(
-            "Talisman Score",
-            help="Player xGI as % of Team xG",
-        ),
-        "xGI": st.column_config.NumberColumn(
+        column_order=(
+            "web_name_pos",
+            "team_name",
+            "t_score",
             "xGI",
-            help="Expected Goal Involvement: xG + xA",
+            "team_xG",
+            "xG_perc",
+            "xG",
+            "xA",
+            "time",
         ),
-        "xG_perc": st.column_config.NumberColumn(
-            "xG%",
-            help="xG % of xGI",
-        ),
-        "team_xG": st.column_config.NumberColumn(
-            "Team xG",
-            help="Team total xG (when player makes appearance)",
-        ),
-        "time": "Minutes",
-    },
-    column_order=(
-        "player",
-        "team_name",
-        "t_score",
-        "xGI",
-        "team_xG",
-        "xG_perc",
-        "xG",
-        "xA",
-        "time",
-    ),
-    hide_index=True,
-    use_container_width=True,
-)
+        hide_index=True,
+        use_container_width=True,
+    )

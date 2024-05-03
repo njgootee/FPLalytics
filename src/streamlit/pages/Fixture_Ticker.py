@@ -11,7 +11,9 @@ curr_gw = odm_data["gameweek"].max()
 
 # page config
 st.set_page_config(
-    page_title="Fixture Ticker • FPLalytics", page_icon=":chart_with_upwards_trend:"
+    page_title="Fixture Ticker • FPLalytics",
+    page_icon=":chart_with_upwards_trend:",
+    layout="wide",
 )
 
 # sidebar
@@ -43,7 +45,9 @@ with st.expander("Options", expanded=False):
     model_option = st.selectbox("Data Source", ("Full Season", "Past 6 Gameweeks"))
 
     # slider to select top/bottom n results
-    gw_option = st.slider("Gameweek Range", curr_gw, 38, (curr_gw, min(curr_gw + 5, 38)))
+    gw_option = st.slider(
+        "Gameweek Range", curr_gw, 38, (curr_gw, min(curr_gw + 5, 38))
+    )
 
 # tab setup
 o_tab, d_tab = st.tabs(["Offence", "Defence"])

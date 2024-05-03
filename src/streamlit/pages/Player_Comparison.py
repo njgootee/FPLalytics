@@ -1,15 +1,27 @@
 import streamlit as st
 import pandas as pd
-import matplotlib
 
 # read data in
 player_data = pd.read_csv("data/2023/player_data.csv")
+player_mapping = pd.read_csv("data/2023/player_mapping.csv")
 odm_data = pd.read_csv("data/2023/odm_rating.csv")
 odm_data = odm_data.tail(20)
 
+# add fpl info
+player_mapping = player_mapping.dropna()
+player_mapping["web_name_pos"] = (
+    player_mapping["web_name"] + " " + player_mapping["pos"]
+)
+player_data = player_data.merge(
+    player_mapping[["player_id", "web_name_pos"]], how="left", on="player_id"
+)
+player_data = player_data.dropna(subset="web_name_pos")
+
 # page config
 st.set_page_config(
-    page_title="Player Comparison • FPLalytics", page_icon=":chart_with_upwards_trend:"
+    page_title="Player Comparison • FPLalytics",
+    page_icon=":chart_with_upwards_trend:",
+    layout="wide",
 )
 
 # sidebar
@@ -38,8 +50,8 @@ with st.expander("Options", expanded=False):
     # multiselect for player filter
     player_filter = st.multiselect(
         "Players",
-        player_data["player"].unique(),
-        default=["Erling Haaland", "Mohamed Salah", "Son Heung-Min"],
+        player_data["web_name_pos"].unique(),
+        default=["Haaland (F)", "Salah (M)", "Son (M)"],
     )
 
     # Model select box
@@ -53,15 +65,29 @@ with st.expander("Options", expanded=False):
     per_90 = st.checkbox("Per 90 min stats", value=True)
 
 # setup performance dataframe
-player_data = player_data[player_data["player"].isin(player_filter)]
-perf_df = player_data.groupby(["player"], as_index=False)[
-    ["xGI", "goals", "xG", "shots", "assists", "xA", "key_passes", "time", "team_xG"]
+player_data = player_data[player_data["web_name_pos"].isin(player_filter)]
+perf_df = player_data.groupby(["web_name_pos"], as_index=False)[
+    [
+        "xGI",
+        "npxGI",
+        "goals",
+        "xG",
+        "npxG",
+        "shots",
+        "assists",
+        "xA",
+        "key_passes",
+        "time",
+        "team_xG",
+    ]
 ].sum()
 perf_df["t_score"] = (perf_df["xGI"] / perf_df["team_xG"]) * 100
 if per_90:
     perf_df["xGI"] = perf_df["xGI"] / perf_df["time"] * 90
+    perf_df["npxGI"] = perf_df["npxGI"] / perf_df["time"] * 90
     perf_df["goals"] = perf_df["goals"] / perf_df["time"] * 90
     perf_df["xG"] = perf_df["xG"] / perf_df["time"] * 90
+    perf_df["npxG"] = perf_df["npxG"] / perf_df["time"] * 90
     perf_df["shots"] = perf_df["shots"] / perf_df["time"] * 90
     perf_df["assists"] = perf_df["assists"] / perf_df["time"] * 90
     perf_df["xA"] = perf_df["xA"] / perf_df["time"] * 90
@@ -69,12 +95,13 @@ if per_90:
 
 # setup auxillary dataframe
 aux_df = (
-    player_data.groupby(["player", "team_name"], as_index=False)
+    player_data.groupby(["web_name_pos", "team_name"], as_index=False)
     .agg(
         minutes=("time", "sum"),
-        appearances=("player", "count"),
+        appearances=("web_name_pos", "count"),
         yc=("yellow_card", "sum"),
         rc=("red_card", "sum"),
+        penalties=("penalty", "sum"),
     )
     .rename(columns={"team_name": "team"})
 )
@@ -101,39 +128,55 @@ st.dataframe(
         axis=0,
         subset=[
             "xGI",
-            "goals",
-            "xG",
-            "shots",
-            "assists",
-            "xA",
-            "key_passes",
+            "npxGI",
             "t_score",
         ],
         cmap="Blues",
-    ).format({"t_score": "{:.2f} %", "xG_perc": "{:.2f} %"}, precision=2),
+    )
+    .background_gradient(
+        axis=0,
+        subset=["goals", "xG", "npxG", "shots", "assists", "xA", "key_passes"],
+        cmap="Purples",
+    )
+    .background_gradient(
+        axis=0,
+        subset=["assists", "xA", "key_passes"],
+        cmap="Reds",
+    )
+    .format({"t_score": "{:.2f} %", "xG_perc": "{:.2f} %"}, precision=2),
     column_config={
-        "player": "Player",
+        "web_name_pos": "Player",
         "xGI": st.column_config.NumberColumn(
             "xGI", help="Expected Goal Involvement: xG + xA"
+        ),
+        "npxGI": st.column_config.NumberColumn(
+            "npxGI", help="Non-Penalty Expected Goal Involvement: npxG + xA"
         ),
         "t_score": st.column_config.NumberColumn(
             "T-Score", help="Talisman Score: Player xGI as % of Team xG"
         ),
         "goals": "Goals",
+        "xG": st.column_config.NumberColumn("xG", help="Expected Goals"),
+        "npxG": st.column_config.NumberColumn(
+            "npxG", help="Non-Penalty Expected Goals"
+        ),
         "shots": "Shots",
         "assists": "Assists",
+        "xA": st.column_config.NumberColumn("xA", help="Expected Assists"),
         "key_passes": st.column_config.NumberColumn("KP", help="Key Passes"),
     },
     column_order=(
-        "player",
+        "web_name_pos",
         "xGI",
+        "npxGI",
+        "t_score",
         "goals",
         "xG",
+        "npxG",
         "shots",
         "assists",
         "xA",
         "key_passes",
-        "t_score",
     ),
     hide_index=True,
     use_container_width=True,
@@ -152,11 +195,12 @@ st.dataframe(
         precision=2,
     ),
     column_config={
-        "player": "Player",
+        "web_name_pos": "Player",
         "team": "Team",
         "minutes": "Minutes",
         "appearances": "Appearances",
         "mpa": st.column_config.NumberColumn("MPA", help="Minutes Per Appearance"),
+        "penalties": "Penalties",
         "yc": st.column_config.NumberColumn("YC", help="Yellow Cards"),
         "rc": st.column_config.NumberColumn("RC", help="Red Cards"),
         "o_rating": st.column_config.NumberColumn(
@@ -167,13 +211,14 @@ st.dataframe(
         ),
     },
     column_order=(
-        "player",
+        "web_name_pos",
         "team",
         "o_rating",
         "d_rating",
         "appearances",
         "minutes",
         "mpa",
+        "penalties",
         "yc",
         "rc",
     ),

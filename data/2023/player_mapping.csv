@@ -1,544 +1,559 @@
-id,player,fpl_name,fpl_id,element_type,now_cost
-642848,Jayden Danns,Jayden Danns,824,4,44
-646053,Oliver Arblaster,Oliver Arblaster,823,3,45
-639035,Rodrigo Ribeiro,Rodrigo Duarte Ribeiro,809,4,45
-639023,Matz Sels,Matz Sels,808,1,45
-638571,Adam Wharton,Adam Wharton,807,3,50
-638585,Maxime Estève,Maxime Esteve,806,2,40
-638573,Lorenz Assignon,Lorenz Assignon,805,2,40
-640147,Enes Ünal,Enes Ünal,804,4,50
-638756,Morgan Rogers,Morgan Rogers,803,3,50
-639036,Giovanni Reyna,Giovanni Reyna,801,3,48
-638076,Romain Faivre,Romain Faivre,799,3,50
-645157,Daiki Hashioka,Daiki Hashioka,798,2,40
-641834,Joe White,Joe White,794,3,45
-638557,Daniel Muñoz,Daniel Muñoz,792,2,45
-638048,Cesare Casadei,Cesare Casadei,791,3,45
-637850,Ivo Grbic,Ivo Grbic,790,1,45
-636305,Kaide Gordon,Kaide Gordon,783,3,45
-635481,Radu Dragusin,Radu Dragusin,777,2,42
-635479,Timo Werner,Timo Werner,776,4,63
-636192,Ben Brereton Díaz,Ben Brereton,775,3,50
-640667,Ethan Nwaneri,Ethan Nwaneri,772,3,45
-632532,Willy Kambwala,Willy Kambwala,766,2,39
-628765,Sydie Peck,Sydie Peck,759,3,44
-636292,Conor Bradley,Conor Bradley,757,2,41
-636517,Tawanda Chirewa,Tawanda Chirewa,750,3,44
-627265,Benicio Baker-Boaitey,Benicio Baker-Boaitey,742,3,45
-623496,Ben Parkinson,Ben Parkinson,739,4,45
-624907,Amadou Diallo,Amadou Diallo,738,3,45
-619927,Ryan Oné,Ryan Oné,730,3,44
-618088,Andros Townsend,Andros Townsend,727,3,50
-627567,Jamie Donley,Jamie Donley,722,4,45
-618182,David Ozoh,David Ozoh,721,3,45
-633079,Alfie Gilchrist,Alfie Gilchrist,716,2,40
-610061,Jean-Ricner Bellegarde,Jean-Ricner Bellegarde,715,3,49
-611593,Divock Origi,Divock Origi,714,4,50
-611588,Ibrahim Sangare,Ibrahim Sangaré,713,3,49
-612170,Nicolás Domínguez,Nicolás Domínguez,712,3,50
-635957,Andrew Omobamidele,Andrew Omobamidele,711,2,45
-622068,Odisseas Vlachodimos,Odysseas Vlachodimos,710,1,45
-612542,Sofyan Amrabat,Sofyan Amrabat,709,3,50
-610082,Ryan Gravenberch,Ryan Gravenberch,708,3,50
-627943,Fode Toure,Fodé Ballo-Touré,707,2,45
-611609,Mike Trésor,Mike Trésor,706,3,53
-610970,Luis Sinisterra,Luis Sinisterra,705,3,55
-638124,Nathan Fraser,Nathan Fraser,704,4,45
-609674,Jonny Evans,Jonny Evans,703,2,40
-612341,Saman Ghoddos,Saman Ghoddos,701,3,45
-610459,Anssumane Fati,Anssumane Fati Vieira,700,3,64
-632459,Clement Lenglet,Clément Lenglet,699,2,45
-626118,Santiago Bueno,Santiago Bueno,697,2,45
-615245,Murillo,Murillo Santiago Costa dos Santos,696,2,45
-637951,Han-Noah Massengo,Han-Noah Massengo,694,3,49
-608359,Beto,Norberto Bercique Gomes Betuncal,691,4,57
-612714,Carlos Baleba,Carlos Baleba,690,3,45
-608301,Mohammed Kudus,Mohammed Kudus,689,3,68
-608733,Timothy Castagne,Timothy Castagne,688,2,45
-629290,Djordje Petrovic,Đorđe Petrović,687,1,4
-608764,Gonzalo Montiel,Gonzalo Montiel,679,2,44
-608713,Jéremy Doku,Jérémy Doku,678,3,64
-619569,Deivid Washington,Deivid Washington de Souza Eugênio,677,4,45
-614733,Konstantinos Mavropanos,Konstantinos Mavropanos,676,2,45
-607450,Aaron Ramsey,Aaron Ramsey,675,3,50
-607441,Hannes Delcroix,Hannes Delcroix,674,2,40
-607467,Nicolo Zaniolo,Nicolò Zaniolo,672,3,54
-605129,Wataru Endo,Wataru Endo,668,3,54
-633077,Romeo Lavia,Roméo Lavia,667,3,49
-611548,Tom Davies,Tom Davies,666,3,50
-605902,James Ward-Prowse,James Ward-Prowse,664,3,59
-604797,Gustavo Hamer,Gustavo Hamer,663,3,49
-605099,Adama Traoré,Adama Traoré,662,3,49
-614582,Jack Harrison,Jack Harrison,661,3,55
-614685,Wilson Odobert,Wilson Odobert,660,3,50
-606381,Jesurun Rak-Sakyi,Jesurun Rak-Sakyi,657,3,45
-603829,Andre Brooks,Andre Brooks,655,3,44
-605767,Tyler Onyango,Tyler Onyango,650,3,44
-606874,Youssef Chermiti,Youssef Ramalho Chermiti,645,4,48
-618035,Alex Scott,Alex Scott,644,3,49
-603727,Max Aarons,Max Aarons,643,2,44
-605908,Edson Álvarez,Edson Álvarez Velázquez,642,3,50
-644912,Dane Scarlett,Dane Scarlett,640,4,45
-604202,Micky van de Ven,Micky van de Ven,639,2,44
-603826,Vinicius Souza,Vini de Souza Costa,638,3,50
-623489,Lewis Miley,Lewis Miley,635,3,45
-624906,Alex Murphy,Alex Murphy,634,2,39
-605579,Valentino Livramento,Tino Livramento,633,2,41
-638138,Omari Forson,Omari Forson,632,3,44
-603784,Jacob Brown,Jacob Brown,631,4,49
-606604,Ross Barkley,Ross Barkley,630,3,50
-623851,James McConnell,James McConnell,629,3,44
-604434,Ben Doak,Ben Doak,628,3,43
-636304,Bobby Clark,Bobby Clark,627,3,44
-607710,Jarell Quansah,Jarell Quansah,626,2,40
-603800,Lewis Dobbin,Lewis Dobbin,624,3,45
-614307,Jack Hinshelwood,Jack Hinshelwood,621,3,45
-609672,Rasmus Højlund,Rasmus Højlund,617,4,70
-603631,Josko Gvardiol,Joško Gvardiol,616,2,48
-618180,Matheus França,Matheus França de Oliveira,615,3,48
-603772,Thomas Kaminski,Thomas Kaminski,614,1,45
-604417,Chimuanya Ugochukwu,Lesley Ugochukwu,613,3,44
-604407,Axel Disasi,Axel Disasi,611,2,49
-605100,Calvin Bassey,Calvin Bassey,610,2,44
-603616,Jacob Bruun Larsen,Jacob Bruun Larsen,608,3,48
-619865,Ionut Radu,Ionuț Radu,607,1,43
-616924,Igor Julio,Igor Julio dos Santos de Paulo,606,2,43
-603609,Luca Koleosho,Luca Koleosho,605,3,48
-603715,Ola Aina,Olu Aina,604,2,45
-603918,Harvey Barnes,Harvey Barnes,603,3,62
-603776,Issa Kabore,Issa Kaboré,602,2,40
-603799,Arnaut Danjuma Groeneveld,Arnaut Danjuma Groeneveld,601,3,52
-603617,Nathan Redmond,Nathan Redmond,600,3,47
-603929,Moussa Diaby,Moussa Diaby,599,3,63
-610064,Matt Doherty,Matt Doherty,598,2,43
-604618,André Onana,André Onana,597,1,48
-603603,James Trafford,James Trafford,596,1,45
-603730,Milos Kerkez,Milos Kerkez,595,2,44
-603613,Zeki Amdouni,Zeki Amdouni,594,4,53
-603827,Yasser Larouci,Yasser Larouci,592,2,43
-603811,Willian,Willian Borges da Silva,591,3,53
-604643,Matheus Cunha,Matheus Santos Carneiro Da Cunha,590,4,55
-603792,Ashley Young,Ashley Young,588,2,44
-603828,Anis Ben Slimane,Anis Slimane,587,3,47
-603779,Tahith Chong,Tahith Chong,586,3,47
-603700,Jurriën Timber,Jurriën Timber,585,2,46
-603935,Pau Torres,Pau Torres,584,2,46
-605258,Manor Solomon,Manor Solomon,583,3,51
-603778,Pelly Ruddock Mpanzu,Pelly Ruddock Mpanzu,582,3,47
-624910,Paul Dummett,Paul Dummett,581,2,39
-643532,Loris Karius,Loris Karius,580,1,39
-609659,Reiss Nelson,Reiss Nelson,578,3,48
-605907,Angelo Ogbonna,Angelo Ogbonna,577,2,43
-603818,Jack Robinson,Jack Robinson,576,2,43
-603774,Tom Lockyer,Tom Lockyer,575,2,42
-609362,Boubacar Traore,Boubacar Traoré,574,3,43
-605068,Toti,Toti António Gomes,573,2,44
-604635,Nélson Semedo,Nélson Cabral Semedo,572,2,45
-604644,Pablo Sarabia,Pablo Sarabia,570,3,47
-604634,José Sá,José Malheiro de Sá,569,1,50
-604639,Pedro Neto,Pedro Lomba Neto,567,3,57
-604642,Matheus Nunes,Matheus Luiz Nunes,566,3,47
-604641,Mario Lemina,Mario Lemina,565,3,49
-604637,Max Kilman,Max Kilman,563,2,45
-604640,João Gomes,João Victor Gomes da Silva,559,3,49
-603810,Raúl Jiménez,Raúl Jiménez,558,4,50
-604648,Hee-Chan Hwang,Hwang Hee-chan,557,3,55
-604636,Craig Dawson,Craig Dawson,551,2,45
-604646,Hugo Bueno,Hugo Bueno López,548,2,44
-626653,Daniel Bentley,Daniel Bentley,546,1,39
-604638,Rayan Ait Nouri,Rayan Aït-Nouri,545,2,45
-603744,Kurt Zouma,Kurt Zouma,544,2,45
-603748,Tomas Soucek,Tomáš Souček,542,3,49
-603703,Declan Rice,Declan Rice,540,3,55
-603747,Lucas Paquetá,Lucas Tolentino Coelho de Lima,539,3,60
-624864,Divin Mubama,Divin Mubama,538,4,41
-632529,Ben Johnson,Ben Johnson,536,2,44
-603754,Danny Ings,Danny Ings,535,4,56
-628213,Lukasz Fabianski,Lukasz Fabianski,533,1,42
-604200,Emerson,Emerson Palmieri dos Santos,532,2,44
-620329,Aaron Cresswell,Aaron Cresswell,530,2,42
-603743,Vladimir Coufal,Vladimír Coufal,528,2,46
-603755,Maxwel Cornet,Maxwel Cornet,527,3,52
-603749,Jarrod Bowen,Jarrod Bowen,526,3,79
-603742,Alphonse Areola,Alphonse Areola,524,1,43
-603752,Michail Antonio,Michail Antonio,523,4,57
-603745,Naif Aguerd,Nayef Aguerd,522,2,44
-604199,Guglielmo Vicario,Guglielmo Vicario,520,1,53
-604203,Iyenoma Destiny Udogie,Destiny Udogie,519,2,49
-604208,Son Heung-Min,Son Heung-min,516,3,99
-604205,Oliver Skipp,Oliver Skipp,515,3,45
-604212,Pape Sarr,Pape Matar Sarr,513,3,44
-604201,Cristian Romero,Cristian Romero,511,2,50
-604209,Richarlison,Richarlison de Andrade,509,3,70
-610434,Sergio Reguilón,Sergio Reguilón,508,2,44
-605245,Pedro Porro,Pedro Porro,506,2,57
-604207,James Maddison,James Maddison,504,3,80
-606668,Giovani Lo Celso,Giovani Lo Celso,503,3,48
-604206,Dejan Kulusevski,Dejan Kulusevski,501,3,68
-605257,Pierre-Emile Højbjerg,Pierre-Emile Højbjerg,499,3,52
-605259,Ben Davies,Ben Davies,495,2,43
-619492,Bryan Gil Salvatierra,Bryan Gil Salvatierra,494,3,49
-604204,Yves Bissouma,Yves Bissouma,493,3,50
-619493,Rodrigo Bentancur,Rodrigo Bentancur,492,3,54
-603824,William Osula,William Osula,490,4,43
-603822,Ben Osborn,Ben Osborn,489,3,48
-603823,Oliver Norwood,Oliver Norwood,488,3,48
-633516,Rhys Norrington-Davies,Rhys Norrington-Davies,487,2,39
-607482,Oliver McBurnie,Oliver McBurnie,485,4,54
-603820,Max Lowe,Max Lowe,484,2,43
-603815,Wes Foderingham,Wes Foderingham,482,1,45
-603817,John Egan,John Egan,480,2,43
-614748,Rhian Brewster,Rhian Brewster,477,4,49
-607480,Jayden Bogle,Jayden Bogle,476,2,45
-603611,Sander Berge,Sander Berge,475,3,46
-603821,Chris Basham,Chris Basham,474,2,39
-603819,George Baldock,George Baldock,473,2,38
-603816,Anel Ahmedhodzic,Anel Ahmedhodžić,471,2,43
-603717,Ryan Yates,Ryan Yates,470,3,48
-603721,Chris Wood,Chris Wood,468,4,48
-603725,Neco Williams,Neco Williams,467,2,43
-615256,Harry Toffolo,Harry Toffolo,465,2,44
-604784,Moussa Niakhate,Moussa Niakhaté,457,2,45
-603723,Cheikhou Kouyaté,Cheikhou Kouyaté,451,3,48
-603719,Brennan Johnson,Brennan Johnson,450,3,58
-603720,Morgan Gibbs-White,Morgan Gibbs-White,447,3,57
-626823,Felipe,Felipe Augusto de Almeida Monteiro,445,2,44
-603718,Danilo,Danilo dos Santos de Oliveira,442,3,53
-603713,Willy Boly,Willy Boly,439,2,45
-603722,Taiwo Awoniyi,Taiwo Awoniyi,437,4,63
-603916,Callum Wilson,Callum Wilson,433,4,78
-620136,Joe Willock,Joe Willock,432,3,53
-603906,Kieran Trippier,Kieran Trippier,430,2,68
-603912,Sandro Tonali,Sandro Tonali,429,3,52
-607693,Matt Targett,Matt Targett,428,2,42
-603908,Fabian Schär,Fabian Schär,427,2,54
-621779,Matt Ritchie,Matt Ritchie,425,3,43
-603905,Nick Pope,Nick Pope,424,1,53
-603917,Jacob Murphy,Jacob Murphy,423,3,48
-603919,Sean Longstaff,Sean Longstaff,421,3,48
-608892,Jamaal Lascelles,Jamaal Lascelles,419,2,39
-623494,Emil Krafth,Emil Krafth,417,2,44
-603910,Joelinton,Joelinton Cássio Apolinário de Lira,416,3,58
-603914,Alexander Isak,Alexander Isak,415,4,75
-603915,Anthony Gordon,Anthony Gordon,412,3,61
-626942,Martin Dubravka,Martin Dubravka,409,1,42
-603909,Dan Burn,Dan Burn,407,2,44
-603911,Bruno Guimarães,Bruno Guimarães Rodriguez Moura,406,3,58
-603907,Sven Botman,Sven Botman,405,2,45
-603920,Elliot Anderson,Elliot Anderson,403,3,42
-603913,Miguel Almirón,Miguel Almirón Rejala,402,3,60
-604619,Aaron Wan-Bissaka,Aaron Wan-Bissaka,401,2,44
-604622,Luke Shaw,Luke Shaw,398,2,52
-604628,Marcus Rashford,Marcus Rashford,396,3,84
-604621,Raphael Varane,Raphaël Varane,395,2,49
-615870,Teden Mengi,Teden Mengi,393,2,39
-604633,Scott McTominay,Scott McTominay,392,3,46
-604620,Lisandro Martínez,Lisandro Martínez,391,2,47
-605272,Anthony Martial,Anthony Martial,390,4,64
-625811,Kobbie Mainoo,Kobbie Mainoo,388,3,44
-609673,Harry Maguire,Harry Maguire,387,2,42
-604630,Victor Lindelöf,Victor Lindelöf,386,2,45
-630309,Dean Henderson,Dean Henderson,385,1,44
-604627,Alejandro Garnacho,Alejandro Garnacho,382,3,50
-604629,Christian Eriksen,Christian Eriksen,379,3,58
-603724,Anthony Elanga,Anthony Elanga,378,3,51
-605273,Diogo Dalot,Diogo Dalot Teixeira,377,2,52
-604623,Casemiro,Carlos Henrique Casimiro,376,3,53
-604625,Bruno Fernandes,Bruno Borges Fernandes,373,3,82
-604624,Antony,Antony Matheus dos Santos,372,3,68
-633667,Amad Diallo Traore,Amad Diallo,371,3,44
-603620,Kyle Walker,Kyle Walker,369,2,54
-617316,John Stones,John Stones,368,2,53
-608719,Sergio Gómez,Sergio Gómez,366,2,38
-603625,Rodri,Rodrigo Hernandez,365,3,56
-608720,Kalvin Phillips,Kalvin Phillips,364,3,47
-603634,Cole Palmer,Cole Palmer,362,3,57
-618123,Stefan Ortega Moreno,Stefan Ortega Moreno,361,1,37
-603633,James McAtee,James McAtee,360,3,44
-603623,Rico Lewis,Rico Lewis,358,2,42
-603630,Mateo Kovacic,Mateo Kovačić,356,3,47
-603629,Erling Haaland,Erling Haaland,355,4,144
-605563,Jack Grealish,Jack Grealish,354,3,72
-603628,Phil Foden,Phil Foden,353,3,82
-603619,Ederson,Ederson Santana de Moraes,352,1,55
-610068,Tommy Doyle,Tommy Doyle,351,3,44
-605556,Rúben Dias,Rúben Gato Alves Dias,350,2,55
-603624,Kevin De Bruyne,Kevin De Bruyne,349,3,105
-608717,Oscar Bobb,Oscar Bobb,345,3,44
-603626,Bernardo Silva,Bernardo Veiga de Carvalho e Silva,344,3,62
-603627,Julián Álvarez,Julián Álvarez,343,4,65
-603621,Nathan Aké,Nathan Aké,342,2,51
-603622,Manuel Akanji,Manuel Akanji,341,2,49
-603785,Cauley Woodrow,Cauley Woodrow,340,4,43
-620458,Gabriel Osho,Gabriel Osho,330,2,44
-603783,Chiedozie Ogbene,Chiedozie Ogbene,328,4,49
-603781,Carlton Morris,Carlton Morris,326,4,52
-603787,Alfie Doughty,Alfie Doughty,321,2,47
-623257,Jordan Clark,Jordan Clark,320,3,48
-606599,Reece Burke,Reece Burke,318,2,40
-603786,Luke Berry,Luke Berry,317,3,46
-603773,Amari&#039;i Bell,Amari'i Bell,316,2,39
-603775,Mads Andersen,Mads Juel Andersen,315,2,39
-603782,Elijah Adebayo,Elijah Adebayo,314,4,49
-604423,Virgil van Dijk,Virgil van Dijk,313,2,65
-605128,Konstantinos Tsimikas,Konstantinos Tsimikas,311,2,45
-639368,Thiago Alcántara,Thiago Alcántara do Nascimento,310,3,47
-604426,Dominik Szoboszlai,Dominik Szoboszlai,309,3,71
-604428,Mohamed Salah,Mohamed Salah,308,3,130
-604424,Andrew Robertson,Andrew Robertson,307,2,64
-607699,Joel Matip,Joel Matip,305,2,48
-604425,Alexis Mac Allister,Alexis Mac Allister,304,3,58
-604430,Luis Díaz,Luis Díaz,303,3,75
-604422,Ibrahima Konaté,Ibrahima Konaté,302,2,49
-627327,Caoimhin Kelleher,Caoimhin Kelleher,301,1,38
-604432,Curtis Jones,Curtis Jones,300,3,49
-605132,Joseph Gomez,Joe Gomez,298,2,46
-604427,Cody Gakpo,Cody Gakpo,297,4,72
-604433,Harvey Elliott,Harvey Elliott,295,3,48
-604429,Diogo Jota,Diogo Teixeira da Silva,294,3,80
-604431,Darwin Núñez,Darwin Núñez Ribeiro,293,4,75
-604420,Alisson,Alisson Ramses Becker,291,1,58
-604421,Trent Alexander-Arnold,Trent Alexander-Arnold,290,2,85
-603809,Harry Wilson,Harry Wilson,288,3,53
-606946,Tosin Adarabioyo,Tosin Adarabioyo,286,2,43
-603802,Kenny Tete,Kenny Tete,285,2,44
-603805,Antonee Robinson,Antonee Robinson,283,2,45
-603807,Harrison Reed,Harrison Reed,282,3,45
-603804,Tim Ream,Tim Ream,281,2,45
-605098,João Palhinha,João Palhinha Gonçalves,280,3,50
-605096,Rodrigo Muniz,Rodrigo Muniz Carvalho,279,4,45
-603806,Sasa Lukic,Saša Lukić,276,3,43
-603801,Bernd Leno,Bernd Leno,275,1,48
-603803,Issa Diop,Issa Diop,271,2,44
-603813,Bobby Reid,Bobby De Cordova-Reid,270,3,53
-603808,Tom Cairney,Tom Cairney,268,3,49
-603812,Andreas Pereira,Andreas Hoelgebaum Pereira,267,3,53
-603791,James Tarkowski,James Tarkowski,265,2,46
-603788,Jordan Pickford,Jordan Pickford,263,1,46
-603789,Nathan Patterson,Nathan Patterson,262,2,43
-603794,Amadou Onana,Amadou Onana,261,3,47
-611274,Vitalii Mykolenko,Vitalii Mykolenko,260,2,46
-608360,Dwight McNeil,Dwight McNeil,259,3,54
-603798,Neal Maupay,Neal Maupay,258,4,49
-603790,Michael Keane,Michael Keane,257,2,43
-603796,Alex Iwobi,Alex Iwobi,256,3,53
-638731,Mason Holgate,Mason Holgate,255,2,40
-603795,Idrissa Gueye,Idrissa Gueye,254,3,48
-608361,Ben Godfrey,Ben Godfrey,252,2,43
-603793,James Garner,James Garner,250,3,49
-603797,Abdoulaye Doucouré,Abdoulaye Doucouré,249,3,55
-628172,Seamus Coleman,Seamus Coleman,247,2,44
-605764,Dominic Calvert-Lewin,Dominic Calvert-Lewin,246,4,58
-606865,Jarrad Branthwaite,Jarrad Branthwaite,245,2,42
-632633,André Gomes,André Tavares Gomes,244,3,44
-603832,Joel Ward,Joel Ward,242,2,45
-603842,James Tomkins,James Tomkins,241,2,40
-603840,Jeffrey Schlupp,Jeffrey Schlupp,240,3,48
-614655,Jairo Riedewald,Jairo Riedewald,239,3,43
-610480,Chris Richards,Chris Richards,238,2,39
-623300,Michael Olise,Michael Olise,236,3,56
-603835,Tyrick Mitchell,Tyrick Mitchell,234,2,45
-628424,Remi Matthews,Remi Matthews,233,1,39
-606915,Jean-Philippe Mateta,Jean-Philippe Mateta,232,4,49
-603836,Jefferson Lerma,Jefferson Lerma Solís,231,3,47
-603831,Sam Johnstone,Sam Johnstone,230,1,44
-609349,Will Hughes,Will Hughes,229,3,49
-603834,Marc Guehi,Marc Guéhi,228,2,42
-603839,Eberechi Eze,Eberechi Eze,226,3,60
-603841,Odsonne Edouard,Odsonne Edouard,225,4,54
-603837,Cheick Oumar Doucoure,Cheick Doucouré,223,3,49
-616613,Nathaniel Clyne,Nathaniel Clyne,222,2,43
-603838,Jordan Ayew,Jordan Ayew,221,3,54
-603833,Joachim Andersen,Joachim Andersen,220,2,47
-606380,Naouirou Ahamada,Naouirou Ahamada,219,3,43
-604406,Thiago Silva,Thiago Emiliano da Silva,217,2,50
-604414,Raheem Sterling,Raheem Sterling,216,3,69
-632906,Christopher Nkunku,Christopher Nkunku,212,4,72
-604415,Nicolas Jackson,Nicolas Jackson,211,4,68
-604419,Mykhailo Mudryk,Mykhailo Mudryk,210,3,63
-604626,Mason Mount,Mason Mount,209,3,68
-605924,Mason Burstow,Mason Mount,209,3,68
-605923,Noni Madueke,Noni Madueke,208,3,53
-604409,Reece James,Reece James,206,2,53
-611591,Callum Hudson-Odoi,Callum Hudson-Odoi,205,3,47
-613105,Lewis Hall,Lewis Hall,204,2,42
-604416,Malo Gusto,Malo Gusto,203,2,42
-604412,Conor Gallagher,Conor Gallagher,202,3,54
-637955,David Datro Fofana,David Datro Fofana,200,4,50
-604411,Enzo Fernández,Enzo Fernández,199,3,48
-615823,Marc Cucurella,Marc Cucurella Saseta,198,2,48
-604408,Levi Colwill,Levi Colwill,197,2,47
-604413,Carney Chukwuemeka,Carney Chukwuemeka,196,3,42
-604410,Ben Chilwell,Ben Chilwell,195,2,54
-642001,Trevoh Chalobah,Trevoh Chalobah,194,2,43
-612745,Armando Broja,Armando Broja,193,4,49
-624914,Benoit Badiashile Mukinayi,Benoît Badiashile,191,2,44
-603608,Vitinho,Victor da Silva,182,2,44
-611601,Charlie Taylor,Charlie Taylor,178,2,40
-607452,Jay Rodriguez,Jay Rodriguez,177,4,53
-603607,Dara O&#039;Shea,Dara O'Shea,173,2,44
-607449,Johann Berg Gudmundsson,Jóhann Berg Gudmundsson,170,3,48
-603612,Lyle Foster,Lyle Foster,168,4,47
-626481,Hjalmar Ekdal,Hjalmar Ekdal,167,2,39
-603610,Josh Cullen,Josh Cullen,165,3,50
-608689,Jack Cork,Jack Cork,163,3,48
-603618,Josh Brownhill,Josh Brownhill,161,3,47
-603606,Louis Beyer,Jordan Beyer,160,2,39
-603614,Benson Manuel,Manuel Benson Hedilazio,159,3,52
-603605,Ameen Al Dakhil,Ameen Al-Dakhil,157,2,38
-603766,Danny Welbeck,Danny Welbeck,154,4,57
-605072,Adam Webster,Adam Webster,153,2,42
-607007,Bart Verbruggen,Bart Verbruggen,152,1,44
-603768,Joël Veltman,Joël Veltman,151,2,43
-603758,Jan Paul van Hecke,Jan Paul van Hecke,150,2,41
-603756,Jason Steele,Jason Steele,148,1,42
-604405,Robert Sánchez,Robert Sánchez,145,1,45
-604210,Davinson Sánchez,Robert Sánchez,145,1,45
-624956,Jakub Moder,Jakub Moder,144,3,44
-603765,Kaoru Mitoma,Kaoru Mitoma,143,3,64
-603757,James Milner,James Milner,142,3,48
-603763,Solly March,Solly March,140,3,61
-608877,Tariq Lamptey,Tariq Lamptey,139,2,39
-605084,Adam Lallana,Adam Lallana,138,3,49
-603764,João Pedro,João Pedro Junqueira de Jesus,135,4,52
-603762,Pascal Groß,Pascal Groß,134,3,66
-603770,Billy Gilmour,Billy Gilmour,133,3,48
-603767,Evan Ferguson,Evan Ferguson,132,4,57
-603760,Estupiñán,Pervis Estupiñán,131,2,49
-603769,Julio Enciso,Julio Enciso,130,3,50
-603759,Lewis Dunk,Lewis Dunk,129,2,52
-605921,Moisés Caicedo,Moisés Caicedo Corozo,126,3,45
-612709,Facundo Buonanotte,Facundo Buonanotte,125,3,47
-603771,Simon Adingra,Simon Adingra,122,3,50
-604195,Zanka,Mathias Jorgensen,121,2,43
-618105,Yehor Yarmolyuk,Yegor Yarmoliuk,120,3,43
-604193,Yoane Wissa,Yoane Wissa,119,4,56
-635949,Ivan Toney,Ivan Toney,117,4,81
-616477,Thomas Strakosha,Thomas Strakosha,116,1,39
-604197,Kevin Schade,Kevin Schade,115,3,52
-604194,Mads Roerslev,Mads Roerslev Rasmussen,114,2,44
-611285,David Raya,David Raya Martin,113,1,50
-604186,Ethan Pinnock,Ethan Pinnock,112,2,45
-606902,Frank Onyeka,Frank Onyeka,111,3,49
-604190,Christian Nørgaard,Christian Nørgaard,110,3,53
-608647,Ben Mee,Ben Mee,109,2,48
-604192,Bryan Mbeumo,Bryan Mbeumo,108,3,67
-605115,Keane Lewis-Potter,Keane Lewis-Potter,107,3,47
-604189,Mathias Jensen,Mathias Jensen,106,3,54
-604191,Vitaly Janelt,Vitaly Janelt,105,3,53
-604184,Aaron Hickey,Aaron Hickey,104,2,44
-604188,Rico Henry,Rico Henry,103,2,43
-604183,Mark Flekken,Mark Flekken,101,1,45
-605116,Josh Dasilva,Josh Dasilva,99,3,47
-604196,Mikkel Damsgaard,Mikkel Damsgaard,98,3,48
-604185,Nathan Collins,Nathan Collins,96,2,45
-604198,Shandon Baptiste,Shandon Baptiste,92,3,43
-604187,Kristoffer Ajer,Kristoffer Ajer,90,2,44
-603729,Illia Zabarnyi,Illia Zabarnyi,89,2,45
-608671,Marcus Tavernier,Marcus Tavernier,86,3,55
-603736,Dominic Solanke,Dominic Solanke,85,4,72
-614701,Adam Smith,Adam Smith,84,2,44
-603728,Marcos Senesi,Marcos Senesi,83,2,46
-603738,Antoine Semenyo,Antoine Semenyo,82,4,45
-610967,Dango Ouattara,Dango Ouattara,78,3,47
-603726,Neto,Norberto Murara Neto,77,1,47
-603741,Chris Mepham,Chris Mepham,75,2,43
-603737,Justin Kluivert,Justin Kluivert,72,3,46
-605145,Lloyd Kelly,Lloyd Kelly,70,2,45
-603739,James Hill,James Hill,69,2,40
-606653,Lewis Cook,Lewis Cook,66,3,50
-603734,Ryan Christie,Ryan Christie,65,3,50
-603731,Philip Billing,Philip Billing,63,3,51
-603931,Ollie Watkins,Ollie Watkins,60,4,90
-603932,Youri Tielemans,Youri Tielemans,58,3,56
-612764,Jacob Ramsey,Jacob Ramsey,55,3,59
-607453,Robin Olsen,Robin Olsen,53,1,39
-603780,Marvelous Nakamba,Marvelous Nakamba,52,3,43
-603924,Tyrone Mings,Tyrone Mings,51,2,41
-603930,John McGinn,John McGinn,50,3,54
-603921,Emiliano Martinez,Emiliano Martínez Romero,49,1,53
-603923,Ezri Konsa Ngoyo,Ezri Konsa Ngoyo,48,2,45
-603927,Boubacar Kamara,Boubacar Kamara,47,3,50
-633064,Tim Iroegbunam,Tim Iroegbunam,46,3,44
-605752,Jhon Durán,Jhon Durán,44,4,50
-603926,Douglas Luiz,Douglas Luiz Soares de Paulo,43,3,57
-603925,Lucas Digne,Lucas Digne,42,2,46
-603934,Diego Carlos,Diego Carlos Santos Silva,41,2,44
-643187,Calum Chambers,Calum Chambers,37,2,38
-603922,Matthew Cash,Matty Cash,36,2,46
-603928,Leon Bailey,Leon Bailey,34,3,57
-605753,Cameron Archer,Cameron Archer,33,4,42
-627173,Álex Moreno,Alexandre Moreno Lopera,32,2,52
-606396,Oleksandr Zinchenko,Oleksandr Zinchenko,31,2,50
-603699,Ben White,Benjamin White,29,2,57
-603710,Matt Turner,Matt Turner,28,1,39
-611547,Auston Trusty,Auston Trusty,27,2,39
-603707,Leandro Trossard,Leandro Trossard,26,3,65
-603709,Takehiro Tomiyasu,Takehiro Tomiyasu,25,2,45
-608766,Nuno Tavares,Nuno Varela Tavares,23,2,40
-612778,Emile Smith-Rowe,Emile Smith Rowe,22,3,53
-610420,Albert Sambi Lokonga,Albert Sambi Lokonga,21,3,49
-603698,William Saliba,William Saliba,20,2,58
-603704,Bukayo Saka,Bukayo Saka,19,3,92
-603696,Aaron Ramsdale,Aaron Ramsdale,17,1,45
-603697,Thomas Partey,Thomas Partey,15,3,48
-603702,Martin Odegaard,Martin Ødegaard,14,3,85
-603705,Eddie Nketiah,Eddie Nketiah,13,4,51
-603706,Gabriel Martinelli,Gabriel Martinelli Silva,12,3,77
-606395,Jakub Kiwior,Jakub Kiwior,10,2,44
-606394,Jorginho,Jorge Luiz Frello Filho,9,3,53
-606928,Gabriel Jesus,Gabriel Fernando de Jesus,8,4,78
-603701,Kai Havertz,Kai Havertz,6,3,72
-603708,Gabriel,Gabriel dos Santos Magalhães,5,2,53
-606930,Fábio Vieira,Fábio Ferreira Vieira,4,3,54
-619908,Mohamed Elneny,Mohamed Elneny,3,3,44
-640666,Cédric Soares,Cédric Alves Soares,2,2,38
-603933,Philippe Coutinho,,,,
-603936,Jaden Philogene-Bidace,,,,
-603732,Joe Rothwell,,,,
-603733,David Brooks,,,,
-603735,Jaidon Anthony,,,,
-603740,Kieffer Moore,,,,
-603761,Mahmoud Dahoud,,,,
-603604,Connor Roberts,,,,
-603615,Anass Zaroury,,,,
-604418,Ian Maatsen,,,,
-603814,Aleksandar Mitrovic,,,,
-603777,Ryan John Giles,,,,
-603632,Aymeric Laporte,,,,
-604631,Facundo Pellistri,,,,
-604632,Jadon Sancho,,,,
-603711,Joe Worrall,,,,
-603712,Scott McKenna,,,,
-603714,Serge Aurier,,,,
-603716,Orel Mangala,,,,
-603825,Bénie Traoré,,,,
-603830,Antwoine Hackford,,,,
-604211,Ivan Perisic,,,,
-603750,Pablo Fornals,,,,
-603751,Said Benrahma,,,,
-603753,Thilo Kehrer,,,,
-604647,Fabio Silva,,,,
-604645,Sasa Kalajdzic,,,,
-605148,Hamed Junior Traore,,,,
-607465,Bertrand Traoré,,,,
-606873,Thomas Cannon,,,,
-608659,Michael Olakigbe,,,,
-608737,Luke Harris,,,,
-608347,Luke Thomas,,,,
-610473,Leander Dendoncker,,,,
-610409,Carlos Vinicius,,,,
-610443,Hannibal Mejbri,,,,
-615837,Alex Matos,,,,
-614642,Donny van de Beek,,,,
-614972,Alejo Véliz,,,,
-614613,Jonny,,,,
-620620,Andrey Santos,,,,
-619926,John Fleck,,,,
-622761,Eric Dier,,,,
-623287,Michael Obafemi,,,,
-624908,Michael Ndiweni,,,,
-626511,Myles Peart-Harris,,,,
-633047,Daniel Gore,,,,
-636306,Owen Beck,,,,
-635966,Brandon Aguilera,,,,
+player_id,player,fpl_id,fpl_name,web_name,element_type,now_cost,pos,penalties_order
+5603,Aaron Ramsdale,17,Aaron Ramsdale,Ramsdale,1,4.5,(G),
+2328,Thomas Partey,15,Thomas Partey,Thomas,3,4.8,(M),
+7298,Ben White,29,Benjamin White,White,2,5.7,(D),
+6888,William Saliba,20,William Saliba,Saliba,2,5.8,(D),
+11707,Jurriën Timber,585,Jurriën Timber,J.Timber,2,4.6,(D),
+2517,Martin Odegaard,14,Martin Ødegaard,Ødegaard,3,8.5,(M),2
+5553,Declan Rice,540,Declan Rice,Rice,3,5.5,(M),
+5220,Kai Havertz,6,Kai Havertz,Havertz,3,7.2,(M),3
+7322,Bukayo Saka,19,Bukayo Saka,Saka,3,9.2,(M),1
+6482,Eddie Nketiah,13,Eddie Nketiah,Nketiah,4,5.1,(F),
+7752,Gabriel Martinelli,12,Gabriel Martinelli Silva,Martinelli,3,7.7,(M),
+5613,Gabriel,5,Gabriel dos Santos Magalhães,Gabriel,2,5.3,(D),
+7931,Takehiro Tomiyasu,25,Takehiro Tomiyasu,Tomiyasu,2,4.5,(D),
+7698,Leandro Trossard,26,Leandro Trossard,Trossard,3,6.5,(M),
+4401,Emiliano Martinez,49,Emiliano Martínez Romero,Martinez,1,5.3,(G),
+8864,Matthew Cash,36,Matty Cash,Cash,2,4.6,(D),
+7726,Ezri Konsa Ngoyo,48,Ezri Konsa Ngoyo,Konsa,2,4.5,(D),
+1024,Tyrone Mings,51,Tyrone Mings,Mings,2,4.1,(D),
+1823,Lucas Digne,42,Lucas Digne,Digne,2,4.6,(D),
+6122,Douglas Luiz,43,Douglas Luiz Soares de Paulo,Douglas Luiz,3,5.7,(M),1
+5789,Boubacar Kamara,47,Boubacar Kamara,Kamara,3,5.0,(M),
+5221,Leon Bailey,34,Leon Bailey,Bailey,3,5.7,(M),
+6556,Moussa Diaby,599,Moussa Diaby,Diaby,3,6.3,(M),
+7723,John McGinn,50,John McGinn,McGinn,3,5.4,(M),
+8865,Ollie Watkins,60,Ollie Watkins,Watkins,4,9.0,(F),2
+5712,Diego Carlos,41,Diego Carlos Santos Silva,Diego Carlos,2,4.4,(D),
+5956,Youri Tielemans,58,Youri Tielemans,Tielemans,3,5.6,(M),
+6221,Pau Torres,584,Pau Torres,Pau,2,4.6,(D),
+488,Philippe Coutinho,,,,,,0,
+9415,Jaden Philogene-Bidace,,,,,,0,
+1297,Neto,77,Norberto Murara Neto,Neto,1,4.7,(G),
+7688,Max Aarons,643,Max Aarons,Aarons,2,4.4,(D),
+11486,Illia Zabarnyi,89,Illia Zabarnyi,Zabarnyi,2,4.5,(D),
+10864,Marcos Senesi,83,Marcos Senesi,Senesi,2,4.6,(D),
+11709,Milos Kerkez,595,Milos Kerkez,Kerkez,2,4.4,(D),
+561,Joe Rothwell,,,,,,0,
+6034,Philip Billing,63,Philip Billing,Billing,3,5.1,(M),
+6820,David Brooks,,,,,,0,
+10744,Ryan Christie,65,Ryan Christie,Christie,3,5.0,(M),
+10746,Jaidon Anthony,,,,,,0,
+1679,Dominic Solanke,85,Dominic Solanke,Solanke,4,7.2,(F),1
+11363,Antoine Semenyo,82,Antoine Semenyo,Semenyo,4,4.5,(F),
+7384,Chris Mepham,75,Chris Mepham,Mepham,2,4.3,(D),
+10747,James Hill,69,James Hill,Hill,2,4.0,(D),
+6963,Justin Kluivert,72,Justin Kluivert,Kluivert,3,4.6,(M),
+10743,Kieffer Moore,,,,,,0,
+7047,Mark Flekken,101,Mark Flekken,Flekken,1,4.5,(G),
+8942,Aaron Hickey,104,Aaron Hickey,Hickey,2,4.4,(D),
+9678,Ethan Pinnock,112,Ethan Pinnock,Pinnock,2,4.5,(D),
+9677,Kristoffer Ajer,90,Kristoffer Ajer,Ajer,2,4.4,(D),
+9733,Nathan Collins,96,Nathan Collins,Collins,2,4.5,(D),
+9679,Rico Henry,103,Rico Henry,Henry,2,4.3,(D),
+7166,Mathias Jensen,106,Mathias Jensen,Jensen,3,5.4,(M),
+7083,Christian Nørgaard,110,Christian Nørgaard,Nørgaard,3,5.3,(M),
+9680,Vitaly Janelt,105,Vitaly Janelt,Janelt,3,5.3,(M),
+6552,Bryan Mbeumo,108,Bryan Mbeumo,Mbeumo,3,6.7,(M),2
+5786,Yoane Wissa,119,Yoane Wissa,Wissa,4,5.6,(F),
+6030,Zanka,121,Mathias Jorgensen,Zanka,2,4.3,(D),
+9914,Shandon Baptiste,92,Shandon Baptiste,Baptiste,3,4.3,(M),
+8859,Mikkel Damsgaard,98,Mikkel Damsgaard,Damsgaard,3,4.8,(M),
+9685,Mads Roerslev,114,Mads Roerslev Rasmussen,Roerslev,2,4.4,(D),
+9156,Kevin Schade,115,Kevin Schade,Schade,3,5.2,(M),
+7235,Jason Steele,148,Jason Steele,Steele,1,4.2,(G),
+489,James Milner,142,James Milner,Milner,3,4.8,(M),
+6048,Lewis Dunk,129,Lewis Dunk,Dunk,2,5.2,(D),
+10807,Jan Paul van Hecke,150,Jan Paul van Hecke,Van Hecke,2,4.1,(D),
+5136,Estupiñán,131,Pervis Estupiñán,Estupiñan,2,4.9,(D),
+239,Pascal Groß,134,Pascal Groß,Gross,3,6.6,(M),2
+205,Mahmoud Dahoud,,,,,,0,
+6049,Solly March,140,Solly March,March,3,6.1,(M),
+8272,João Pedro,135,João Pedro Junqueira de Jesus,João Pedro,4,5.2,(F),1
+10806,Kaoru Mitoma,143,Kaoru Mitoma,Mitoma,3,6.4,(M),
+501,Danny Welbeck,154,Danny Welbeck,Welbeck,4,5.7,(F),3
+8780,Joël Veltman,151,Joël Veltman,Veltman,2,4.3,(D),
+11710,Simon Adingra,122,Simon Adingra,Adingra,3,5.0,(M),
+11058,Julio Enciso,130,Julio Enciso,Enciso,3,5.0,(M),
+10177,Evan Ferguson,132,Evan Ferguson,Ferguson,4,5.7,(F),
+7988,Billy Gilmour,133,Billy Gilmour,Gilmour,3,4.8,(M),
+9077,James Trafford,596,James Trafford,Trafford,1,4.5,(G),
+5568,Connor Roberts,,,,,,0,
+6557,Louis Beyer,160,Jordan Beyer,Beyer,2,3.9,(D),
+8756,Dara O&#039;Shea,173,Dara O'Shea,O'Shea,2,4.4,(D),
+11699,Ameen Al Dakhil,157,Ameen Al-Dakhil,Al-Dakhil,2,3.8,(D),
+11700,Vitinho,182,Victor da Silva,Vitinho,2,4.4,(D),
+10620,Luca Koleosho,605,Luca Koleosho,Koleosho,3,4.8,(M),
+1018,Josh Cullen,165,Josh Cullen,Cullen,3,5.0,(M),
+8285,Sander Berge,475,Sander Berge,Berge,3,4.6,(M),
+7498,Lyle Foster,168,Lyle Foster,Foster,4,4.7,(F),
+11701,Zeki Amdouni,594,Zeki Amdouni,Amdouni,4,5.3,(F),
+11703,Anass Zaroury,,,,,,0,
+8323,Josh Brownhill,161,Josh Brownhill,Brownhill,3,4.7,(M),
+5355,Jacob Bruun Larsen,608,Jacob Bruun Larsen,Bruun Larsen,3,4.8,(M),
+11702,Benson Manuel,159,Manuel Benson Hedilazio,Benson,3,5.2,(M),
+790,Nathan Redmond,600,Nathan Redmond,Redmond,3,4.7,(M),
+9098,Robert Sánchez,145,Robert Sánchez,Sanchez,1,4.5,(G),
+10805,Levi Colwill,197,Levi Colwill,Colwill,2,4.7,(D),
+3288,Thiago Silva,217,Thiago Emiliano da Silva,T.Silva,2,5.0,(D),
+6885,Axel Disasi,611,Axel Disasi,Disasi,2,4.9,(D),
+8067,Reece James,206,Reece James,James,2,5.3,(D),
+782,Ben Chilwell,195,Ben Chilwell,Chilwell,2,5.4,(D),
+11356,Enzo Fernández,199,Enzo Fernández,Enzo,3,4.8,(M),2
+9040,Conor Gallagher,202,Conor Gallagher,Gallagher,3,5.4,(M),
+618,Raheem Sterling,216,Raheem Sterling,Sterling,3,6.9,(M),4
+9356,Carney Chukwuemeka,196,Carney Chukwuemeka,Chukwuemeka,3,4.2,(M),
+10048,Nicolas Jackson,211,Nicolas Jackson,N.Jackson,4,6.8,(F),3
+9451,Chimuanya Ugochukwu,613,Lesley Ugochukwu,Ugochukwu,3,4.4,(M),
+11807,Ian Maatsen,,,,,,0,
+9017,Malo Gusto,203,Malo Gusto,Gusto,2,4.2,(D),
+11305,Mykhailo Mudryk,210,Mykhailo Mudryk,Mudryk,3,6.3,(M),
+978,Sam Johnstone,230,Sam Johnstone,Johnstone,1,4.4,(G),
+510,Joel Ward,242,Joel Ward,Ward,2,4.5,(D),
+6314,Joachim Andersen,220,Joachim Andersen,Andersen,2,4.7,(D),
+7603,Marc Guehi,228,Marc Guéhi,Guéhi,2,4.2,(D),
+8214,Tyrick Mitchell,234,Tyrick Mitchell,Mitchell,2,4.5,(D),
+2182,Jefferson Lerma,231,Jefferson Lerma Solís,Lerma,3,4.7,(M),
+8666,Cheick Oumar Doucoure,223,Cheick Doucouré,C.Doucouré,3,4.9,(M),
+672,Jordan Ayew,221,Jordan Ayew,J.Ayew,3,5.4,(M),
+8706,Eberechi Eze,226,Eberechi Eze,Eze,3,6.0,(M),1
+757,Jeffrey Schlupp,240,Jeffrey Schlupp,Schlupp,3,4.8,(M),
+3697,Odsonne Edouard,225,Odsonne Edouard,Edouard,4,5.4,(F),3
+530,James Tomkins,241,James Tomkins,Tomkins,2,4.0,(D),
+741,Jordan Pickford,263,Jordan Pickford,Pickford,1,4.6,(G),
+10292,Nathan Patterson,262,Nathan Patterson,Patterson,2,4.3,(D),
+1665,James Tarkowski,265,James Tarkowski,Tarkowski,2,4.6,(D),
+1653,Michael Keane,257,Michael Keane,Keane,2,4.3,(D),
+631,Ashley Young,588,Ashley Young,Young,2,4.4,(D),
+7438,James Garner,250,James Garner,Garner,3,4.9,(M),
+9667,Amadou Onana,261,Amadou Onana,Onana,3,4.7,(M),
+668,Idrissa Gueye,254,Idrissa Gueye,Gana,3,4.8,(M),
+500,Alex Iwobi,256,Alex Iwobi,Iwobi,3,5.3,(M),
+1726,Abdoulaye Doucouré,249,Abdoulaye Doucouré,A.Doucoure,3,5.5,(M),
+3621,Neal Maupay,258,Neal Maupay,Maupay,4,4.9,(F),
+10027,Lewis Dobbin,624,Lewis Dobbin,Dobbin,3,4.5,(M),
+8066,Arnaut Danjuma Groeneveld,601,Arnaut Danjuma Groeneveld,Danjuma,3,5.2,(M),
+181,Bernd Leno,275,Bernd Leno,Leno,1,4.8,(G),
+5973,Kenny Tete,285,Kenny Tete,Tete,2,4.4,(D),
+3203,Issa Diop,271,Issa Diop,Diop,2,4.4,(D),
+7184,Tim Ream,281,Tim Ream,Ream,2,4.5,(D),
+8940,Antonee Robinson,283,Antonee Robinson,Robinson,2,4.5,(D),
+6835,Tom Cairney,268,Tom Cairney,Cairney,3,4.9,(M),
+1537,Sasa Lukic,276,Saša Lukić,Lukić,3,4.3,(M),
+910,Harrison Reed,282,Harrison Reed,Reed,3,4.5,(M),
+5596,Harry Wilson,288,Harry Wilson,Wilson,3,5.3,(M),3
+4105,Raúl Jiménez,558,Raúl Jiménez,Raúl,4,5.0,(F),
+700,Willian,591,Willian Borges da Silva,Willian,3,5.3,(M),1
+773,Aleksandar Mitrovic,,,,,,0,
+922,Andreas Pereira,267,Andreas Hoelgebaum Pereira,Andreas,3,5.3,(M),2
+6827,Bobby Reid,270,Bobby De Cordova-Reid,De Cordova-Reid,3,5.3,(M),
+1257,Alisson,291,Alisson Ramses Becker,A.Becker,1,5.8,(G),
+1791,Trent Alexander-Arnold,290,Trent Alexander-Arnold,Alexander-Arnold,2,8.5,(D),
+833,Virgil van Dijk,313,Virgil van Dijk,Virgil,2,6.5,(D),
+6326,Ibrahima Konaté,302,Ibrahima Konaté,Konaté,2,4.9,(D),
+1688,Andrew Robertson,307,Andrew Robertson,Robertson,2,6.4,(D),
+8379,Alexis Mac Allister,304,Alexis Mac Allister,Mac Allister,3,5.8,(M),
+9788,Dominik Szoboszlai,309,Dominik Szoboszlai,Szoboszlai,3,7.1,(M),
+11296,Cody Gakpo,297,Cody Gakpo,Gakpo,4,7.2,(F),
+1250,Mohamed Salah,308,Mohamed Salah,Salah,3,13.0,(M),1
+6854,Diogo Jota,294,Diogo Teixeira da Silva,Diogo J.,3,8.0,(M),
+10408,Luis Díaz,303,Luis Díaz,Luis Díaz,3,7.5,(M),
+10720,Darwin Núñez,293,Darwin Núñez Ribeiro,Darwin,4,7.5,(F),3
+11231,Ben Doak,628,Ben Doak,Doak,3,4.3,(M),
+6665,Curtis Jones,300,Curtis Jones,Jones,3,4.9,(M),
+7546,Harvey Elliott,295,Harvey Elliott,Elliott,3,4.8,(M),
+11712,Thomas Kaminski,614,Thomas Kaminski,Kaminski,1,4.5,(G),
+11714,Tom Lockyer,575,Tom Lockyer,Lockyer,2,4.2,(D),
+11715,Mads Andersen,315,Mads Juel Andersen,Andersen,2,3.9,(D),
+11713,Amari&#039;i Bell,316,Amari'i Bell,Bell,2,3.9,(D),
+9619,Issa Kabore,602,Issa Kaboré,Kaboré,2,4.0,(D),
+7277,Ryan John Giles,,,,,,0,
+7439,Tahith Chong,586,Tahith Chong,Chong,3,4.7,(M),
+8040,Marvelous Nakamba,52,Marvelous Nakamba,Nakamba,3,4.3,(M),
+11716,Pelly Ruddock Mpanzu,582,Pelly Ruddock Mpanzu,Mpanzu,3,4.7,(M),
+11718,Elijah Adebayo,314,Elijah Adebayo,Adebayo,4,4.9,(F),2
+11717,Carlton Morris,326,Carlton Morris,Morris,4,5.2,(F),1
+11721,Cauley Woodrow,340,Cauley Woodrow,Woodrow,4,4.3,(F),3
+11719,Chiedozie Ogbene,328,Chiedozie Ogbene,Ogbene,4,4.9,(F),
+11722,Luke Berry,317,Luke Berry,Berry,3,4.6,(M),
+11720,Jacob Brown,631,Jacob Brown,Brown,4,4.9,(F),
+11723,Alfie Doughty,321,Alfie Doughty,Doughty,2,4.7,(D),
+6054,Ederson,352,Ederson Santana de Moraes,Ederson M.,1,5.5,(G),
+638,Kyle Walker,369,Kyle Walker,Walker,2,5.4,(D),
+579,Nathan Aké,342,Nathan Aké,Aké,2,5.1,(D),
+6490,Manuel Akanji,341,Manuel Akanji,Akanji,2,4.9,(D),
+10847,Rico Lewis,358,Rico Lewis,R.Lewis,2,4.2,(D),
+447,Kevin De Bruyne,349,Kevin De Bruyne,De Bruyne,3,10.5,(M),4
+2496,Rodri,365,Rodrigo Hernandez,Rodrigo,3,5.6,(M),
+3635,Bernardo Silva,344,Bernardo Veiga de Carvalho e Silva,Bernardo,3,6.2,(M),
+10846,Julián Álvarez,343,Julián Álvarez,J.Alvarez,4,6.5,(F),3
+6055,Phil Foden,353,Phil Foden,Foden,3,8.2,(M),
+8260,Erling Haaland,355,Erling Haaland,Haaland,4,14.4,(F),1
+2498,Aymeric Laporte,,,,,,0,
+2254,Mateo Kovacic,356,Mateo Kovačić,Kovačić,3,4.7,(M),
+10126,James McAtee,360,James McAtee,McAtee,3,4.4,(M),3
+9790,Josko Gvardiol,616,Joško Gvardiol,Gvardiol,2,4.8,(D),
+8497,Cole Palmer,362,Cole Palmer,Palmer,3,5.7,(M),1
+10913,André Onana,597,André Onana,Onana,1,4.8,(G),
+5584,Aaron Wan-Bissaka,401,Aaron Wan-Bissaka,Wan-Bissaka,2,4.4,(D),
+2245,Raphael Varane,395,Raphaël Varane,R.Varane,2,4.9,(D),
+10802,Lisandro Martínez,391,Lisandro Martínez,Martinez,2,4.7,(D),
+1006,Luke Shaw,398,Luke Shaw,Shaw,2,5.2,(D),
+2248,Casemiro,376,Carlos Henrique Casimiro,Casemiro,3,5.3,(M),
+11094,Antony,372,Antony Matheus dos Santos,Antony,3,6.8,(M),
+1228,Bruno Fernandes,373,Bruno Borges Fernandes,B.Fernandes,3,8.2,(M),1
+7768,Mason Mount,209,Mason Mount,Mount,3,6.8,(M),
+10552,Alejandro Garnacho,382,Alejandro Garnacho,Garnacho,3,5.0,(M),
+556,Marcus Rashford,396,Marcus Rashford,Rashford,3,8.4,(M),3
+6080,Victor Lindelöf,386,Victor Lindelöf,Lindelof,2,4.5,(D),
+5560,Scott McTominay,392,Scott McTominay,McTominay,3,4.6,(M),
+9324,Facundo Pellistri,,,,,,0,
+646,Christian Eriksen,379,Christian Eriksen,Eriksen,3,5.8,(M),
+6345,Jadon Sancho,,,,,,0,
+5552,Nick Pope,424,Nick Pope,Pope,1,5.3,(G),
+652,Kieran Trippier,430,Kieran Trippier,Trippier,2,6.8,(D),
+76,Fabian Schär,427,Fabian Schär,Schär,2,5.4,(D),
+8635,Sven Botman,405,Sven Botman,Botman,2,4.5,(D),
+7382,Dan Burn,407,Dan Burn,Burn,2,4.4,(D),
+8327,Bruno Guimarães,406,Bruno Guimarães Rodriguez Moura,Bruno G.,3,5.8,(M),
+7958,Sandro Tonali,429,Sandro Tonali,Tonali,3,5.2,(M),
+87,Joelinton,416,Joelinton Cássio Apolinário de Lira,Joelinton,3,5.8,(M),
+7420,Miguel Almirón,402,Miguel Almirón Rejala,Almirón,3,6.0,(M),
+5232,Alexander Isak,415,Alexander Isak,Isak,4,7.5,(F),2
+8150,Anthony Gordon,412,Anthony Gordon,Gordon,3,6.1,(M),3
+6063,Jacob Murphy,423,Jacob Murphy,J.Murphy,3,4.8,(M),
+9154,Elliot Anderson,403,Elliot Anderson,Anderson,3,4.2,(M),
+6681,Harvey Barnes,603,Harvey Barnes,Barnes,3,6.2,(M),
+468,Callum Wilson,433,Callum Wilson,Wilson,4,7.8,(F),1
+7078,Sean Longstaff,421,Sean Longstaff,Longstaff,3,4.8,(M),
+10700,Matt Turner,28,Matt Turner,Turner,1,3.9,(G),
+10756,Joe Worrall,,,,,,0,
+10757,Scott McKenna,,,,,,0,
+6850,Willy Boly,439,Willy Boly,Boly,2,4.5,(D),
+3600,Serge Aurier,,,,,,0,
+725,Ola Aina,604,Olu Aina,Aina,2,4.5,(D),
+6088,Orel Mangala,,,,,,0,
+11003,Ryan Yates,470,Ryan Yates,Yates,3,4.8,(M),
+11317,Danilo,442,Danilo dos Santos de Oliveira,Danilo,3,5.3,(M),
+10760,Brennan Johnson,450,Brennan Johnson,Johnson,3,5.8,(M),
+6857,Morgan Gibbs-White,447,Morgan Gibbs-White,Gibbs-White,3,5.7,(M),1
+7814,Taiwo Awoniyi,437,Taiwo Awoniyi,Awoniyi,4,6.3,(F),
+8204,Neco Williams,467,Neco Williams,Williams,2,4.3,(D),
+532,Cheikhou Kouyaté,451,Cheikhou Kouyaté,Kouyaté,3,4.8,(M),
+4456,Chris Wood,468,Chris Wood,Wood,4,4.8,(F),
+9524,Anthony Elanga,378,Anthony Elanga,Elanga,3,5.1,(M),
+8776,Wes Foderingham,482,Wes Foderingham,Foderingham,1,4.5,(G),
+8286,Jack Robinson,576,Jack Robinson,Robinson,2,4.3,(D),
+10386,Anel Ahmedhodzic,471,Anel Ahmedhodžić,Ahmedhodžić,2,4.3,(D),
+7703,John Egan,480,John Egan,Egan,2,4.3,(D),
+7706,George Baldock,473,George Baldock,Baldock,2,3.8,(D),
+8918,Max Lowe,484,Max Lowe,Lowe,2,4.3,(D),
+7704,Chris Basham,474,Chris Basham,Basham,2,3.9,(D),
+7714,Ben Osborn,489,Ben Osborn,Osborn,3,4.8,(M),
+7710,Oliver Norwood,488,Oliver Norwood,Norwood,3,4.8,(M),2
+9556,William Osula,490,William Osula,Osula,4,4.3,(F),
+11729,Bénie Traoré,,,,,,0,
+10041,Yasser Larouci,592,Yasser Larouci,Larouci,2,4.3,(D),
+9222,Antwoine Hackford,,,,,,0,
+11730,Anis Ben Slimane,587,Anis Slimane,Slimane,3,4.7,(M),
+10872,Vinicius Souza,638,Vini de Souza Costa,Vini Souza,3,5.0,(M),
+11731,Andre Brooks,655,Andre Brooks,Brooks,3,4.4,(M),
+8858,Guglielmo Vicario,520,Guglielmo Vicario,Vicario,1,5.3,(G),
+7430,Emerson,532,Emerson Leite de Souza Junior,E.Royal,2,4.4,(D),
+7218,Cristian Romero,511,Cristian Romero,Romero,2,5.0,(D),
+10050,Micky van de Ven,639,Micky van de Ven,Van de Ven,2,4.4,(D),
+8831,Iyenoma Destiny Udogie,519,Destiny Udogie,Udogie,2,4.9,(D),
+5609,Yves Bissouma,493,Yves Bissouma,Bissouma,3,5.0,(M),
+7198,Oliver Skipp,515,Oliver Skipp,Skipp,3,4.5,(M),
+6691,Dejan Kulusevski,501,Dejan Kulusevski,Kulusevski,3,6.8,(M),
+6818,James Maddison,504,James Maddison,Maddison,3,8.0,(M),2
+453,Son Heung-Min,516,Son Heung-min,Son,3,9.9,(M),1
+6026,Richarlison,509,Richarlison de Andrade,Richarlison,3,7.0,(M),2
+9021,Pape Sarr,513,Pape Matar Sarr,Sarr,3,4.4,(M),
+6249,Davinson Sánchez,145,Robert Sánchez,Sanchez,1,4.5,(G),
+448,Ivan Perisic,,,,,,0,
+2310,Alphonse Areola,524,Alphonse Areola,Areola,1,4.3,(G),
+8965,Vladimir Coufal,528,Vladimír Coufal,Coufal,2,4.6,(D),
+935,Kurt Zouma,544,Kurt Zouma,Zouma,2,4.5,(D),
+6935,Naif Aguerd,522,Nayef Aguerd,N.Aguerd,2,4.4,(D),
+1245,Emerson,532,Emerson Palmieri dos Santos,Emerson,2,4.4,(D),
+7365,Lucas Paquetá,539,Lucas Tolentino Coelho de Lima,L.Paquetá,3,6.0,(M),3
+8288,Tomas Soucek,542,Tomáš Souček,Souček,3,4.9,(M),
+1776,Jarrod Bowen,526,Jarrod Bowen,Bowen,3,7.9,(M),4
+2335,Pablo Fornals,,,,,,0,
+3585,Said Benrahma,,,,,,0,
+531,Michail Antonio,523,Michail Antonio,Antonio,4,5.7,(F),
+3278,Maxwel Cornet,527,Maxwel Cornet,Cornet,3,5.2,(M),
+2674,Thilo Kehrer,,,,,,0,
+986,Danny Ings,535,Danny Ings,Ings,4,5.6,(F),
+9740,José Sá,569,José Malheiro de Sá,José Sá,1,5.0,(G),
+6163,Nélson Semedo,572,Nélson Cabral Semedo,N.Semedo,2,4.5,(D),
+804,Craig Dawson,551,Craig Dawson,Dawson,2,4.5,(D),
+7332,Max Kilman,563,Max Kilman,Kilman,2,4.5,(D),
+6674,Rayan Ait Nouri,545,Rayan Aït-Nouri,Aït-Nouri,2,4.5,(D),
+6382,Pedro Neto,567,Pedro Lomba Neto,Neto,3,5.7,(M),
+1299,Mario Lemina,565,Mario Lemina,Mario Jr.,3,4.9,(M),
+11384,João Gomes,559,João Victor Gomes da Silva,João Gomes,3,4.9,(M),
+11000,Matheus Nunes,566,Matheus Luiz Nunes,Matheus N.,3,4.7,(M),
+2199,Pablo Sarabia,570,Pablo Sarabia,Sarabia,3,4.7,(M),3
+7080,Matheus Cunha,590,Matheus Santos Carneiro Da Cunha,Cunha,4,5.5,(F),2
+8778,Fabio Silva,,,,,,0,
+8812,Sasa Kalajdzic,,,,,,0,
+8845,Hee-Chan Hwang,557,Hwang Hee-chan,Hee Chan,3,5.5,(M),1
+10140,Hugo Bueno,548,Hugo Bueno López,H.Bueno,2,4.4,(D),
+10012,Jakub Kiwior,10,Jakub Kiwior,Kiwior,2,4.4,(D),
+2958,Oleksandr Zinchenko,31,Oleksandr Zinchenko,Zinchenko,2,5.0,(D),
+1389,Jorginho,9,Jorge Luiz Frello Filho,Jorginho,3,5.3,(M),
+9912,Cameron Archer,33,Cameron Archer,Archer,4,4.2,(F),
+11366,Jhon Durán,44,Jhon Durán,Duran,4,5.0,(F),
+8090,Lloyd Kelly,70,Lloyd Kelly,Kelly,2,4.5,(D),
+6986,Hamed Junior Traore,,,,,,0,
+10809,Keane Lewis-Potter,107,Keane Lewis-Potter,Lewis-Potter,3,4.7,(M),
+10405,Josh Dasilva,99,Josh Dasilva,Dasilva,3,4.7,(M),4
+7699,Adam Webster,153,Adam Webster,Webster,2,4.2,(D),
+486,Adam Lallana,138,Adam Lallana,Lallana,3,4.9,(M),
+11357,Noni Madueke,208,Noni Madueke,Madueke,3,5.3,(M),
+9453,Moisés Caicedo,126,Moisés Caicedo Corozo,Caicedo,3,4.5,(M),
+11810,Mason Burstow,209,Mason Mount,Mount,3,6.8,(M),
+9461,Jesurun Rak-Sakyi,657,Jesurun Rak-Sakyi,Rak-Sakyi,3,4.5,(M),
+9274,Naouirou Ahamada,219,Naouirou Ahamada,Ahamada,3,4.3,(M),
+5555,Dominic Calvert-Lewin,246,Dominic Calvert-Lewin,Calvert-Lewin,4,5.8,(F),1
+9287,Tyler Onyango,650,Tyler Onyango,Onyango,3,4.4,(M),
+11728,Calvin Bassey,610,Calvin Bassey,Bassey,2,4.4,(D),
+10715,João Palhinha,280,João Palhinha Gonçalves,J.Palhinha,3,5.0,(M),
+10717,Rodrigo Muniz,279,Rodrigo Muniz Carvalho,Muniz,4,4.5,(F),
+900,Adama Traoré,662,Adama Traoré,Adama,3,4.9,(M),
+8808,Wataru Endo,668,Wataru Endo,Endo,3,5.4,(M),
+987,Joseph Gomez,298,Joe Gomez,Gomez,2,4.6,(D),
+8852,Konstantinos Tsimikas,311,Konstantinos Tsimikas,Tsimikas,2,4.5,(D),
+8961,Rúben Dias,350,Rúben Gato Alves Dias,Rúben,2,5.5,(D),
+675,Jack Grealish,354,Jack Grealish,Grealish,3,7.2,(M),
+7281,Diogo Dalot,377,Diogo Dalot Teixeira,Dalot,2,5.2,(D),
+553,Anthony Martial,390,Anthony Martial,Martial,4,6.4,(F),2
+9512,Valentino Livramento,633,Tino Livramento,Livramento,2,4.1,(D),
+5989,Moussa Niakhate,457,Moussa Niakhaté,Niakhaté,2,4.5,(D),
+11839,Gustavo Hamer,663,Gustavo Hamer,Hamer,3,4.9,(M),
+6912,Pedro Porro,506,Pedro Porro,Pedro Porro,2,5.7,(D),
+660,Ben Davies,495,Ben Davies,Davies,2,4.3,(D),
+343,Pierre-Emile Højbjerg,499,Pierre-Emile Højbjerg,Højbjerg,3,5.2,(M),
+10716,Manor Solomon,583,Manor Solomon,Solomon,3,5.1,(M),
+843,James Ward-Prowse,664,James Ward-Prowse,Ward-Prowse,3,5.9,(M),1
+11926,Edson Álvarez,642,Edson Álvarez Velázquez,Álvarez,3,5.0,(M),
+528,Angelo Ogbonna,577,Angelo Ogbonna,Ogbonna,2,4.3,(D),
+10293,Toti,573,Toti António Gomes,Toti,2,4.4,(D),
+11007,Fábio Vieira,4,Fábio Ferreira Vieira,Fábio Vieira,3,5.4,(M),4
+5543,Gabriel Jesus,8,Gabriel Fernando de Jesus,G.Jesus,4,7.8,(F),
+6962,Robin Olsen,53,Robin Olsen,Olsen,1,3.9,(G),
+6686,Nicolo Zaniolo,672,Nicolò Zaniolo,Zaniolo,3,5.4,(M),
+695,Bertrand Traoré,,,,,,0,
+1789,Lewis Cook,66,Lewis Cook,L.Cook,3,5.0,(M),
+9681,Frank Onyeka,111,Frank Onyeka,Onyeka,3,4.9,(M),
+11711,Bart Verbruggen,152,Bart Verbruggen,Verbruggen,1,4.4,(G),
+11998,Hannes Delcroix,674,Hannes Delcroix,Delcroix,2,4.0,(D),
+1663,Johann Berg Gudmundsson,170,Jóhann Berg Gudmundsson,Gudmundsson,3,4.8,(M),
+844,Jay Rodriguez,177,Jay Rodriguez,Rodriguez,4,5.3,(F),1
+9913,Aaron Ramsey,675,Aaron Ramsey,A.Ramsey,3,5.0,(M),
+5735,Jean-Philippe Mateta,232,Jean-Philippe Mateta,Mateta,4,4.9,(F),2
+8476,Jarrad Branthwaite,245,Jarrad Branthwaite,Branthwaite,2,4.2,(D),
+11984,Youssef Chermiti,645,Youssef Ramalho Chermiti,Y. Chermiti,4,4.8,(F),
+11232,Thomas Cannon,,,,,,0,
+5590,Tosin Adarabioyo,286,Tosin Adarabioyo,Tosin,2,4.3,(D),
+332,Joel Matip,305,Joel Matip,Matip,2,4.8,(D),
+10187,Jarell Quansah,626,Jarell Quansah,Quansah,2,4.0,(D),
+1771,Reece Burke,318,Reece Burke,Burke,2,4.0,(D),
+592,Ross Barkley,630,Ross Barkley,Barkley,3,5.0,(M),
+884,Matt Targett,428,Matt Targett,Targett,2,4.2,(D),
+9205,Jayden Bogle,476,Jayden Bogle,Bogle,2,4.5,(D),
+1736,Oliver McBurnie,485,Oliver McBurnie,McBurnie,4,5.4,(F),1
+5681,Giovani Lo Celso,503,Giovani Lo Celso,Lo Celso,3,4.8,(M),
+6492,Reiss Nelson,578,Reiss Nelson,Nelson,3,4.8,(M),
+10741,Marcus Tavernier,86,Marcus Tavernier,Tavernier,3,5.5,(M),
+1654,Ben Mee,109,Ben Mee,Mee,2,4.8,(D),
+11487,Michael Olakigbe,,,,,,0,
+8226,Tariq Lamptey,139,Tariq Lamptey,Lamptey,2,3.9,(D),
+712,Jack Cork,163,Jack Cork,Cork,3,4.8,(M),
+6104,Will Hughes,229,Will Hughes,Hughes,3,4.9,(M),
+9983,Beto,691,Norberto Bercique Gomes Betuncal,Beto,4,5.7,(F),
+7689,Ben Godfrey,252,Ben Godfrey,Godfrey,2,4.3,(D),
+6756,Dwight McNeil,259,Dwight McNeil,McNeil,3,5.4,(M),
+6157,Timothy Castagne,688,Timothy Castagne,Castagne,2,4.5,(D),
+10719,Luke Harris,,,,,,0,
+8981,Jéremy Doku,678,Jérémy Doku,Doku,3,6.4,(M),
+6656,Sergio Gómez,366,Sergio Gómez,Sergio Gómez,2,3.8,(D),
+11903,Oscar Bobb,345,Oscar Bobb,Bobb,3,4.4,(M),
+8719,Kalvin Phillips,364,Kalvin Phillips,Phillips,3,4.7,(M),
+1687,Harry Maguire,387,Harry Maguire,Maguire,2,4.2,(D),
+807,Jonny Evans,703,Jonny Evans,Evans,2,4.0,(D),
+11055,Rasmus Højlund,617,Rasmus Højlund,Højlund,4,7.0,(F),
+766,Jamaal Lascelles,419,Jamaal Lascelles,Lascelles,2,3.9,(D),
+9897,Gonzalo Montiel,679,Gonzalo Montiel,G.Montiel,2,4.4,(D),
+9691,Nuno Tavares,23,Nuno Varela Tavares,Tavares,2,4.0,(D),
+8562,Luke Thomas,,,,,,0,
+12027,Mohammed Kudus,689,Mohammed Kudus,Kudus,3,6.8,(M),
+8119,Boubacar Traore,574,Boubacar Traoré,Boubacar Traore,3,4.3,(M),
+9676,David Raya,113,David Raya Martin,Raya,1,5.0,(G),
+7236,Leander Dendoncker,,,,,,0,
+9662,Dango Ouattara,78,Dango Ouattara,O.Dango,3,4.7,(M),
+10866,Luis Sinisterra,705,Luis Sinisterra,Sinisterra,3,5.5,(M),
+7967,Anssumane Fati,700,Anssumane Fati Vieira,Ansu Fati,3,6.4,(M),
+6044,Charlie Taylor,178,Charlie Taylor,Taylor,2,4.0,(D),
+12094,Mike Trésor,706,Mike Trésor,M.Trésor,3,5.3,(M),
+8430,Chris Richards,238,Chris Richards,C.Richards,2,3.9,(D),
+10291,Vitalii Mykolenko,260,Vitalii Mykolenko,Mykolenko,2,4.6,(D),
+7395,Carlos Vinicius,,,,,,0,
+10697,Ryan Gravenberch,708,Ryan Gravenberch,Gravenberch,3,5.0,(M),
+9689,Albert Sambi Lokonga,21,Albert Sambi Lokonga,Sambi,3,4.9,(M),
+7187,Sergio Reguilón,508,Sergio Reguilón,Reguilón,2,4.4,(D),
+9558,Hannibal Mejbri,,,,,,0,
+5722,Ibrahim Sangare,713,Ibrahim Sangaré,Sangaré,3,4.9,(M),
+6456,Callum Hudson-Odoi,205,Callum Hudson-Odoi,Hudson-Odoi,3,4.7,(M),
+484,Divock Origi,714,Divock Origi,Origi,4,5.0,(F),
+11732,Auston Trusty,27,Auston Trusty,Trusty,2,3.9,(D),
+1042,Tom Davies,666,Tom Davies,T.Davies,3,5.0,(M),
+7762,Jean-Ricner Bellegarde,715,Jean-Ricner Bellegarde,Bellegarde,3,4.9,(M),
+8496,Tommy Doyle,351,Tommy Doyle,Doyle,3,4.4,(M),
+6852,Matt Doherty,598,Matt Doherty,Doherty,2,4.3,(D),
+7230,Emile Smith-Rowe,22,Emile Smith Rowe,Smith Rowe,3,5.3,(M),
+8941,Jacob Ramsey,55,Jacob Ramsey,J.Ramsey,3,5.9,(M),
+7069,Saman Ghoddos,701,Saman Ghoddos,Ghoddos,3,4.5,(M),
+11362,Facundo Buonanotte,125,Facundo Buonanotte,Buonanotte,3,4.7,(M),
+10527,Carlos Baleba,690,Carlos Baleba,Baleba,3,4.5,(M),
+8384,Armando Broja,193,Armando Broja,Broja,4,4.9,(F),
+7927,Sofyan Amrabat,709,Sofyan Amrabat,Amrabat,3,5.0,(M),
+10216,Lewis Hall,204,Lewis Hall,Hall,2,4.2,(D),
+8252,Nicolás Domínguez,712,Nicolás Domínguez,Dominguez,3,5.0,(M),
+825,Adam Smith,84,Adam Smith,Smith,2,4.4,(D),
+11269,Jack Hinshelwood,621,Jack Hinshelwood,Hinshelwood,3,4.5,(M),
+10822,Wilson Odobert,660,Wilson Odobert,Odobert,3,5.0,(M),
+7134,Marc Cucurella,198,Marc Cucurella Saseta,Cucurella,2,4.8,(D),
+12086,Alex Matos,,,,,,0,
+6027,Jairo Riedewald,239,Jairo Riedewald,Riedewald,3,4.3,(M),
+8720,Jack Harrison,661,Jack Harrison,Harrison,3,5.5,(M),
+12073,Teden Mengi,393,Teden Mengi,Mengi,2,3.9,(D),
+8821,Donny van de Beek,,,,,,0,
+12123,Murillo,696,Murillo Santiago Costa dos Santos,Murillo,2,4.5,(D),
+10758,Harry Toffolo,465,Harry Toffolo,Toffolo,2,4.4,(D),
+5569,Rhian Brewster,477,Rhian Brewster,Brewster,4,4.9,(F),
+12105,Alejo Véliz,,,,,,0,
+6722,Konstantinos Mavropanos,676,Konstantinos Mavropanos,Mavropanos,2,4.5,(D),
+2280,Jonny,,,,,,0,
+1214,Thomas Strakosha,116,Thomas Strakosha,Strakosha,1,3.9,(G),
+7943,Igor Julio,606,Igor Julio dos Santos de Paulo,Igor,2,4.3,(D),
+603,Nathaniel Clyne,222,Nathaniel Clyne,Clyne,2,4.3,(D),
+586,John Stones,368,John Stones,Stones,2,5.3,(D),
+12149,Alex Scott,644,Alex Scott,Scott,3,4.9,(M),
+11772,Yehor Yarmolyuk,120,Yegor Yarmoliuk,Yarmoliuk,3,4.3,(M),
+11268,David Ozoh,721,David Ozoh,Ozoh,3,4.5,(M),
+12152,Matheus França,615,Matheus França de Oliveira,Matheus França,3,4.8,(M),
+775,Andros Townsend,727,Andros Townsend,Townsend,3,5.0,(M),
+8786,Stefan Ortega Moreno,361,Stefan Ortega Moreno,Ortega Moreno,1,3.7,(G),
+496,Mohamed Elneny,3,Mohamed Elneny,M.Elneny,3,4.4,(M),
+1830,Ionut Radu,607,Ionuț Radu,Radu,1,4.3,(G),
+12033,Deivid Washington,677,Deivid Washington de Souza Eugênio,Deivid,4,4.5,(F),
+12151,Gabriel Osho,330,Gabriel Osho,Osho,2,4.4,(D),
+6630,Joe Willock,432,Joe Willock,Willock,3,5.3,(M),
+11808,Andrey Santos,,,,,,0,
+7709,John Fleck,,,,,,0,
+12158,Ryan Oné,730,Ryan Oné,Oné,3,4.4,(M),
+7338,Bryan Gil Salvatierra,494,Bryan Gil Salvatierra,Bryan,3,4.9,(M),
+6108,Rodrigo Bentancur,492,Rodrigo Bentancur,Bentancur,3,5.4,(M),
+534,Aaron Cresswell,530,Aaron Cresswell,Cresswell,2,4.2,(D),
+461,Matt Ritchie,425,Matt Ritchie,Ritchie,3,4.3,(M),
+375,Odisseas Vlachodimos,710,Odysseas Vlachodimos,Odysseas,1,4.5,(G),
+643,Eric Dier,,,,,,0,
+6504,Michael Obafemi,,,,,,0,
+9948,Michael Olise,236,Michael Olise,Olise,3,5.6,(M),
+11811,James McConnell,629,James McConnell,McConnell,3,4.4,(M),
+12187,Jordan Clark,320,Jordan Clark,Clark,3,4.8,(M),
+11386,Lewis Miley,635,Lewis Miley,Miley,3,4.5,(M),
+1545,Emil Krafth,417,Emil Krafth,Krafth,2,4.4,(D),
+12198,Ben Parkinson,739,Ben Parkinson,Parkinson,4,4.5,(F),
+9284,Jakub Moder,144,Jakub Moder,Moder,3,4.4,(M),
+7240,Benoit Badiashile Mukinayi,191,Benoît Badiashile,B.Badiashile,2,4.4,(D),
+11174,Kobbie Mainoo,388,Kobbie Mainoo,Mainoo,3,4.4,(M),
+12200,Amadou Diallo,738,Amadou Diallo,Diallo,3,4.5,(M),
+853,Paul Dummett,581,Paul Dummett,Dummett,2,3.9,(D),
+12215,Michael Ndiweni,,,,,,0,
+12199,Alex Murphy,634,Alex Murphy,A.Murphy,2,3.9,(D),
+11242,Divin Mubama,538,Divin Mubama,Mubama,4,4.1,(F),
+10945,Santiago Bueno,697,Santiago Bueno,S.Bueno,2,4.5,(D),
+4120,Álex Moreno,32,Alexandre Moreno Lopera,Alex Moreno,2,5.2,(D),
+10205,Myles Peart-Harris,,,,,,0,
+12204,Benicio Baker-Boaitey,742,Benicio Baker-Boaitey,Baker-Boaitey,3,4.5,(M),
+11704,Hjalmar Ekdal,167,Hjalmar Ekdal,Ekdal,2,3.9,(D),
+7904,Caoimhin Kelleher,301,Caoimhin Kelleher,Kelleher,1,3.8,(G),
+6532,Martin Dubravka,409,Martin Dubravka,Dubravka,1,4.2,(G),
+7921,Felipe,445,Felipe Augusto de Almeida Monteiro,Felipe,2,4.4,(D),
+12118,Jamie Donley,722,Jamie Donley,Donley,4,4.5,(F),
+11361,Daniel Bentley,546,Daniel Bentley,Bentley,1,3.9,(G),
+585,Seamus Coleman,247,Seamus Coleman,Coleman,2,4.4,(D),
+5803,Fode Toure,707,Fodé Ballo-Touré,Ballo-Touré,2,4.5,(D),
+706,Lukasz Fabianski,533,Lukasz Fabianski,Fabianski,1,4.2,(G),
+12032,Djordje Petrovic,687,Đorđe Petrović,Petrović,1,0.4,(G),
+9834,Remi Matthews,233,Remi Matthews,Matthews,1,3.9,(G),
+12251,Sydie Peck,759,Sydie Peck,Peck,3,4.4,(M),
+7702,Dean Henderson,385,Dean Henderson,Henderson,1,4.4,(G),
+5050,Clement Lenglet,699,Clément Lenglet,Lenglet,2,4.5,(D),
+3300,Christopher Nkunku,212,Christopher Nkunku,Nkunku,4,7.2,(F),
+2383,André Gomes,244,André Tavares Gomes,André Gomes,3,4.4,(M),
+12275,Willy Kambwala,766,Willy Kambwala,Kambwala,2,3.9,(D),
+6424,Ben Johnson,536,Ben Johnson,Johnson,2,4.4,(D),
+9554,Tim Iroegbunam,46,Tim Iroegbunam,Iroegbunam,3,4.4,(M),
+10004,Romeo Lavia,667,Roméo Lavia,Lavia,3,4.9,(M),
+11595,Alfie Gilchrist,716,Alfie Gilchrist,Gilchrist,2,4.0,(D),
+11987,Daniel Gore,,,,,,0,
+8127,Amad Diallo Traore,371,Amad Diallo,Amad,3,4.4,(M),
+12291,Rhys Norrington-Davies,487,Rhys Norrington-Davies,Norrington-Davies,2,3.9,(D),
+998,Ivan Toney,117,Ivan Toney,Toney,4,8.1,(F),1
+10120,Conor Bradley,757,Conor Bradley,Bradley,2,4.1,(D),
+10997,Bobby Clark,627,Bobby Clark,Clark,3,4.4,(M),
+10118,Kaide Gordon,783,Kaide Gordon,Gordon,3,4.5,(M),
+10119,Owen Beck,,,,,,0,
+9833,Andrew Omobamidele,711,Andrew Omobamidele,Omobamidele,2,4.5,(D),
+12034,Brandon Aguilera,,,,,,0,
+11815,Ben Brereton Díaz,775,Ben Brereton,Brereton Díaz,3,5.0,(M),
+65,Timo Werner,776,Timo Werner,Werner,4,6.3,(F),
+9105,Radu Dragusin,777,Radu Dragusin,Drăgușin,2,4.2,(D),
+12234,Tawanda Chirewa,750,Tawanda Chirewa,Chirewa,3,4.4,(M),
+6420,Romain Faivre,799,Romain Faivre,Faivre,3,5.0,(M),
+7264,Han-Noah Massengo,694,Han-Noah Massengo,Massengo,3,4.9,(M),
+11295,David Datro Fofana,200,David Datro Fofana,D.D.Fofana,4,5.0,(F),
+10433,Cesare Casadei,791,Cesare Casadei,Casadei,3,4.5,(M),
+12340,Omari Forson,632,Omari Forson,Forson,3,4.4,(M),
+8923,Ivo Grbic,790,Ivo Grbic,Grbić,1,4.5,(G),
+11210,Nathan Fraser,704,Nathan Fraser,Fraser,4,4.5,(F),
+12412,Morgan Rogers,803,Morgan Rogers,Rogers,3,5.0,(M),
+8973,Lorenz Assignon,805,Lorenz Assignon,Assignon,2,4.0,(D),
+9487,Maxime Estève,806,Maxime Esteve,Estève,2,4.0,(D),
+12408,Daniel Muñoz,792,Daniel Muñoz,Muñoz,2,4.5,(D),
+12409,Adam Wharton,807,Adam Wharton,Wharton,3,5.0,(M),
+229,Thiago Alcántara,310,Thiago Alcántara do Nascimento,Thiago,3,4.7,(M),
+6903,Matz Sels,808,Matz Sels,Sels,1,4.5,(G),
+8191,Giovanni Reyna,801,Giovanni Reyna,Reyna,3,4.8,(M),
+12418,Rodrigo Ribeiro,809,Rodrigo Duarte Ribeiro,Ribeiro,4,4.5,(F),
+985,Mason Holgate,255,Mason Holgate,Holgate,2,4.0,(D),
+847,Cédric Soares,2,Cédric Alves Soares,Cédric,2,3.8,(D),
+11132,Ethan Nwaneri,772,Ethan Nwaneri,Nwaneri,3,4.5,(M),
+6219,Enes Ünal,804,Enes Ünal,Enes Ünal,4,5.0,(F),
+6615,Trevoh Chalobah,194,Trevoh Chalobah,Chalobah,2,4.3,(D),
+12455,Jayden Danns,824,Jayden Danns,Danns,4,4.4,(F),
+9959,Joe White,794,Joe White,White,3,4.5,(M),
+508,Calum Chambers,37,Calum Chambers,Chambers,2,3.8,(D),
+37,Loris Karius,580,Loris Karius,Karius,1,3.9,(G),
+12509,Daiki Hashioka,798,Daiki Hashioka,Hashioka,2,4.0,(D),
+12449,Oliver Arblaster,823,Oliver Arblaster,Arblaster,3,4.5,(M),
+9332,Dane Scarlett,640,Dane Scarlett,Scarlett,4,4.5,(F),
+7352,Tyler Adams,,,,,,0,
+12188,Zack Nelson,,,,,,0,
+7027,Arijanet Muric,,,,,,0,
+9409,Kaine Hayden,,,,,,0,
+12498,Valentín Barco,,,,,,0,
+12549,Fred Onyedinma,,,,,,0,
+12532,Leon Chiwome,,,,,,0,
+11739,Omari Kellyman,,,,,,0,
+12205,Mark O’Mahony,,,,,,0,
+11980,Joseph Johnson,,,,,,0,
+12474,George Earthy,,,,,,0,
+7582,Mark Travers,,,,,,0,
+10453,Odeluga Offiah,,,,,,0,
+12568,Ethan Wheatley,,,,,,0,

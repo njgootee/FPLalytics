@@ -8,7 +8,9 @@ odm_data = odm_data.tail(20)
 
 # page config
 st.set_page_config(
-    page_title="ODM Ratings • FPLalytics", page_icon=":chart_with_upwards_trend:"
+    page_title="ODM Ratings • FPLalytics",
+    page_icon=":chart_with_upwards_trend:",
+    layout="wide",
 )
 
 # sidebar
@@ -111,52 +113,55 @@ else:
         context_selection, alt.value("#60b4ff"), alt.value("#262730")
     )
 
+col1, col2 = st.columns(2)
 # Offensive rating chart
-st.header("Offensive Ratings")
-off_chart = (
-    alt.Chart(odm_data)
-    .mark_bar()
-    .encode(
-        x=alt.X(
-            "o_rating_" + model_type, type="quantitative", title="Offensive Rating"
-        ),
-        y=alt.Y("team", type="nominal", title="").sort("-x"),
-        color=o_context_color,
-        tooltip=[
-            alt.Tooltip("team", title="Team"),
-            alt.Tooltip(
-                "o_rating_" + model_type,
-                title="Offensive Rating",
-                type="quantitative",
-                format="d",
+with col1:
+    st.header("Offensive Ratings")
+    off_chart = (
+        alt.Chart(odm_data)
+        .mark_bar()
+        .encode(
+            x=alt.X(
+                "o_rating_" + model_type, type="quantitative", title="Offensive Rating"
             ),
-        ],
+            y=alt.Y("team", type="nominal", title="").sort("-x"),
+            color=o_context_color,
+            tooltip=[
+                alt.Tooltip("team", title="Team"),
+                alt.Tooltip(
+                    "o_rating_" + model_type,
+                    title="Offensive Rating",
+                    type="quantitative",
+                    format="d",
+                ),
+            ],
+        )
+        .add_params(context_selection)
     )
-    .add_params(context_selection)
-)
-st.altair_chart(off_chart, use_container_width=True)
+    st.altair_chart(off_chart, use_container_width=True)
 
 # Defensive rating chart
-st.header("Defensive Ratings")
-def_chart = (
-    alt.Chart(odm_data)
-    .mark_bar()
-    .encode(
-        x=alt.X(
-            "d_rating_" + model_type, type="quantitative", title="Defensive Rating"
-        ),
-        y=alt.Y("team", type="nominal", title="").sort("x"),
-        color=d_context_color,
-        tooltip=[
-            alt.Tooltip("team", title="Team"),
-            alt.Tooltip(
-                "d_rating_" + model_type,
-                title="Defensive Rating",
-                type="quantitative",
-                format=".2f",
+with col2:
+    st.header("Defensive Ratings")
+    def_chart = (
+        alt.Chart(odm_data)
+        .mark_bar()
+        .encode(
+            x=alt.X(
+                "d_rating_" + model_type, type="quantitative", title="Defensive Rating"
             ),
-        ],
+            y=alt.Y("team", type="nominal", title="").sort("x"),
+            color=d_context_color,
+            tooltip=[
+                alt.Tooltip("team", title="Team"),
+                alt.Tooltip(
+                    "d_rating_" + model_type,
+                    title="Defensive Rating",
+                    type="quantitative",
+                    format=".2f",
+                ),
+            ],
+        )
+        .add_params(context_selection)
     )
-    .add_params(context_selection)
-)
-st.altair_chart(def_chart, use_container_width=True)
+    st.altair_chart(def_chart, use_container_width=True)

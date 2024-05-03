@@ -4,10 +4,23 @@ import matplotlib
 
 # read data in
 player_data = pd.read_csv("data/2023/player_data.csv")
+player_mapping = pd.read_csv("data/2023/player_mapping.csv")
+
+# add fpl info
+player_mapping = player_mapping.dropna()
+player_mapping["web_name_pos"] = (
+    player_mapping["web_name"] + " " + player_mapping["pos"]
+)
+player_data = player_data.merge(
+    player_mapping[["player_id", "web_name_pos"]], how="left", on="player_id"
+)
+player_data = player_data.dropna(subset="web_name_pos")
 
 # page config
 st.set_page_config(
-    page_title="Player Efficiency • FPLalytics", page_icon=":chart_with_upwards_trend:"
+    page_title="Player Efficiency • FPLalytics",
+    page_icon=":chart_with_upwards_trend:",
+    layout="wide",
 )
 
 # sidebar
@@ -47,7 +60,7 @@ with st.expander("Options", expanded=False):
     quantile = st.slider("Quantile for xG / xA", 0.75, 0.99, 0.90)
 
     # set up chart dataframe
-    chart_df = player_data.groupby(["player"], as_index=False)[
+    chart_df = player_data.groupby(["web_name_pos"], as_index=False)[
         ["xG", "goals", "xA", "assists"]
     ].sum()
     chart_df["xG_difference"] = chart_df["goals"] - chart_df["xG"]
@@ -64,10 +77,10 @@ with st.expander("Options", expanded=False):
 # tabs
 g_tab, a_tab = st.tabs(["Goals", "Assists"])
 
-# strong finishers
+# goals
 with g_tab:
-    # columns
     col1, col2 = st.columns(2)
+    # strong finishers
     with col1:
         st.markdown("High Goal Efficiency")
         st.dataframe(
@@ -79,14 +92,14 @@ with g_tab:
             .style.background_gradient(axis=0, subset=["xG_difference"], cmap="Blues")
             .format(precision=2),
             column_config={
-                "player": "Player",
+                "web_name_pos": "Player",
                 "goals": "Goals",
                 "xG_difference": st.column_config.NumberColumn(
                     "Difference",
                     help="Goals - xG",
                 ),
             },
-            column_order=("player", "goals", "xG", "xG_difference"),
+            column_order=("web_name_pos", "goals", "xG", "xG_difference"),
             hide_index=True,
             use_container_width=True,
         )
@@ -103,20 +116,20 @@ with g_tab:
             .style.background_gradient(axis=0, subset=["xG_difference"], cmap="Reds_r")
             .format(precision=2),
             column_config={
-                "player": "Player",
+                "web_name_pos": "Player",
                 "goals": "Goals",
                 "xG_difference": st.column_config.NumberColumn(
                     "Difference",
                     help="Goals - xG",
                 ),
             },
-            column_order=("player", "goals", "xG", "xG_difference"),
+            column_order=("web_name_pos", "goals", "xG", "xG_difference"),
             hide_index=True,
             use_container_width=True,
         )
 
+# assists
 with a_tab:
-    # columns
     col1, col2 = st.columns(2)
     # strong assisters
     with col1:
@@ -130,14 +143,14 @@ with a_tab:
             .style.background_gradient(axis=0, subset=["xA_difference"], cmap="Blues")
             .format(precision=2),
             column_config={
-                "player": "Player",
+                "web_name_pos": "Player",
                 "assists": "Assists",
                 "xA_difference": st.column_config.NumberColumn(
                     "Difference",
                     help="Assists - xA",
                 ),
             },
-            column_order=("player", "assists", "xA", "xA_difference"),
+            column_order=("web_name_pos", "assists", "xA", "xA_difference"),
             hide_index=True,
             use_container_width=True,
         )
@@ -154,14 +167,14 @@ with a_tab:
             .style.background_gradient(axis=0, subset=["xA_difference"], cmap="Reds_r")
             .format(precision=2),
             column_config={
-                "player": "Player",
+                "web_name_pos": "Player",
                 "assists": "Assists",
                 "xA_difference": st.column_config.NumberColumn(
                     "Difference",
                     help="Assists - xA",
                 ),
             },
-            column_order=("player", "assists", "xA", "xA_difference"),
+            column_order=("web_name_pos", "assists", "xA", "xA_difference"),
             hide_index=True,
             use_container_width=True,
         )

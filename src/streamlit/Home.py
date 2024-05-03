@@ -29,8 +29,7 @@ st.markdown(
 
 FPLalytics transforms raw fixture and player data into actionable intelligence, enabling you to make informed transfer decisions and challenge your biases.
 Stay ahead of the competition with data-driven decision-making tools that are accessible, interactive, and feature rich. 
-
-Users are strongly encouraged to complement their experience with this app by incorporating the eye-test. *Trust your instincts, and our analytics.*"""
+"""
 )
 
 # latest gameweek
@@ -40,6 +39,6 @@ Use our latest data, stats, and models to prepare your team for success in Gamew
 # development updates
 st.markdown(
     """##### Development Updates  
-Fixture tickers have been updated to handle blank gameweeks and double gameweeks (or larger).  
-Fixture schedule has been updated to match official EPL/FPL."""
+- Penalty and npxG data
+- FPL player naming conventions"""
 )
