@@ -118,7 +118,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.header("Offensive Ratings")
     off_chart = (
-        alt.Chart(odm_data)
+        alt.Chart(odm_data, height=600)
         .mark_bar()
         .encode(
             x=alt.X(
@@ -144,7 +144,7 @@ with col1:
 with col2:
     st.header("Defensive Ratings")
     def_chart = (
-        alt.Chart(odm_data)
+        alt.Chart(odm_data, height=600)
         .mark_bar()
         .encode(
             x=alt.X(
