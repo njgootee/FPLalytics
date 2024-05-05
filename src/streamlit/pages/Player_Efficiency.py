@@ -7,7 +7,7 @@ player_data = pd.read_csv("data/2023/player_data.csv")
 player_mapping = pd.read_csv("data/2023/player_mapping.csv")
 
 # add fpl info
-player_mapping = player_mapping.dropna()
+player_mapping = player_mapping.dropna(subset="fpl_id")
 player_mapping["web_name_pos"] = (
     player_mapping["web_name"] + " " + player_mapping["pos"]
 )

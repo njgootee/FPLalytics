@@ -8,7 +8,7 @@ odm_data = pd.read_csv("data/2023/odm_rating.csv")
 odm_data = odm_data.tail(20)
 
 # add fpl info
-player_mapping = player_mapping.dropna()
+player_mapping = player_mapping.dropna(subset="fpl_id")
 player_mapping["web_name_pos"] = (
     player_mapping["web_name"] + " " + player_mapping["pos"]
 )
