@@ -4,10 +4,11 @@
 FPLalytics transforms raw fixture and player data into actionable intelligence, enabling you to make informed transfer decisions and challenge your biases. Stay ahead of the competition with data-driven decision-making tools that are accessible, interactive, and feature-rich.
 
 FPLalytics offers the following tools, with more in development:
-* Fixture Ticker
+* Fixture Tickers
 * Offensive and Defensive ratings of teams
 * Player Comparison
 * Player Efficiency
+* Points Projections
 * Player Talisman Finder
 
 Data is sourced from [understat](https://understat.com/), with updates pushed after each gameweek. Please find more details and interact with the app here: [FPLalytics](https://fplalytics.streamlit.app/).

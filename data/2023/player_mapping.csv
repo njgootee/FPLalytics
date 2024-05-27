@@ -219,12 +219,12 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,now_cost,pos,penalties_or
 7958,Sandro Tonali,429,Sandro Tonali,Tonali,3,5.2,(M),
 87,Joelinton,416,Joelinton Cássio Apolinário de Lira,Joelinton,3,5.8,(M),
 7420,Miguel Almirón,402,Miguel Almirón Rejala,Almirón,3,6.0,(M),
-5232,Alexander Isak,415,Alexander Isak,Isak,4,7.5,(F),2
+5232,Alexander Isak,415,Alexander Isak,Isak,4,7.5,(F),1
 8150,Anthony Gordon,412,Anthony Gordon,Gordon,3,6.1,(M),3
 6063,Jacob Murphy,423,Jacob Murphy,J.Murphy,3,4.8,(M),
 9154,Elliot Anderson,403,Elliot Anderson,Anderson,3,4.2,(M),
 6681,Harvey Barnes,603,Harvey Barnes,Barnes,3,6.2,(M),
-468,Callum Wilson,433,Callum Wilson,Wilson,4,7.8,(F),1
+468,Callum Wilson,433,Callum Wilson,Wilson,4,7.8,(F),2
 7078,Sean Longstaff,421,Sean Longstaff,Longstaff,3,4.8,(M),
 10700,Matt Turner,28,Matt Turner,Turner,1,3.9,(G),
 10756,Joe Worrall,,,,,,0,
@@ -489,7 +489,7 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,now_cost,pos,penalties_or
 585,Seamus Coleman,247,Seamus Coleman,Coleman,2,4.4,(D),
 5803,Fode Toure,707,Fodé Ballo-Touré,Ballo-Touré,2,4.5,(D),
 706,Lukasz Fabianski,533,Lukasz Fabianski,Fabianski,1,4.2,(G),
-12032,Djordje Petrovic,687,Đorđe Petrović,Petrović,1,0.4,(G),
+12032,Djordje Petrovic,687,Đorđe Petrović,Petrović,1,4.7,(G),
 9834,Remi Matthews,233,Remi Matthews,Matthews,1,3.9,(G),
 12251,Sydie Peck,759,Sydie Peck,Peck,3,4.4,(M),
 7702,Dean Henderson,385,Dean Henderson,Henderson,1,4.4,(G),

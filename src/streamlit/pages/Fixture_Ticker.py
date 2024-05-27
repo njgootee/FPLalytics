@@ -7,7 +7,8 @@ import numpy as np
 fixtures = pd.read_csv("data/2023/season_data.csv")
 odm_data = pd.read_csv("data/2023/odm_rating.csv")
 odm_data = odm_data.tail(20)
-curr_gw = odm_data["gameweek"].max()
+# curr_gw = odm_data["gameweek"].max()
+curr_gw = 33
 
 # page config
 st.set_page_config(
@@ -28,6 +29,10 @@ with st.sidebar:
 
 # title and information
 st.title("Fixture Ticker")
+st.caption(
+    ":warning: Post-Season View",
+    help="Post-season view displays the final 6 gameweeks.",
+)
 with st.expander("Information", expanded=False):
     st.markdown(
         """Use this tool to compare upcoming fixture difficulty for different teams and asset types.
@@ -44,7 +49,7 @@ with st.expander("Options", expanded=False):
     # Model select box
     model_option = st.selectbox("Data Source", ("Full Season", "Past 6 Gameweeks"))
 
-    # slider to select top/bottom n results
+    # slider to filter upcoming gameweeks shown
     gw_option = st.slider(
         "Gameweek Range", curr_gw, 38, (curr_gw, min(curr_gw + 5, 38))
     )
@@ -56,6 +61,9 @@ o_tab, d_tab = st.tabs(["Offence", "Defence"])
 fixtures = fixtures[
     (fixtures["gameweek"] >= gw_option[0]) & (fixtures["gameweek"] <= gw_option[1])
 ]
+home_fixtures = fixtures.rename(columns={"home": "team", "away": "opponent"})
+away_fixtures = fixtures.rename(columns={"away": "team", "home": "opponent"})
+fixtures = pd.concat([home_fixtures, away_fixtures])
 fixtures = fixtures.pivot_table(
     values="opponent", index="team", columns="gameweek", aggfunc=pd.unique
 )

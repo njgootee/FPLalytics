@@ -33,12 +33,19 @@ Stay ahead of the competition with data-driven decision-making tools that are ac
 )
 
 # latest gameweek
-st.markdown("##### Latest data from Gameweek :blue[" + str(latest_gw) + """] 
-Use our latest data, stats, and models to prepare your team for success in Gameweek """ + str(latest_gw + 1) + ".")
+st.markdown(
+    "##### Latest data from Gameweek :blue["
+    + str(latest_gw)
+    + """] 
+Use our latest data, stats, and models to prepare your team for success in Gameweek """
+    + str(latest_gw + 1)
+    + "."
+)
 
 # development updates
 st.markdown(
     """##### Development Updates  
-- Penalty and npxG data
-- FPL player naming conventions"""
+- FPL points projections (beta)!
+- Post-Season views on Fixture Ticker / Points Projections
+- Preparing enhancements for 2024/2025 season"""
 )

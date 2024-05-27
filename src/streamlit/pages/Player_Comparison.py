@@ -64,10 +64,15 @@ with st.expander("Options", expanded=False):
     # checkbox to select per 90 stats
     per_90 = st.checkbox("Per 90 min stats", value=True)
 
+    # checkbox to includ non-penalty data
+    incl_np = st.checkbox("Display Non-Penalty xG", value=False)
+
 # setup performance dataframe
 player_data = player_data[player_data["web_name_pos"].isin(player_filter)]
+player_data["GI"] = player_data["goals"] + player_data["assists"]
 perf_df = player_data.groupby(["web_name_pos"], as_index=False)[
     [
+        "GI",
         "xGI",
         "npxGI",
         "goals",
@@ -81,8 +86,11 @@ perf_df = player_data.groupby(["web_name_pos"], as_index=False)[
         "team_xG",
     ]
 ].sum()
+
 perf_df["t_score"] = (perf_df["xGI"] / perf_df["team_xG"]) * 100
+
 if per_90:
+    perf_df["GI"] = perf_df["GI"] / perf_df["time"] * 90
     perf_df["xGI"] = perf_df["xGI"] / perf_df["time"] * 90
     perf_df["npxGI"] = perf_df["npxGI"] / perf_df["time"] * 90
     perf_df["goals"] = perf_df["goals"] / perf_df["time"] * 90
@@ -92,6 +100,35 @@ if per_90:
     perf_df["assists"] = perf_df["assists"] / perf_df["time"] * 90
     perf_df["xA"] = perf_df["xA"] / perf_df["time"] * 90
     perf_df["key_passes"] = perf_df["key_passes"] / perf_df["time"] * 90
+
+if incl_np:
+    perf_df_columns = [
+        "web_name_pos",
+        "GI",
+        "xGI",
+        "npxGI",
+        "t_score",
+        "goals",
+        "xG",
+        "npxG",
+        "shots",
+        "assists",
+        "xA",
+        "key_passes",
+    ]
+else:
+    perf_df_columns = [
+        "web_name_pos",
+        "GI",
+        "xGI",
+        "t_score",
+        "goals",
+        "xG",
+        "shots",
+        "assists",
+        "xA",
+        "key_passes",
+    ]
 
 # setup auxillary dataframe
 aux_df = (
@@ -127,6 +164,7 @@ st.dataframe(
     perf_df.style.background_gradient(
         axis=0,
         subset=[
+            "GI",
             "xGI",
             "npxGI",
             "t_score",
@@ -165,19 +203,7 @@ st.dataframe(
         "xA": st.column_config.NumberColumn("xA", help="Expected Assists"),
         "key_passes": st.column_config.NumberColumn("KP", help="Key Passes"),
     },
-    column_order=(
-        "web_name_pos",
-        "xGI",
-        "npxGI",
-        "t_score",
-        "goals",
-        "xG",
-        "npxG",
-        "shots",
-        "assists",
-        "xA",
-        "key_passes",
-    ),
+    column_order=(perf_df_columns),
     hide_index=True,
     use_container_width=True,
 )

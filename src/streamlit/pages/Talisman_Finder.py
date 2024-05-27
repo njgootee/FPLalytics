@@ -38,7 +38,7 @@ with st.sidebar:
 st.title("Talisman Finder")
 with st.expander("Information", expanded=False):
     st.markdown(
-        """Use this tool to identify the top five talismans for each team. 
+        """Use this tool to identify the top talismans for each team. 
 A talisman is defined as a player with high involvement in the attacking output of their team, in the form of xGI (expected goal involvement). 
 
 Team xG data for each player is only recorded when the player makes an appearance. This is why values for Team xG will vary for players on the same team.
