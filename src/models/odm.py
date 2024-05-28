@@ -1,16 +1,20 @@
-from understatapi import UnderstatClient
 import pandas as pd
 import numpy as np
-import sys
 
 
-def odm_func(GW):
+def odm_func(gw):
+    """Calculate offensive and defensive ratings of teams via the ODM model.
+    Ratings for a given gameweek are the teams determined strengths before that gameweek has been played.
+
+    Args:
+        gw (int): FPL gameweek to assign to ratings
+    """
     # read in fixture data, setup dataframes for season long model and past 6 "form" model
     fixture_data = pd.read_csv("data/2023/fixture_data.csv")
-    full_season = fixture_data[fixture_data["gameweek"] < GW]
+    full_season = fixture_data[fixture_data["gameweek"] < gw]
     full_season.name = "full_season"
     past_six = fixture_data[
-        (fixture_data["gameweek"] < GW) & (fixture_data["gameweek"] >= GW - 6)
+        (fixture_data["gameweek"] < gw) & (fixture_data["gameweek"] >= gw - 6)
     ]
     past_six.name = "past_six"
     models = [full_season, past_six]
@@ -80,7 +84,7 @@ def odm_func(GW):
                 data={
                     "team_id": team_ids,
                     "team": team_list,
-                    "gameweek": GW,
+                    "gameweek": gw,
                     "o_rating_season": o.flatten(),
                     "d_rating_season": d.flatten(),
                 }

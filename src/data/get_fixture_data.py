@@ -1,9 +1,13 @@
 from understatapi import UnderstatClient
 import pandas as pd
-import sys
 
 
-def get_fixture_data_func(GW):
+def get_fixture_data_func(gw):
+    """Retrieve fixture level data from Understat
+
+    Args:
+        gw (int): FPL gameweek to assign to new fixtures
+    """
     with UnderstatClient() as understat:
         # All fixtures in season
         fixtures = pd.DataFrame(
@@ -25,7 +29,7 @@ def get_fixture_data_func(GW):
         for fixture in understat.match(new_fixture_ids):
             # get new fixture data, add gameweek, convenient team ids for algorithms
             new_fixture_data = pd.DataFrame(fixture.get_match_info(), index=[0])
-            new_fixture_data["gameweek"] = GW
+            new_fixture_data["gameweek"] = gw
             new_fixture_data["h_id"] = new_fixture_data["team_h"].map(
                 {
                     "Arsenal": 0,

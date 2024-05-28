@@ -4,6 +4,7 @@ import numpy as np
 
 
 def get_player_data_func():
+    """Retrieve player level (per fixture) data from Understat"""
     # read in existing data
     fixture_data = pd.read_csv("data/2023/fixture_data.csv")
     player_data = pd.read_csv("data/2023/player_data.csv")
@@ -39,7 +40,7 @@ def get_player_data_func():
             ["player_id", "match_id"]
         ].rename(columns={"match_id": "fixture_id"})
         penalties = penalties.value_counts().reset_index(name="penalty")
-        penalties = penalties.astype('int64')
+        penalties = penalties.astype("int64")
 
         # add fixture id feature
         new_player_data["fixture_id"] = int(fixture_id)
@@ -114,11 +115,17 @@ def get_player_data_func():
         new_player_data["player_id"] = new_player_data["player_id"].astype("int64")
         # add xgi
         new_player_data["xGI"] = new_player_data["xG"] + new_player_data["xA"]
-        #add pen data, calculate non pen xg and xgi
-        new_player_data = new_player_data.merge(penalties, how='left', on=['fixture_id', 'player_id'])
-        new_player_data['penalty'] = new_player_data['penalty'].fillna(0).astype('int64')
-        new_player_data['npxG'] = new_player_data['xG'] - new_player_data['penalty'] * 0.7611688375473022
-        new_player_data['npxGI'] = new_player_data['npxG'] + new_player_data['xA']
+        # add pen data, calculate non pen xg and xgi
+        new_player_data = new_player_data.merge(
+            penalties, how="left", on=["fixture_id", "player_id"]
+        )
+        new_player_data["penalty"] = (
+            new_player_data["penalty"].fillna(0).astype("int64")
+        )
+        new_player_data["npxG"] = (
+            new_player_data["xG"] - new_player_data["penalty"] * 0.7611688375473022
+        )
+        new_player_data["npxGI"] = new_player_data["npxG"] + new_player_data["xA"]
         # add new player data to database
         player_data = pd.concat([player_data, new_player_data], ignore_index=True)
 
