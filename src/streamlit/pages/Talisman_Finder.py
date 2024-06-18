@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 import altair as alt
 import matplotlib
 
@@ -53,10 +54,11 @@ with st.expander("Options", expanded=False):
     model_option = st.selectbox("Data Source", ("Full Season", "Past 6 Gameweeks"))
 
     # multiselect for team filter
-    team_filter = st.selectbox("Team", sorted(player_data["team_name"].unique()))
+    team_filter = st.selectbox("Team", sorted(np.append(player_data["team_name"].unique(), ["All"])))
 
 # setup df
-player_data = player_data[player_data["team_name"] == team_filter]
+if team_filter != "All":
+    player_data = player_data[player_data["team_name"] == team_filter]
 if model_option == "Past 6 Gameweeks":
     player_data = player_data[
         player_data["gameweek"] > (player_data["gameweek"].max() - 6)
@@ -66,32 +68,12 @@ chart_df = player_data.groupby(["web_name_pos"], as_index=False)[
 ].sum()
 chart_df["t_score"] = (chart_df["xGI"] / chart_df["team_xG"]) * 100
 chart_df["xG_perc"] = (chart_df["xG"] / chart_df["xGI"]) * 100
-chart_df = chart_df.nlargest(8, "t_score")
+chart_df = chart_df.nlargest(11, "t_score")
 
 col1, col2 = st.columns(2)
-# Talisman chart
-with col1:
-    tman_chart = (
-        alt.Chart(chart_df)
-        .mark_point()
-        .encode(
-            x=alt.X("xG_perc", type="quantitative", title="xG%"),
-            y=alt.Y("t_score", type="quantitative", title="Talisman Score (%)"),
-            color=alt.Color(
-                "team_xG:Q", title="Team xG", scale=alt.Scale(scheme="blues")
-            ),
-            tooltip=[
-                alt.Tooltip("web_name_pos", title="Player"),
-                alt.Tooltip("t_score", title="Talisman Score", format=".2f"),
-                alt.Tooltip("team_xG", title="Team xG", format=".2f"),
-                alt.Tooltip("xG_perc", title="xG%", format=".2f"),
-            ],
-        )
-    )
-    st.altair_chart(tman_chart, use_container_width=True)
 
 # Talisman table
-with col2:
+with col1:
     st.dataframe(
         chart_df.style.background_gradient(
             axis=0, subset=["t_score"], cmap="Blues"
@@ -130,10 +112,33 @@ with col2:
             "xGI",
             "team_xG",
             "xG_perc",
-            "xG",
-            "xA",
             "time",
         ),
         hide_index=True,
         use_container_width=True,
+        height = 422
     )
+
+# Talisman chart
+with col2:
+    tman_chart = (
+        alt.Chart(chart_df)
+        .mark_point()
+        .encode(
+            x=alt.X("xG_perc", type="quantitative", title="xG%"),
+            y=alt.Y("t_score", type="quantitative", title="Talisman Score (%)"),
+            color=alt.Color(
+                "team_xG:Q", title="Team xG", scale=alt.Scale(scheme="blues")
+            ),
+            tooltip=[
+                alt.Tooltip("web_name_pos", title="Player"),
+                alt.Tooltip("t_score", title="Talisman Score", format=".2f"),
+                alt.Tooltip("team_xG", title="Team xG", format=".2f"),
+                alt.Tooltip("xG_perc", title="xG%", format=".2f"),
+            ],
+        )
+        .properties(
+            height=435
+        )
+    )
+    st.altair_chart(tman_chart, use_container_width=True)

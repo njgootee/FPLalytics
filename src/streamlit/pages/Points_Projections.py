@@ -5,9 +5,21 @@ import numpy as np
 
 # read data in
 projections_df = pd.read_csv("data/2023/points_projections.csv")
+player_mapping = pd.read_csv("data/2023/player_mapping.csv")
 odm_data = pd.read_csv("data/2023/odm_rating.csv")
 odm_data = odm_data.tail(20)
 curr_gw = odm_data["gameweek"].max()
+
+# add fpl info
+player_mapping = player_mapping.dropna(subset="fpl_id")
+player_mapping["web_name_pos"] = (
+    player_mapping["web_name"] + " " + player_mapping["pos"]
+)
+projections_df = projections_df.merge(
+    player_mapping[["player_id", "web_name_pos"]], how="left", on="player_id"
+)
+projections_df = projections_df.dropna(subset="web_name_pos")
+projections_df["web_name"] = projections_df["web_name_pos"]
 
 # page config
 st.set_page_config(
@@ -95,15 +107,17 @@ projections_df = projections_df.replace({"team_name": short_name_dict})
 
 # get column names for formatting
 all_columns = projections_df.columns.to_list()
-display_columns = [x for x in all_columns if x not in ["player_id", "element_type"]]
 gameweek_columns = [
     x
     for x in all_columns
-    if x not in ["player_id", "team_name", "web_name", "now_cost", "element_type"]
+    if x not in ["player_id", "team_name", "web_name", "web_name_pos", "now_cost", "element_type"]
 ]
+projections_df["Total"] = projections_df[gameweek_columns].sum(axis=1)
+all_columns = projections_df.columns.to_list()
+display_columns = [x for x in all_columns if x not in ["player_id", "element_type", "web_name_pos"]]
 
 # sort values by next gameweek projected points
-projections_df = projections_df.sort_values(by=gameweek_columns[0], ascending=False)
+projections_df = projections_df.sort_values(by="Total", ascending=False)
 
 # subset by position
 forwards_df = projections_df[projections_df["element_type"] == 4]
@@ -122,11 +136,13 @@ with by_pos_tab:
             axis=0, subset=gameweek_columns, cmap="RdYlGn"
         )
         .background_gradient(axis=0, subset="now_cost", cmap="Blues")
+        .background_gradient(axis=0, subset="Total", cmap="Blues")
         .format({"now_cost": "£{:.1f}m"}, precision=2),
         column_config={
             "web_name": "Player",
             "team_name": "Team",
             "now_cost": st.column_config.NumberColumn("Price", help="FPL Price"),
+            "Total": st.column_config.NumberColumn(help="Total predicted points over gameweek range.")
         },
         column_order=(display_columns),
         hide_index=True,
@@ -140,11 +156,13 @@ with by_pos_tab:
             axis=0, subset=gameweek_columns, cmap="RdYlGn"
         )
         .background_gradient(axis=0, subset="now_cost", cmap="Blues")
+        .background_gradient(axis=0, subset="Total", cmap="Blues")
         .format({"now_cost": "£{:.1f}m"}, precision=2),
         column_config={
             "web_name": "Player",
             "team_name": "Team",
             "now_cost": st.column_config.NumberColumn("Price", help="FPL Price"),
+            "Total": st.column_config.NumberColumn(help="Total predicted points over gameweek range.")
         },
         column_order=(display_columns),
         hide_index=True,
@@ -158,11 +176,13 @@ with by_pos_tab:
             axis=0, subset=gameweek_columns, cmap="RdYlGn"
         )
         .background_gradient(axis=0, subset="now_cost", cmap="Blues")
+        .background_gradient(axis=0, subset="Total", cmap="Blues")
         .format({"now_cost": "£{:.1f}m"}, precision=2),
         column_config={
             "web_name": "Player",
             "team_name": "Team",
             "now_cost": st.column_config.NumberColumn("Price", help="FPL Price"),
+            "Total": st.column_config.NumberColumn(help="Total predicted points over gameweek range.")
         },
         column_order=(display_columns),
         hide_index=True,
@@ -176,11 +196,13 @@ with by_pos_tab:
             axis=0, subset=gameweek_columns, cmap="RdYlGn"
         )
         .background_gradient(axis=0, subset="now_cost", cmap="Blues")
+        .background_gradient(axis=0, subset="Total", cmap="Blues")
         .format({"now_cost": "£{:.1f}m"}, precision=2),
         column_config={
             "web_name": "Player",
             "team_name": "Team",
             "now_cost": st.column_config.NumberColumn("Price", help="FPL Price"),
+            "Total": st.column_config.NumberColumn(help="Total predicted points over gameweek range.")
         },
         column_order=(display_columns),
         hide_index=True,
@@ -195,11 +217,13 @@ with combine_tab:
             axis=0, subset=gameweek_columns, cmap="RdYlGn"
         )
         .background_gradient(axis=0, subset="now_cost", cmap="Blues")
+        .background_gradient(axis=0, subset="Total", cmap="Blues")
         .format({"now_cost": "£{:.1f}m"}, precision=2),
         column_config={
             "web_name": "Player",
             "team_name": "Team",
             "now_cost": st.column_config.NumberColumn("Price", help="FPL Price"),
+            "Total": st.column_config.NumberColumn(help="Total predicted points over gameweek range.")
         },
         column_order=(display_columns),
         hide_index=True,

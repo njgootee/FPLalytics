@@ -45,7 +45,7 @@ Use our latest data, stats, and models to prepare your team for success in Gamew
 # development updates
 st.markdown(
     """##### Development Updates  
-- FPL points projections (beta)!
+- FPL points projections!
 - Post-Season views on Fixture Ticker / Points Projections
 - Preparing enhancements for 2024/2025 season"""
 )

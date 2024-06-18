@@ -1,2 +1,3 @@
 *.ipynb
+points_predictor.py
 __pycache__
