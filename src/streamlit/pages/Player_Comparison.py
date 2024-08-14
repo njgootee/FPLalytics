@@ -1,21 +1,9 @@
 import streamlit as st
 import pandas as pd
 
-# read data in
-player_data = pd.read_csv("data/2023/player_data.csv")
-player_mapping = pd.read_csv("data/2023/player_mapping.csv")
-odm_data = pd.read_csv("data/2023/odm_rating.csv")
-odm_data = odm_data.tail(20)
-
-# add fpl info
-player_mapping = player_mapping.dropna(subset="fpl_id")
-player_mapping["web_name_pos"] = (
-    player_mapping["web_name"] + " " + player_mapping["pos"]
-)
-player_data = player_data.merge(
-    player_mapping[["player_id", "web_name_pos"]], how="left", on="player_id"
-)
-player_data = player_data.dropna(subset="web_name_pos")
+# read app vars in
+app_vars = pd.read_csv("data/app_vars.csv")
+seasons = app_vars["season"]
 
 # page config
 st.set_page_config(
@@ -26,13 +14,21 @@ st.set_page_config(
 
 # sidebar
 with st.sidebar:
+    st.markdown(""":chart_with_upwards_trend: :blue[FPL]*alytics*""")
+    season_option = st.selectbox("Season", seasons)
+    latest_gw = app_vars[app_vars["season"] == season_option]["latest_gameweek"].item()
     st.markdown(
-        """:chart_with_upwards_trend: :blue[FPL]*alytics*  
-                Latest gameweek data: :blue["""
-        + str(player_data["gameweek"].max())
+        """Latest gameweek data: :blue["""
+        + str(latest_gw)
         + """]  
                 [GitHub](https://github.com/njgootee)"""
     )
+
+# read data in
+player_data = pd.read_csv("data/" + str(season_option)[:4] + "/player_data.csv")
+player_mapping = pd.read_csv("data/" + str(season_option)[:4] + "/player_mapping.csv")
+odm_data = pd.read_csv("data/" + str(season_option)[:4] + "/odm_rating.csv")
+odm_data = odm_data.tail(20)
 
 # title and information
 st.title("Player Comparison")
@@ -45,13 +41,29 @@ Input data can be selected from the past six gameweeks or over the full season. 
 Performance statistics can be displayed as totals or per 90 minutes."""
     )
 
+# add fpl info
+player_mapping = player_mapping.dropna(subset="fpl_id")
+player_mapping["web_name_pos"] = (
+    player_mapping["web_name"] + " " + player_mapping["pos"]
+)
+player_data = player_data.merge(
+    player_mapping[["player_id", "web_name_pos"]], how="left", on="player_id"
+)
+player_data = player_data.dropna(subset="web_name_pos")
+
 # options
 with st.expander("Options", expanded=False):
     # multiselect for player filter
     player_filter = st.multiselect(
         "Players",
-        player_data["web_name_pos"].unique(),
-        default=["Haaland (F)", "Salah (M)", "Son (M)"],
+        player_data["player_id"].unique(),
+        format_func=lambda x: player_data[player_data["player_id"] == x][
+            "web_name_pos"
+        ].values[-1]
+        + " ["
+        + player_data[player_data["player_id"] == x]["team_name"].values[-1]
+        + "]",
+        default=[8260, 1250, 8497],
     )
 
     # Model select box
@@ -68,7 +80,7 @@ with st.expander("Options", expanded=False):
     incl_np = st.checkbox("Display Non-Penalty xG", value=False)
 
 # setup performance dataframe
-player_data = player_data[player_data["web_name_pos"].isin(player_filter)]
+player_data = player_data[player_data["player_id"].isin(player_filter)]
 player_data["GI"] = player_data["goals"] + player_data["assists"]
 perf_df = player_data.groupby(["web_name_pos"], as_index=False)[
     [

@@ -4,19 +4,9 @@ import numpy as np
 import altair as alt
 import matplotlib
 
-# read data in
-player_data = pd.read_csv("data/2023/player_data.csv")
-player_mapping = pd.read_csv("data/2023/player_mapping.csv")
-
-# add fpl info
-player_mapping = player_mapping.dropna(subset="fpl_id")
-player_mapping["web_name_pos"] = (
-    player_mapping["web_name"] + " " + player_mapping["pos"]
-)
-player_data = player_data.merge(
-    player_mapping[["player_id", "web_name_pos"]], how="left", on="player_id"
-)
-player_data = player_data.dropna(subset="web_name_pos")
+# read app vars in
+app_vars = pd.read_csv("data/app_vars.csv")
+seasons = app_vars["season"]
 
 # page config
 st.set_page_config(
@@ -27,13 +17,29 @@ st.set_page_config(
 
 # sidebar
 with st.sidebar:
+    st.markdown(""":chart_with_upwards_trend: :blue[FPL]*alytics*""")
+    season_option = st.selectbox("Season", seasons)
+    latest_gw = app_vars[app_vars["season"] == season_option]["latest_gameweek"].item()
     st.markdown(
-        """:chart_with_upwards_trend: :blue[FPL]*alytics*  
-                Latest gameweek data: :blue["""
-        + str(player_data["gameweek"].max())
+        """Latest gameweek data: :blue["""
+        + str(latest_gw)
         + """]  
                 [GitHub](https://github.com/njgootee)"""
     )
+
+# read data in
+player_data = pd.read_csv("data/" + str(season_option)[:4] + "/player_data.csv")
+player_mapping = pd.read_csv("data/" + str(season_option)[:4] + "/player_mapping.csv")
+
+# add fpl info
+player_mapping = player_mapping.dropna(subset="fpl_id")
+player_mapping["web_name_pos"] = (
+    player_mapping["web_name"] + " " + player_mapping["pos"]
+)
+player_data = player_data.merge(
+    player_mapping[["player_id", "web_name_pos"]], how="left", on="player_id"
+)
+player_data = player_data.dropna(subset="web_name_pos")
 
 # title and information
 st.title("Talisman Finder")
@@ -54,7 +60,9 @@ with st.expander("Options", expanded=False):
     model_option = st.selectbox("Data Source", ("Full Season", "Past 6 Gameweeks"))
 
     # multiselect for team filter
-    team_filter = st.selectbox("Team", sorted(np.append(player_data["team_name"].unique(), ["All"])))
+    team_filter = st.selectbox(
+        "Team", sorted(np.append(player_data["team_name"].unique(), ["All"]))
+    )
 
 # setup df
 if team_filter != "All":
@@ -116,7 +124,7 @@ with col1:
         ),
         hide_index=True,
         use_container_width=True,
-        height = 422
+        height=422,
     )
 
 # Talisman chart
@@ -137,8 +145,6 @@ with col2:
                 alt.Tooltip("xG_perc", title="xG%", format=".2f"),
             ],
         )
-        .properties(
-            height=435
-        )
+        .properties(height=435)
     )
     st.altair_chart(tman_chart, use_container_width=True)

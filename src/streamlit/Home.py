@@ -3,9 +3,9 @@ import pandas as pd
 import numpy as np
 import altair as alt
 
-# read data in
-odm_data = pd.read_csv("data/2023/odm_rating.csv")
-latest_gw = odm_data["gameweek"].max() - 1
+# read app vars in
+app_vars = pd.read_csv("data/app_vars.csv")
+seasons = app_vars["season"]
 
 # page config
 st.set_page_config(
@@ -14,13 +14,16 @@ st.set_page_config(
 
 # sidebar
 with st.sidebar:
+    st.markdown(""":chart_with_upwards_trend: :blue[FPL]*alytics*""")
+    season_option = st.selectbox("Season", seasons)
+    latest_gw = app_vars[app_vars["season"] == season_option]["latest_gameweek"].item()
     st.markdown(
-        """:chart_with_upwards_trend: :blue[FPL]*alytics*  
-                Latest gameweek data: :blue["""
+        """Latest gameweek data: :blue["""
         + str(latest_gw)
         + """]  
                 [GitHub](https://github.com/njgootee)"""
     )
+
 
 # landing
 st.title(":chart_with_upwards_trend: :blue[FPL]*alytics*")
@@ -45,7 +48,6 @@ Use our latest data, stats, and models to prepare your team for success in Gamew
 # development updates
 st.markdown(
     """##### Development Updates  
-- FPL points projections!
-- Post-Season views on Fixture Ticker / Points Projections
-- Preparing enhancements for 2024/2025 season"""
+- Season Selector in Sidebar
+- Waiting for UnderStat data to be released..."""
 )

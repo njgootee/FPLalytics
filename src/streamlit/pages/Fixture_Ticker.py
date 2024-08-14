@@ -3,12 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-# read data in
-fixtures = pd.read_csv("data/2023/season_data.csv")
-odm_data = pd.read_csv("data/2023/odm_rating.csv")
-odm_data = odm_data.tail(20)
-# curr_gw = odm_data["gameweek"].max()
-curr_gw = 33
+# read app vars in
+app_vars = pd.read_csv("data/app_vars.csv")
+seasons = app_vars["season"]
 
 # page config
 st.set_page_config(
@@ -19,13 +16,22 @@ st.set_page_config(
 
 # sidebar
 with st.sidebar:
+    st.markdown(""":chart_with_upwards_trend: :blue[FPL]*alytics*""")
+    season_option = st.selectbox("Season", seasons)
+    latest_gw = app_vars[app_vars["season"] == season_option]["latest_gameweek"].item()
     st.markdown(
-        """:chart_with_upwards_trend: :blue[FPL]*alytics*  
-                Latest gameweek data: :blue["""
-        + str(curr_gw - 1)
+        """Latest gameweek data: :blue["""
+        + str(latest_gw)
         + """]  
                 [GitHub](https://github.com/njgootee)"""
     )
+
+# read data in
+fixtures = pd.read_csv("data/" + str(season_option)[:4] + "/season_data.csv")
+odm_data = pd.read_csv("data/" + str(season_option)[:4] + "/odm_rating.csv")
+odm_data = odm_data.tail(20)
+# curr_gw = latest_gw + 1
+curr_gw = 33
 
 # title and information
 st.title("Fixture Ticker")

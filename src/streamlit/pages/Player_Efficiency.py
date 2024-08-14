@@ -2,19 +2,9 @@ import streamlit as st
 import pandas as pd
 import matplotlib
 
-# read data in
-player_data = pd.read_csv("data/2023/player_data.csv")
-player_mapping = pd.read_csv("data/2023/player_mapping.csv")
-
-# add fpl info
-player_mapping = player_mapping.dropna(subset="fpl_id")
-player_mapping["web_name_pos"] = (
-    player_mapping["web_name"] + " " + player_mapping["pos"]
-)
-player_data = player_data.merge(
-    player_mapping[["player_id", "web_name_pos"]], how="left", on="player_id"
-)
-player_data = player_data.dropna(subset="web_name_pos")
+# read app vars in
+app_vars = pd.read_csv("data/app_vars.csv")
+seasons = app_vars["season"]
 
 # page config
 st.set_page_config(
@@ -25,13 +15,29 @@ st.set_page_config(
 
 # sidebar
 with st.sidebar:
+    st.markdown(""":chart_with_upwards_trend: :blue[FPL]*alytics*""")
+    season_option = st.selectbox("Season", seasons)
+    latest_gw = app_vars[app_vars["season"] == season_option]["latest_gameweek"].item()
     st.markdown(
-        """:chart_with_upwards_trend: :blue[FPL]*alytics*  
-                Latest gameweek data: :blue["""
-        + str(player_data["gameweek"].max())
+        """Latest gameweek data: :blue["""
+        + str(latest_gw)
         + """]  
                 [GitHub](https://github.com/njgootee)"""
     )
+
+# read data in
+player_data = pd.read_csv("data/" + str(season_option)[:4] + "/player_data.csv")
+player_mapping = pd.read_csv("data/" + str(season_option)[:4] + "/player_mapping.csv")
+
+# add fpl info
+player_mapping = player_mapping.dropna(subset="fpl_id")
+player_mapping["web_name_pos"] = (
+    player_mapping["web_name"] + " " + player_mapping["pos"]
+)
+player_data = player_data.merge(
+    player_mapping[["player_id", "web_name_pos"]], how="left", on="player_id"
+)
+player_data = player_data.dropna(subset="web_name_pos")
 
 # title and information
 st.title("Player Efficiency")
