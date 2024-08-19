@@ -48,6 +48,5 @@ Use our latest data, stats, and models to prepare your team for success in Gamew
 # development updates
 st.markdown(
     """##### Development Updates  
-- Season Selector in Sidebar
-- Waiting for UnderStat data to be released..."""
+- Season 2024/2025 start"""
 )

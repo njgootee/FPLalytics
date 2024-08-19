@@ -1,0 +1,381 @@
+fixture_id,datetime,home,away,h_id,a_id,gameweek
+26602,2024-08-16 19:00:00,Manchester United,Fulham,13,8,1
+26603,2024-08-17 11:30:00,Ipswich,Liverpool,9,11,1
+26604,2024-08-17 14:00:00,Arsenal,Wolverhampton Wanderers,0,19,1
+26605,2024-08-17 14:00:00,Everton,Brighton,7,4,1
+26606,2024-08-17 14:00:00,Newcastle United,Southampton,14,16,1
+26607,2024-08-17 14:00:00,Nottingham Forest,Bournemouth,15,2,1
+26608,2024-08-17 16:30:00,West Ham,Aston Villa,18,1,1
+26609,2024-08-18 13:00:00,Brentford,Crystal Palace,3,6,1
+26610,2024-08-18 15:30:00,Chelsea,Manchester City,5,12,1
+26611,2024-08-19 19:00:00,Leicester,Tottenham,10,17,1
+26612,2024-08-24 11:30:00,Brighton,Manchester United,4,13,2
+26613,2024-08-24 14:00:00,Crystal Palace,West Ham,6,18,2
+26614,2024-08-24 14:00:00,Fulham,Leicester,8,10,2
+26615,2024-08-24 14:00:00,Manchester City,Ipswich,12,9,2
+26616,2024-08-24 14:00:00,Southampton,Nottingham Forest,16,15,2
+26617,2024-08-24 14:00:00,Tottenham,Everton,17,7,2
+26618,2024-08-24 16:30:00,Aston Villa,Arsenal,1,0,2
+26619,2024-08-25 13:00:00,Wolverhampton Wanderers,Chelsea,19,5,2
+26620,2024-08-25 13:00:00,Bournemouth,Newcastle United,2,14,2
+26621,2024-08-25 15:30:00,Liverpool,Brentford,11,3,2
+26622,2024-08-31 11:30:00,Arsenal,Brighton,0,4,3
+26623,2024-08-31 14:00:00,Brentford,Southampton,3,16,3
+26624,2024-08-31 14:00:00,Everton,Bournemouth,7,2,3
+26625,2024-08-31 14:00:00,Ipswich,Fulham,9,8,3
+26626,2024-08-31 14:00:00,Leicester,Aston Villa,10,1,3
+26627,2024-08-31 14:00:00,Nottingham Forest,Wolverhampton Wanderers,15,19,3
+26628,2024-08-31 16:30:00,West Ham,Manchester City,18,12,3
+26629,2024-09-01 12:30:00,Newcastle United,Tottenham,14,17,3
+26630,2024-09-01 12:30:00,Chelsea,Crystal Palace,5,6,3
+26631,2024-09-01 15:00:00,Manchester United,Liverpool,13,11,3
+26632,2024-09-14 11:30:00,Southampton,Manchester United,16,13,4
+26633,2024-09-14 14:00:00,Brighton,Ipswich,4,9,4
+26634,2024-09-14 14:00:00,Fulham,West Ham,8,18,4
+26635,2024-09-14 14:00:00,Liverpool,Nottingham Forest,11,15,4
+26636,2024-09-14 14:00:00,Crystal Palace,Leicester,6,10,4
+26637,2024-09-14 14:00:00,Manchester City,Brentford,12,3,4
+26638,2024-09-14 16:30:00,Aston Villa,Everton,1,7,4
+26639,2024-09-14 19:00:00,Bournemouth,Chelsea,2,5,4
+26640,2024-09-15 13:00:00,Tottenham,Arsenal,17,0,4
+26641,2024-09-15 15:30:00,Wolverhampton Wanderers,Newcastle United,19,14,4
+26642,2024-09-21 11:30:00,West Ham,Chelsea,18,5,5
+26643,2024-09-21 14:00:00,Southampton,Ipswich,16,9,5
+26644,2024-09-21 14:00:00,Leicester,Everton,10,7,5
+26645,2024-09-21 14:00:00,Liverpool,Bournemouth,11,2,5
+26646,2024-09-21 14:00:00,Fulham,Newcastle United,8,14,5
+26647,2024-09-21 14:00:00,Aston Villa,Wolverhampton Wanderers,1,19,5
+26648,2024-09-21 14:00:00,Tottenham,Brentford,17,3,5
+26649,2024-09-21 16:30:00,Crystal Palace,Manchester United,6,13,5
+26650,2024-09-22 13:00:00,Brighton,Nottingham Forest,4,15,5
+26651,2024-09-22 15:30:00,Manchester City,Arsenal,12,0,5
+26652,2024-09-28 11:30:00,Newcastle United,Manchester City,14,12,6
+26653,2024-09-28 14:00:00,Nottingham Forest,Fulham,15,8,6
+26654,2024-09-28 14:00:00,Everton,Crystal Palace,7,6,6
+26655,2024-09-28 14:00:00,Arsenal,Leicester,0,10,6
+26656,2024-09-28 14:00:00,Brentford,West Ham,3,18,6
+26657,2024-09-28 14:00:00,Chelsea,Brighton,5,4,6
+26658,2024-09-28 16:30:00,Wolverhampton Wanderers,Liverpool,19,11,6
+26659,2024-09-29 13:00:00,Ipswich,Aston Villa,9,1,6
+26660,2024-09-29 15:30:00,Manchester United,Tottenham,13,17,6
+26661,2024-09-30 19:00:00,Bournemouth,Southampton,2,16,6
+26662,2024-10-05 11:30:00,Crystal Palace,Liverpool,6,11,7
+26663,2024-10-05 14:00:00,Leicester,Bournemouth,10,2,7
+26664,2024-10-05 14:00:00,Manchester City,Fulham,12,8,7
+26665,2024-10-05 14:00:00,West Ham,Ipswich,18,9,7
+26666,2024-10-05 14:00:00,Arsenal,Southampton,0,16,7
+26667,2024-10-05 14:00:00,Brentford,Wolverhampton Wanderers,3,19,7
+26668,2024-10-05 14:00:00,Chelsea,Nottingham Forest,5,15,7
+26669,2024-10-05 16:30:00,Everton,Newcastle United,7,14,7
+26670,2024-10-06 13:00:00,Aston Villa,Manchester United,1,13,7
+26671,2024-10-06 15:30:00,Brighton,Tottenham,4,17,7
+26672,2024-10-19 11:30:00,Tottenham,West Ham,17,18,8
+26673,2024-10-19 14:00:00,Fulham,Aston Villa,8,1,8
+26674,2024-10-19 14:00:00,Ipswich,Everton,9,7,8
+26675,2024-10-19 14:00:00,Manchester United,Brentford,13,3,8
+26676,2024-10-19 14:00:00,Newcastle United,Brighton,14,4,8
+26677,2024-10-19 14:00:00,Nottingham Forest,Crystal Palace,15,6,8
+26678,2024-10-19 14:00:00,Southampton,Leicester,16,10,8
+26679,2024-10-19 16:30:00,Liverpool,Chelsea,11,5,8
+26680,2024-10-20 13:00:00,Bournemouth,Arsenal,2,0,8
+26681,2024-10-20 15:30:00,Wolverhampton Wanderers,Manchester City,19,12,8
+26682,2024-10-25 19:00:00,Leicester,Nottingham Forest,10,15,9
+26683,2024-10-26 14:00:00,Manchester City,Southampton,12,16,9
+26684,2024-10-26 14:00:00,Aston Villa,Bournemouth,1,2,9
+26685,2024-10-26 14:00:00,Brentford,Ipswich,3,9,9
+26686,2024-10-26 14:00:00,Brighton,Wolverhampton Wanderers,4,19,9
+26687,2024-10-26 16:30:00,Everton,Fulham,7,8,9
+26688,2024-10-27 13:00:00,Chelsea,Newcastle United,5,14,9
+26689,2024-10-27 13:00:00,Crystal Palace,Tottenham,6,17,9
+26690,2024-10-27 13:00:00,West Ham,Manchester United,18,13,9
+26691,2024-10-27 15:30:00,Arsenal,Liverpool,0,11,9
+26692,2024-11-02 14:00:00,Bournemouth,Manchester City,2,12,10
+26693,2024-11-02 14:00:00,Fulham,Brentford,8,3,10
+26694,2024-11-02 14:00:00,Newcastle United,Arsenal,14,0,10
+26695,2024-11-02 14:00:00,Ipswich,Leicester,9,10,10
+26696,2024-11-02 14:00:00,Liverpool,Brighton,11,4,10
+26697,2024-11-02 14:00:00,Manchester United,Chelsea,13,5,10
+26698,2024-11-02 14:00:00,Nottingham Forest,West Ham,15,18,10
+26699,2024-11-02 14:00:00,Southampton,Everton,16,7,10
+26700,2024-11-02 14:00:00,Tottenham,Aston Villa,17,1,10
+26701,2024-11-02 14:00:00,Wolverhampton Wanderers,Crystal Palace,19,6,10
+26702,2024-11-09 14:00:00,Brentford,Bournemouth,3,2,11
+26703,2024-11-09 14:00:00,Brighton,Manchester City,4,12,11
+26704,2024-11-09 14:00:00,Nottingham Forest,Newcastle United,15,14,11
+26705,2024-11-09 14:00:00,Chelsea,Arsenal,5,0,11
+26706,2024-11-09 14:00:00,Crystal Palace,Fulham,6,8,11
+26707,2024-11-09 14:00:00,Liverpool,Aston Villa,11,1,11
+26708,2024-11-09 14:00:00,Manchester United,Leicester,13,10,11
+26709,2024-11-09 14:00:00,Tottenham,Ipswich,17,9,11
+26710,2024-11-09 14:00:00,West Ham,Everton,18,7,11
+26711,2024-11-09 14:00:00,Wolverhampton Wanderers,Southampton,19,16,11
+26712,2024-11-23 14:00:00,Bournemouth,Brighton,2,4,12
+26713,2024-11-23 14:00:00,Newcastle United,West Ham,14,18,12
+26714,2024-11-23 14:00:00,Arsenal,Nottingham Forest,0,15,12
+26715,2024-11-23 14:00:00,Everton,Brentford,7,3,12
+26716,2024-11-23 14:00:00,Aston Villa,Crystal Palace,1,6,12
+26717,2024-11-23 14:00:00,Fulham,Wolverhampton Wanderers,8,19,12
+26718,2024-11-23 14:00:00,Ipswich,Manchester United,9,13,12
+26719,2024-11-23 14:00:00,Leicester,Chelsea,10,5,12
+26720,2024-11-23 14:00:00,Manchester City,Tottenham,12,17,12
+26721,2024-11-23 14:00:00,Southampton,Liverpool,16,11,12
+26722,2024-11-30 14:00:00,Brentford,Leicester,3,10,13
+26723,2024-11-30 14:00:00,Brighton,Southampton,4,16,13
+26724,2024-11-30 14:00:00,Chelsea,Aston Villa,5,1,13
+26725,2024-11-30 14:00:00,Crystal Palace,Newcastle United,6,14,13
+26726,2024-11-30 14:00:00,Liverpool,Manchester City,11,12,13
+26727,2024-11-30 14:00:00,Manchester United,Everton,13,7,13
+26728,2024-11-30 14:00:00,Nottingham Forest,Ipswich,15,9,13
+26729,2024-11-30 14:00:00,Tottenham,Fulham,17,8,13
+26730,2024-11-30 14:00:00,West Ham,Arsenal,18,0,13
+26731,2024-11-30 14:00:00,Wolverhampton Wanderers,Bournemouth,19,2,13
+26732,2024-12-03 18:45:00,Bournemouth,Tottenham,2,17,14
+26733,2024-12-03 18:45:00,Arsenal,Manchester United,0,13,14
+26734,2024-12-03 18:45:00,Aston Villa,Brentford,1,3,14
+26735,2024-12-03 18:45:00,Everton,Wolverhampton Wanderers,7,19,14
+26736,2024-12-03 18:45:00,Fulham,Brighton,8,4,14
+26737,2024-12-03 18:45:00,Ipswich,Crystal Palace,9,6,14
+26738,2024-12-03 18:45:00,Leicester,West Ham,10,18,14
+26739,2024-12-04 18:45:00,Manchester City,Nottingham Forest,12,15,14
+26740,2024-12-04 18:45:00,Newcastle United,Liverpool,14,11,14
+26741,2024-12-04 18:45:00,Southampton,Chelsea,16,5,14
+26742,2024-12-07 14:00:00,Aston Villa,Southampton,1,16,15
+26743,2024-12-07 14:00:00,Brentford,Newcastle United,3,14,15
+26744,2024-12-07 14:00:00,Manchester United,Nottingham Forest,13,15,15
+26745,2024-12-07 14:00:00,Tottenham,Chelsea,17,5,15
+26746,2024-12-07 14:00:00,West Ham,Wolverhampton Wanderers,18,19,15
+26747,2024-12-07 14:00:00,Crystal Palace,Manchester City,6,12,15
+26748,2024-12-07 14:00:00,Everton,Liverpool,7,11,15
+26749,2024-12-07 14:00:00,Fulham,Arsenal,8,0,15
+26750,2024-12-07 14:00:00,Ipswich,Bournemouth,9,2,15
+26751,2024-12-07 14:00:00,Leicester,Brighton,10,4,15
+26752,2024-12-14 14:00:00,Liverpool,Fulham,11,8,16
+26753,2024-12-14 14:00:00,Manchester City,Manchester United,12,13,16
+26754,2024-12-14 14:00:00,Bournemouth,West Ham,2,18,16
+26755,2024-12-14 14:00:00,Arsenal,Everton,0,7,16
+26756,2024-12-14 14:00:00,Brighton,Crystal Palace,4,6,16
+26757,2024-12-14 14:00:00,Chelsea,Brentford,5,3,16
+26758,2024-12-14 14:00:00,Wolverhampton Wanderers,Ipswich,19,9,16
+26759,2024-12-14 14:00:00,Southampton,Tottenham,16,17,16
+26760,2024-12-14 14:00:00,Newcastle United,Leicester,14,10,16
+26761,2024-12-14 14:00:00,Nottingham Forest,Aston Villa,15,1,16
+26762,2024-12-21 14:00:00,Aston Villa,Manchester City,1,12,17
+26763,2024-12-21 14:00:00,Fulham,Southampton,8,16,17
+26764,2024-12-21 14:00:00,Everton,Chelsea,7,5,17
+26765,2024-12-21 14:00:00,Crystal Palace,Arsenal,6,0,17
+26766,2024-12-21 14:00:00,Brentford,Nottingham Forest,3,15,17
+26767,2024-12-21 14:00:00,West Ham,Brighton,18,4,17
+26768,2024-12-21 14:00:00,Tottenham,Liverpool,17,11,17
+26769,2024-12-21 14:00:00,Manchester United,Bournemouth,13,2,17
+26770,2024-12-21 14:00:00,Leicester,Wolverhampton Wanderers,10,19,17
+26771,2024-12-21 14:00:00,Ipswich,Newcastle United,9,14,17
+26772,2024-12-26 14:00:00,Bournemouth,Crystal Palace,2,6,18
+26773,2024-12-26 14:00:00,Arsenal,Ipswich,0,9,18
+26774,2024-12-26 14:00:00,Brighton,Brentford,4,3,18
+26775,2024-12-26 14:00:00,Chelsea,Fulham,5,8,18
+26776,2024-12-26 14:00:00,Liverpool,Leicester,11,10,18
+26777,2024-12-26 14:00:00,Manchester City,Everton,12,7,18
+26778,2024-12-26 14:00:00,Newcastle United,Aston Villa,14,1,18
+26779,2024-12-26 14:00:00,Nottingham Forest,Tottenham,15,17,18
+26780,2024-12-26 14:00:00,Southampton,West Ham,16,18,18
+26781,2024-12-26 14:00:00,Wolverhampton Wanderers,Manchester United,19,13,18
+26782,2024-12-29 14:00:00,Aston Villa,Brighton,1,4,19
+26783,2024-12-29 14:00:00,Brentford,Arsenal,3,0,19
+26784,2024-12-29 14:00:00,Crystal Palace,Southampton,6,16,19
+26785,2024-12-29 14:00:00,Everton,Nottingham Forest,7,15,19
+26786,2024-12-29 14:00:00,Fulham,Bournemouth,8,2,19
+26787,2024-12-29 14:00:00,Ipswich,Chelsea,9,5,19
+26788,2024-12-29 14:00:00,Leicester,Manchester City,10,12,19
+26789,2024-12-29 14:00:00,Manchester United,Newcastle United,13,14,19
+26790,2024-12-29 14:00:00,Tottenham,Wolverhampton Wanderers,17,19,19
+26791,2024-12-29 14:00:00,West Ham,Liverpool,18,11,19
+26792,2025-01-04 14:00:00,Bournemouth,Everton,2,7,20
+26793,2025-01-04 14:00:00,Aston Villa,Leicester,1,10,20
+26794,2025-01-04 14:00:00,Brighton,Arsenal,4,0,20
+26795,2025-01-04 14:00:00,Crystal Palace,Chelsea,6,5,20
+26796,2025-01-04 14:00:00,Fulham,Ipswich,8,9,20
+26797,2025-01-04 14:00:00,Liverpool,Manchester United,11,13,20
+26798,2025-01-04 14:00:00,Manchester City,West Ham,12,18,20
+26799,2025-01-04 14:00:00,Southampton,Brentford,16,3,20
+26800,2025-01-04 14:00:00,Tottenham,Newcastle United,17,14,20
+26801,2025-01-04 14:00:00,Wolverhampton Wanderers,Nottingham Forest,19,15,20
+26802,2025-01-14 18:45:00,Arsenal,Tottenham,0,17,21
+26803,2025-01-14 18:45:00,Brentford,Manchester City,3,12,21
+26804,2025-01-14 18:45:00,Everton,Aston Villa,7,1,21
+26805,2025-01-14 18:45:00,Ipswich,Brighton,9,4,21
+26806,2025-01-14 18:45:00,Leicester,Crystal Palace,10,6,21
+26807,2025-01-14 18:45:00,Nottingham Forest,Liverpool,15,11,21
+26808,2025-01-14 18:45:00,West Ham,Fulham,18,8,21
+26809,2025-01-15 18:45:00,Chelsea,Bournemouth,5,2,21
+26810,2025-01-15 18:45:00,Newcastle United,Wolverhampton Wanderers,14,19,21
+26811,2025-01-15 19:00:00,Manchester United,Southampton,13,16,21
+26812,2025-01-18 14:00:00,Arsenal,Aston Villa,0,1,22
+26813,2025-01-18 14:00:00,Brentford,Liverpool,3,11,22
+26814,2025-01-18 14:00:00,Chelsea,Wolverhampton Wanderers,5,19,22
+26815,2025-01-18 14:00:00,Everton,Tottenham,7,17,22
+26816,2025-01-18 14:00:00,Ipswich,Manchester City,9,12,22
+26817,2025-01-18 14:00:00,Leicester,Fulham,10,8,22
+26818,2025-01-18 14:00:00,Manchester United,Brighton,13,4,22
+26819,2025-01-18 14:00:00,Newcastle United,Bournemouth,14,2,22
+26820,2025-01-18 14:00:00,Nottingham Forest,Southampton,15,16,22
+26821,2025-01-18 14:00:00,West Ham,Crystal Palace,18,6,22
+26822,2025-01-25 14:00:00,Bournemouth,Nottingham Forest,2,15,23
+26823,2025-01-25 14:00:00,Aston Villa,West Ham,1,18,23
+26824,2025-01-25 14:00:00,Brighton,Everton,4,7,23
+26825,2025-01-25 14:00:00,Crystal Palace,Brentford,6,3,23
+26826,2025-01-25 14:00:00,Fulham,Manchester United,8,13,23
+26827,2025-01-25 14:00:00,Liverpool,Ipswich,11,9,23
+26828,2025-01-25 14:00:00,Manchester City,Chelsea,12,5,23
+26829,2025-01-25 14:00:00,Southampton,Newcastle United,16,14,23
+26830,2025-01-25 14:00:00,Tottenham,Leicester,17,10,23
+26831,2025-01-25 14:00:00,Wolverhampton Wanderers,Arsenal,19,0,23
+26832,2025-02-01 14:00:00,Bournemouth,Liverpool,2,11,24
+26833,2025-02-01 14:00:00,Arsenal,Manchester City,0,12,24
+26834,2025-02-01 14:00:00,Brentford,Tottenham,3,17,24
+26835,2025-02-01 14:00:00,Chelsea,West Ham,5,18,24
+26836,2025-02-01 14:00:00,Everton,Leicester,7,10,24
+26837,2025-02-01 14:00:00,Ipswich,Southampton,9,16,24
+26838,2025-02-01 14:00:00,Manchester United,Crystal Palace,13,6,24
+26839,2025-02-01 14:00:00,Newcastle United,Fulham,14,8,24
+26840,2025-02-01 14:00:00,Nottingham Forest,Brighton,15,4,24
+26841,2025-02-01 14:00:00,Wolverhampton Wanderers,Aston Villa,19,1,24
+26842,2025-02-15 14:00:00,Aston Villa,Ipswich,1,9,25
+26843,2025-02-15 14:00:00,Brighton,Chelsea,4,5,25
+26844,2025-02-15 14:00:00,Crystal Palace,Everton,6,7,25
+26845,2025-02-15 14:00:00,Fulham,Nottingham Forest,8,15,25
+26846,2025-02-15 14:00:00,Leicester,Arsenal,10,0,25
+26847,2025-02-15 14:00:00,Liverpool,Wolverhampton Wanderers,11,19,25
+26848,2025-02-15 14:00:00,Manchester City,Newcastle United,12,14,25
+26849,2025-02-15 14:00:00,Southampton,Bournemouth,16,2,25
+26850,2025-02-15 14:00:00,Tottenham,Manchester United,17,13,25
+26851,2025-02-15 14:00:00,West Ham,Brentford,18,3,25
+26852,2025-02-22 14:00:00,Bournemouth,Wolverhampton Wanderers,2,19,26
+26853,2025-02-22 14:00:00,Arsenal,West Ham,0,18,26
+26854,2025-02-22 14:00:00,Aston Villa,Chelsea,1,5,26
+26855,2025-02-22 14:00:00,Everton,Manchester United,7,13,26
+26856,2025-02-22 14:00:00,Fulham,Crystal Palace,8,6,26
+26857,2025-02-22 14:00:00,Ipswich,Tottenham,9,17,26
+26858,2025-02-22 14:00:00,Leicester,Brentford,10,3,26
+26859,2025-02-22 14:00:00,Manchester City,Liverpool,12,11,26
+26860,2025-02-22 14:00:00,Newcastle United,Nottingham Forest,14,15,26
+26861,2025-02-22 14:00:00,Southampton,Brighton,16,4,26
+26862,2025-02-25 18:45:00,Brentford,Everton,3,7,27
+26863,2025-02-25 18:45:00,Brighton,Bournemouth,4,2,27
+26864,2025-02-25 18:45:00,Nottingham Forest,Arsenal,15,0,27
+26865,2025-02-25 18:45:00,Tottenham,Manchester City,17,12,27
+26866,2025-02-25 18:45:00,West Ham,Leicester,18,10,27
+26867,2025-02-25 18:45:00,Wolverhampton Wanderers,Fulham,19,8,27
+26868,2025-02-25 19:00:00,Crystal Palace,Aston Villa,6,1,27
+26869,2025-02-26 18:45:00,Chelsea,Southampton,5,16,27
+26870,2025-02-26 19:00:00,Liverpool,Newcastle United,11,14,27
+26871,2025-02-26 19:00:00,Manchester United,Ipswich,13,9,27
+26872,2025-03-08 14:00:00,Brentford,Aston Villa,3,1,28
+26873,2025-03-08 14:00:00,Brighton,Fulham,4,8,28
+26874,2025-03-08 14:00:00,Chelsea,Leicester,5,10,28
+26875,2025-03-08 14:00:00,Crystal Palace,Ipswich,6,9,28
+26876,2025-03-08 14:00:00,Liverpool,Southampton,11,16,28
+26877,2025-03-08 14:00:00,Manchester United,Arsenal,13,0,28
+26878,2025-03-08 14:00:00,Nottingham Forest,Manchester City,15,12,28
+26879,2025-03-08 14:00:00,Tottenham,Bournemouth,17,2,28
+26880,2025-03-08 14:00:00,West Ham,Newcastle United,18,14,28
+26881,2025-03-08 14:00:00,Wolverhampton Wanderers,Everton,19,7,28
+26882,2025-03-15 14:00:00,Bournemouth,Brentford,2,3,29
+26883,2025-03-15 14:00:00,Arsenal,Chelsea,0,5,29
+26884,2025-03-15 14:00:00,Aston Villa,Liverpool,1,11,29
+26885,2025-03-15 14:00:00,Everton,West Ham,7,18,29
+26886,2025-03-15 14:00:00,Fulham,Tottenham,8,17,29
+26887,2025-03-15 14:00:00,Ipswich,Nottingham Forest,9,15,29
+26888,2025-03-15 14:00:00,Leicester,Manchester United,10,13,29
+26889,2025-03-15 14:00:00,Manchester City,Brighton,12,4,29
+26890,2025-03-15 14:00:00,Newcastle United,Crystal Palace,14,6,29
+26891,2025-03-15 14:00:00,Southampton,Wolverhampton Wanderers,16,19,29
+26892,2025-04-01 18:45:00,Arsenal,Fulham,0,8,30
+26893,2025-04-01 18:45:00,Brighton,Aston Villa,4,1,30
+26894,2025-04-01 18:45:00,Nottingham Forest,Manchester United,15,13,30
+26895,2025-04-01 18:45:00,Wolverhampton Wanderers,West Ham,19,18,30
+26896,2025-04-01 18:45:00,Bournemouth,Ipswich,2,9,30
+26897,2025-04-02 18:45:00,Chelsea,Tottenham,5,17,30
+26898,2025-04-02 18:45:00,Manchester City,Leicester,12,10,30
+26899,2025-04-02 18:45:00,Newcastle United,Brentford,14,3,30
+26900,2025-04-02 18:45:00,Southampton,Crystal Palace,16,6,30
+26901,2025-04-02 19:00:00,Liverpool,Everton,11,7,30
+26902,2025-04-05 14:00:00,Aston Villa,Nottingham Forest,1,15,31
+26903,2025-04-05 14:00:00,Brentford,Chelsea,3,5,31
+26904,2025-04-05 14:00:00,Crystal Palace,Brighton,6,4,31
+26905,2025-04-05 14:00:00,Everton,Arsenal,7,0,31
+26906,2025-04-05 14:00:00,Fulham,Liverpool,8,11,31
+26907,2025-04-05 14:00:00,Ipswich,Wolverhampton Wanderers,9,19,31
+26908,2025-04-05 14:00:00,Leicester,Newcastle United,10,14,31
+26909,2025-04-05 14:00:00,Manchester United,Manchester City,13,12,31
+26910,2025-04-05 14:00:00,Tottenham,Southampton,17,16,31
+26911,2025-04-05 14:00:00,West Ham,Bournemouth,18,2,31
+26912,2025-04-12 14:00:00,Bournemouth,Fulham,2,8,32
+26913,2025-04-12 14:00:00,Arsenal,Brentford,0,3,32
+26914,2025-04-12 14:00:00,Brighton,Leicester,4,10,32
+26915,2025-04-12 14:00:00,Chelsea,Ipswich,5,9,32
+26916,2025-04-12 14:00:00,Liverpool,West Ham,11,18,32
+26917,2025-04-12 14:00:00,Manchester City,Crystal Palace,12,6,32
+26918,2025-04-12 14:00:00,Newcastle United,Manchester United,14,13,32
+26919,2025-04-12 14:00:00,Wolverhampton Wanderers,Tottenham,19,17,32
+26920,2025-04-12 14:00:00,Nottingham Forest,Everton,15,7,32
+26921,2025-04-12 14:00:00,Southampton,Aston Villa,16,1,32
+26922,2025-04-19 14:00:00,Aston Villa,Newcastle United,1,14,33
+26923,2025-04-19 14:00:00,Brentford,Brighton,3,4,33
+26924,2025-04-19 14:00:00,Crystal Palace,Bournemouth,6,2,33
+26925,2025-04-19 14:00:00,Everton,Manchester City,7,12,33
+26926,2025-04-19 14:00:00,Fulham,Chelsea,8,5,33
+26927,2025-04-19 14:00:00,Ipswich,Arsenal,9,0,33
+26928,2025-04-19 14:00:00,Leicester,Liverpool,10,11,33
+26929,2025-04-19 14:00:00,Manchester United,Wolverhampton Wanderers,13,19,33
+26930,2025-04-19 14:00:00,Tottenham,Nottingham Forest,17,15,33
+26931,2025-04-19 14:00:00,West Ham,Southampton,18,16,33
+26932,2025-04-26 14:00:00,Bournemouth,Manchester United,2,13,34
+26933,2025-04-26 14:00:00,Arsenal,Crystal Palace,0,6,34
+26934,2025-04-26 14:00:00,Brighton,West Ham,4,18,34
+26935,2025-04-26 14:00:00,Chelsea,Everton,5,7,34
+26936,2025-04-26 14:00:00,Liverpool,Tottenham,11,17,34
+26937,2025-04-26 14:00:00,Manchester City,Aston Villa,12,1,34
+26938,2025-04-26 14:00:00,Newcastle United,Ipswich,14,9,34
+26939,2025-04-26 14:00:00,Nottingham Forest,Brentford,15,3,34
+26940,2025-04-26 14:00:00,Southampton,Fulham,16,8,34
+26941,2025-04-26 14:00:00,Wolverhampton Wanderers,Leicester,19,10,34
+26942,2025-05-03 14:00:00,Manchester City,Wolverhampton Wanderers,12,19,35
+26943,2025-05-03 14:00:00,West Ham,Tottenham,18,17,35
+26944,2025-05-03 14:00:00,Brighton,Newcastle United,4,14,35
+26945,2025-05-03 14:00:00,Arsenal,Bournemouth,0,2,35
+26946,2025-05-03 14:00:00,Aston Villa,Fulham,1,8,35
+26947,2025-05-03 14:00:00,Brentford,Manchester United,3,13,35
+26948,2025-05-03 14:00:00,Chelsea,Liverpool,5,11,35
+26949,2025-05-03 14:00:00,Crystal Palace,Nottingham Forest,6,15,35
+26950,2025-05-03 14:00:00,Everton,Ipswich,7,9,35
+26951,2025-05-03 14:00:00,Leicester,Southampton,10,16,35
+26952,2025-05-10 14:00:00,Liverpool,Arsenal,11,0,36
+26953,2025-05-10 14:00:00,Fulham,Everton,8,7,36
+26954,2025-05-10 14:00:00,Ipswich,Brentford,9,3,36
+26955,2025-05-10 14:00:00,Bournemouth,Aston Villa,2,1,36
+26956,2025-05-10 14:00:00,Manchester United,West Ham,13,18,36
+26957,2025-05-10 14:00:00,Newcastle United,Chelsea,14,5,36
+26958,2025-05-10 14:00:00,Nottingham Forest,Leicester,15,10,36
+26959,2025-05-10 14:00:00,Southampton,Manchester City,16,12,36
+26960,2025-05-10 14:00:00,Tottenham,Crystal Palace,17,6,36
+26961,2025-05-10 14:00:00,Wolverhampton Wanderers,Brighton,19,4,36
+26962,2025-05-18 14:00:00,Arsenal,Newcastle United,0,14,37
+26963,2025-05-18 14:00:00,Aston Villa,Tottenham,1,17,37
+26964,2025-05-18 14:00:00,Brentford,Fulham,3,8,37
+26965,2025-05-18 14:00:00,Brighton,Liverpool,4,11,37
+26966,2025-05-18 14:00:00,Chelsea,Manchester United,5,13,37
+26967,2025-05-18 14:00:00,Crystal Palace,Wolverhampton Wanderers,6,19,37
+26968,2025-05-18 14:00:00,Everton,Southampton,7,16,37
+26969,2025-05-18 14:00:00,Leicester,Ipswich,10,9,37
+26970,2025-05-18 14:00:00,Manchester City,Bournemouth,12,2,37
+26971,2025-05-18 14:00:00,West Ham,Nottingham Forest,18,15,37
+26972,2025-05-25 15:00:00,Nottingham Forest,Chelsea,15,5,38
+26973,2025-05-25 15:00:00,Newcastle United,Everton,14,7,38
+26974,2025-05-25 15:00:00,Manchester United,Aston Villa,13,1,38
+26975,2025-05-25 15:00:00,Liverpool,Crystal Palace,11,6,38
+26976,2025-05-25 15:00:00,Tottenham,Brighton,17,4,38
+26977,2025-05-25 15:00:00,Southampton,Arsenal,16,0,38
+26978,2025-05-25 15:00:00,Wolverhampton Wanderers,Brentford,19,3,38
+26979,2025-05-25 15:00:00,Bournemouth,Leicester,2,10,38
+26980,2025-05-25 15:00:00,Ipswich,West Ham,9,18,38
+26981,2025-05-25 15:00:00,Fulham,Manchester City,8,12,38

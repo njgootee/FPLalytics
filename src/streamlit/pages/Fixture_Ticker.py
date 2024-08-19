@@ -30,15 +30,23 @@ with st.sidebar:
 fixtures = pd.read_csv("data/" + str(season_option)[:4] + "/season_data.csv")
 odm_data = pd.read_csv("data/" + str(season_option)[:4] + "/odm_rating.csv")
 odm_data = odm_data.tail(20)
-# curr_gw = latest_gw + 1
-curr_gw = 33
+team_mapping = pd.read_csv("data/" + str(season_option)[:4] + "/team_mapping.csv")
+curr_gw = latest_gw + 1
+if latest_gw == 38:
+    curr_gw = 33
 
 # title and information
 st.title("Fixture Ticker")
-st.caption(
-    ":warning: Post-Season View",
-    help="Post-season view displays the final 6 gameweeks.",
-)
+if latest_gw == 38:
+    st.caption(
+        ":warning: Post-Season View",
+        help="Post-season view displays the final 6 gameweeks",
+    )
+if latest_gw < 7:
+    st.caption(
+        ":warning: Early Season View",
+        help="ODM ratings are based on past season until Gameweek 7",
+    )
 with st.expander("Information", expanded=False):
     st.markdown(
         """Use this tool to compare upcoming fixture difficulty for different teams and asset types.
@@ -86,28 +94,7 @@ elif model_option == "Past 6 Gameweeks":
     d_rating_dict = odm_data.set_index("team")["d_rating_psix"].to_dict()
 
 # short team names
-short_name_dict = {
-    "Arsenal": "ARS",
-    "Aston Villa": "AVL",
-    "Bournemouth": "BOU",
-    "Brentford": "BRE",
-    "Brighton": "BRI",
-    "Burnley": "BUR",
-    "Chelsea": "CHE",
-    "Crystal Palace": "CRY",
-    "Everton": "EVE",
-    "Fulham": "FUL",
-    "Liverpool": "LIV",
-    "Luton": "LUT",
-    "Manchester City": "MCI",
-    "Manchester United": "MUN",
-    "Newcastle United": "NEW",
-    "Nottingham Forest": "NFO",
-    "Sheffield United": "SHU",
-    "Tottenham": "TOT",
-    "West Ham": "WHU",
-    "Wolverhampton Wanderers": "WOL",
-}
+short_name_dict = dict(zip(team_mapping["team"], team_mapping["team_short"]))
 
 # create offence data frames
 o_fixture_values = fixtures.applymap(
