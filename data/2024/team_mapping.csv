@@ -1,4 +1,4 @@
-team_id,team,team_short,understat_id,colour
+team_id,team_name,team_short,understat_team_id,team_colour
 0,Arsenal,ARS,83,#ff0000
 1,Aston Villa,AVL,71,#490024
 2,Bournemouth,BOU,73,#d71921
@@ -8,14 +8,14 @@ team_id,team,team_short,understat_id,colour
 6,Crystal Palace,CRY,78,#0055a5
 7,Everton,EVE,72,#003399
 8,Fulham,FUL,228,#ffffff
-9,Ipswich,IPS,,#0333a1
-10,Leicester,LEI,,#003190
+9,Ipswich,IPS,285,#0333a1
+10,Leicester,LEI,75,#003190
 11,Liverpool,LIV,87,#d3171e
 12,Manchester City,MCI,88,#98c5e9
 13,Manchester United,MUN,89,#d20222
 14,Newcastle United,NEW,86,#ffffff
 15,Nottingham Forest,NFO,249,#dc0202
-16,Southampton,SOU,,#fe0128
+16,Southampton,SOU,74,#fe0128
 17,Tottenham,TOT,82,#ffffff
 18,West Ham,WHU,81,#540d1a
 19,Wolverhampton Wanderers,WOL,229,#fc891c

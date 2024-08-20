@@ -1,4 +1,4 @@
-team_id,team,team_short,understat_id,colour
+team_id,team_name,team_short,understat_team_id,team_colour
 0,Arsenal,ARS,83,#ff0000
 1,Aston Villa,AVL,71,#490024
 2,Bournemouth,BOU,73,#d71921

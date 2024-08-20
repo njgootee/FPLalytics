@@ -94,7 +94,7 @@ elif model_option == "Past 6 Gameweeks":
     d_rating_dict = odm_data.set_index("team")["d_rating_psix"].to_dict()
 
 # short team names
-short_name_dict = dict(zip(team_mapping["team"], team_mapping["team_short"]))
+short_name_dict = dict(zip(team_mapping["team_name"], team_mapping["team_short"]))
 
 # create offence data frames
 o_fixture_values = fixtures.applymap(

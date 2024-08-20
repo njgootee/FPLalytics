@@ -1,4 +1,4 @@
-id,goals,own_goals,shots,xG,time,player_id,team,position,player,h_a,yellow_card,red_card,roster_in,roster_out,key_passes,assists,xA,xGChain,xGBuildup,positionOrder,fixture_id,team_id,team_name,h_xg,a_xg,team_xG,xGI,gameweek,penalty,npxG,npxGI
+id,goals,own_goals,shots,xG,time,player_id,understat_team_id,position,player,h_a,yellow_card,red_card,roster_in,roster_out,key_passes,assists,xA,xGChain,xGBuildup,positionOrder,fixture_id,team_id,team_name,h_xg,a_xg,team_xG,xGI,gameweek,penalty,npxG,npxGI
 603696,0,0,0,0.0,90,5603,83,GK,Aaron Ramsdale,h,0,0,0,0,0,0,0.0,0.1065660342574119,0.1065660342574119,1,22276,0,Arsenal,0.84262,0.966305,0.84262,0.0,1,0,0.0,0.0
 603697,0,0,0,0.0,90,2328,83,DR,Thomas Partey,h,0,0,0,0,2,0,0.0884110257029533,0.3736345469951629,0.3736345469951629,2,22276,0,Arsenal,0.84262,0.966305,0.84262,0.0884110257029533,1,0,0.0,0.0884110257029533
 603699,0,0,0,0.0,90,7298,83,DC,Ben White,h,1,0,0,0,0,0,0.0,0.1981909722089767,0.1981909722089767,3,22276,0,Arsenal,0.84262,0.966305,0.84262,0.0,1,0,0.0,0.0

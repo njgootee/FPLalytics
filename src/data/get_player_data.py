@@ -1,13 +1,19 @@
 from understatapi import UnderstatClient
 import pandas as pd
 import numpy as np
+import sys
 
 
-def get_player_data_func():
-    """Retrieve player level (per fixture) data from Understat"""
+def get_player_data(season):
+    """Retrieve player level (per fixture) data from Understat. Use after get_fixture_data.py completed.
+
+    Args:
+        season (str): start year of EPL season to retrieve
+    """
     # read in existing data
-    fixture_data = pd.read_csv("data/2023/fixture_data.csv")
-    player_data = pd.read_csv("data/2023/player_data.csv")
+    fixture_data = pd.read_csv("data/" + season + "/fixture_data.csv")
+    player_data = pd.read_csv("data/" + season + "/player_data.csv")
+    team_mapping = pd.read_csv("data/" + season + "/team_mapping.csv")
 
     # get ids of resulted fixtures
     fixture_resulted_ids = fixture_data["fixture_id"].to_list()
@@ -19,9 +25,9 @@ def get_player_data_func():
     )
 
     # iterate through matches not yet recorded
-    for fixture_id in new_fixture_ids:
+    for new_fixture in new_fixture_ids:
         with UnderstatClient() as understat:
-            curr_match = understat.match(match=str(fixture_id))
+            curr_match = understat.match(match=str(new_fixture))
             # Get player performance data
             roster_data = curr_match.get_roster_data()
             # Get shot data
@@ -43,62 +49,24 @@ def get_player_data_func():
         penalties = penalties.astype("int64")
 
         # add fixture id feature
-        new_player_data["fixture_id"] = int(fixture_id)
+        new_player_data["fixture_id"] = int(new_fixture)
+
         # add gameweek feature
         new_player_data = new_player_data.merge(
             fixture_data[["fixture_id", "gameweek"]], on="fixture_id"
         )
+
         # consolidate team id
-        new_player_data.rename(columns={"team_id": "team"}, inplace=True)
-        new_player_data["team_id"] = new_player_data["team"].map(
-            {
-                "83": 0,
-                "71": 1,
-                "73": 2,
-                "244": 3,
-                "220": 4,
-                "92": 5,
-                "80": 6,
-                "78": 7,
-                "72": 8,
-                "228": 9,
-                "87": 10,
-                "256": 11,
-                "88": 12,
-                "89": 13,
-                "86": 14,
-                "249": 15,
-                "238": 16,
-                "82": 17,
-                "81": 18,
-                "229": 19,
-            }
+        new_player_data.rename(columns={"team_id": "understat_team_id"}, inplace=True)
+        new_player_data["understat_team_id"] = new_player_data[
+            "understat_team_id"
+        ].astype("int")
+        new_player_data = new_player_data.merge(
+            team_mapping[["understat_team_id", "team_id", "team_name"]],
+            how="left",
+            on="understat_team_id",
         )
-        # add team name
-        new_player_data["team_name"] = new_player_data["team_id"].map(
-            {
-                0: "Arsenal",
-                1: "Aston Villa",
-                2: "Bournemouth",
-                3: "Brentford",
-                4: "Brighton",
-                5: "Burnley",
-                6: "Chelsea",
-                7: "Crystal Palace",
-                8: "Everton",
-                9: "Fulham",
-                10: "Liverpool",
-                11: "Luton",
-                12: "Manchester City",
-                13: "Manchester United",
-                14: "Newcastle United",
-                15: "Nottingham Forest",
-                16: "Sheffield United",
-                17: "Tottenham",
-                18: "West Ham",
-                19: "Wolverhampton Wanderers",
-            }
-        )
+
         # add team xg data
         new_player_data = new_player_data.merge(
             fixture_data[["fixture_id", "h_xg", "a_xg"]], on="fixture_id"
@@ -108,13 +76,16 @@ def get_player_data_func():
             new_player_data["h_xg"],
             new_player_data["a_xg"],
         )
+
         # adjust dtypes
         new_player_data["xG"] = new_player_data["xG"].astype(float)
         new_player_data["xA"] = new_player_data["xA"].astype(float)
         new_player_data["fixture_id"] = new_player_data["fixture_id"].astype("int64")
         new_player_data["player_id"] = new_player_data["player_id"].astype("int64")
+
         # add xgi
         new_player_data["xGI"] = new_player_data["xG"] + new_player_data["xA"]
+
         # add pen data, calculate non pen xg and xgi
         new_player_data = new_player_data.merge(
             penalties, how="left", on=["fixture_id", "player_id"]
@@ -126,6 +97,7 @@ def get_player_data_func():
             new_player_data["xG"] - new_player_data["penalty"] * 0.7611688375473022
         )
         new_player_data["npxGI"] = new_player_data["npxG"] + new_player_data["xA"]
+
         # add new player data to database
         player_data = pd.concat([player_data, new_player_data], ignore_index=True)
 
@@ -133,4 +105,8 @@ def get_player_data_func():
     player_data.sort_values(by=["gameweek", "team_id"], inplace=True)
 
     # write updates
-    player_data.to_csv("data/2023/player_data.csv", index=False)
+    player_data.to_csv("data/" + season + "/player_data.csv", index=False)
+
+
+if __name__ == "__main__":
+    get_player_data(sys.argv[1])
