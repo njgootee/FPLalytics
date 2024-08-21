@@ -28,9 +28,22 @@ with st.sidebar:
 # read data in
 odm_data = pd.read_csv("data/" + str(season_option)[:4] + "/odm_rating.csv")
 odm_data = odm_data.tail(20)
+team_mapping = pd.read_csv("data/" + str(season_option)[:4] + "/team_mapping.csv")
+odm_data = odm_data.merge(team_mapping, how="left", on="team_id")
+
+# calculate overall rankings
+odm_data["ovr_rating_season"] = (
+    odm_data["o_rating_season"] / odm_data["d_rating_season"]
+)
+odm_data["ovr_rating_psix"] = odm_data["o_rating_psix"] / odm_data["d_rating_psix"]
 
 # title and information
 st.title("Offensive / Defensive Ratings")
+if latest_gw < 7:
+    st.caption(
+        ":warning: Early Season View",
+        help="ODM ratings are based on past season until Gameweek 7",
+    )
 with st.expander("Information", expanded=False):
     st.markdown(
         """Use this tool to compare offensive and defensive strength of teams.
@@ -49,125 +62,143 @@ with st.expander("Options", expanded=False):
     elif model_option == "Past 6 Gameweeks":
         model_type = "psix"
 
-    # color type select box
-    team_specific = st.checkbox("Use team specific color scheme")
 
-# chart color mapping
-domain = [
-    "Arsenal",
-    "Aston Villa",
-    "Bournemouth",
-    "Brentford",
-    "Brighton",
-    "Burnley",
-    "Chelsea",
-    "Crystal Palace",
-    "Everton",
-    "Fulham",
-    "Liverpool",
-    "Luton",
-    "Manchester City",
-    "Manchester United",
-    "Newcastle United",
-    "Nottingham Forest",
-    "Sheffield United",
-    "Tottenham",
-    "West Ham",
-    "Wolverhampton Wanderers",
-]
-range_ = [
-    "#ff0000",
-    "#490024",
-    "#d71921",
-    "#fd0000",
-    "#0000fd",
-    "#70193d",
-    "#001489",
-    "#0055a5",
-    "#003399",
-    "#ffffff",
-    "#d3171e",
-    "#fc5001",
-    "#98c5e9",
-    "#d20222",
-    "#ffffff",
-    "#dc0202",
-    "#f12228",
-    "#ffffff",
-    "#540d1a",
-    "#fc891c",
-]
-
-# Team highlight
+# Team on-click highlight
 context_selection = alt.selection_point(fields=["team"])
-if team_specific:
-    o_context_color = alt.condition(
-        context_selection,
-        alt.Color("team:N", scale=alt.Scale(domain=domain, range=range_), legend=None),
-        alt.value("#262730"),
-    )
-    d_context_color = alt.condition(
-        context_selection,
-        alt.Color("team:N", scale=alt.Scale(domain=domain, range=range_), legend=None),
-        alt.value("#262730"),
-    )
-else:
-    o_context_color = alt.condition(
-        context_selection, alt.value("#ff4b4b"), alt.value("#262730")
-    )
-    d_context_color = alt.condition(
-        context_selection, alt.value("#60b4ff"), alt.value("#262730")
-    )
 
-col1, col2 = st.columns(2)
-# Offensive rating chart
-with col1:
-    st.header("Offensive Ratings")
-    off_chart = (
-        alt.Chart(odm_data, height=600)
-        .mark_bar()
-        .encode(
-            x=alt.X(
-                "o_rating_" + model_type, type="quantitative", title="Offensive Rating"
-            ),
-            y=alt.Y("team", type="nominal", title="").sort("-x"),
-            color=o_context_color,
-            tooltip=[
-                alt.Tooltip("team", title="Team"),
-                alt.Tooltip(
+# tabs
+od_tab, ovr_tab = st.tabs(["Offense/Defense", "Overall"])
+
+# offense/defense tab
+with od_tab:
+    col1, col2 = st.columns(2)
+    # Offensive rating chart
+    with col1:
+        st.header("Offensive Ratings")
+        st.caption("Greater value indicates stronger offense")
+        off_chart = (
+            alt.Chart(odm_data, height=600)
+            .mark_bar()
+            .encode(
+                x=alt.X(
                     "o_rating_" + model_type,
+                    type="quantitative",
                     title="Offensive Rating",
-                    type="quantitative",
-                    format="d",
                 ),
-            ],
+                y=alt.Y("team_short", type="nominal", title="").sort("-x"),
+                color=alt.condition(
+                    context_selection, alt.value("#ff4b4b"), alt.value("#262730")
+                ),
+                tooltip=[
+                    alt.Tooltip("team", title="Team"),
+                    alt.Tooltip(
+                        "o_rating_" + model_type,
+                        title="Offensive Rating",
+                        type="quantitative",
+                        format="d",
+                    ),
+                ],
+            )
+            .add_params(context_selection)
         )
-        .add_params(context_selection)
-    )
-    st.altair_chart(off_chart, use_container_width=True)
+        st.altair_chart(off_chart, use_container_width=True)
 
-# Defensive rating chart
-with col2:
-    st.header("Defensive Ratings")
-    def_chart = (
-        alt.Chart(odm_data, height=600)
-        .mark_bar()
-        .encode(
-            x=alt.X(
-                "d_rating_" + model_type, type="quantitative", title="Defensive Rating"
-            ),
-            y=alt.Y("team", type="nominal", title="").sort("x"),
-            color=d_context_color,
-            tooltip=[
-                alt.Tooltip("team", title="Team"),
-                alt.Tooltip(
+    # Defensive rating chart
+    with col2:
+        st.header("Defensive Ratings")
+        st.caption("Lesser value indicates stronger defense")
+        def_chart = (
+            alt.Chart(odm_data, height=600)
+            .mark_bar()
+            .encode(
+                x=alt.X(
                     "d_rating_" + model_type,
-                    title="Defensive Rating",
                     type="quantitative",
-                    format=".2f",
+                    title="Defensive Rating",
                 ),
-            ],
+                y=alt.Y("team_short", type="nominal", title="").sort("x"),
+                color=alt.condition(
+                    context_selection, alt.value("#60b4ff"), alt.value("#262730")
+                ),
+                tooltip=[
+                    alt.Tooltip("team", title="Team"),
+                    alt.Tooltip(
+                        "d_rating_" + model_type,
+                        title="Defensive Rating",
+                        type="quantitative",
+                        format=".2f",
+                    ),
+                ],
+            )
+            .add_params(context_selection)
         )
-        .add_params(context_selection)
-    )
-    st.altair_chart(def_chart, use_container_width=True)
+        st.altair_chart(def_chart, use_container_width=True)
+
+# overall tab
+with ovr_tab:
+    col1, col2 = st.columns(2)
+    with col1:
+        # offense vs defense scatter chart
+        st.header("Offense vs Defense")
+        st.caption("Compare offensive and defensive strength")
+        scatter_chart = (
+            alt.Chart(odm_data, height=600)
+            .mark_point()
+            .encode(
+                x=alt.X(
+                    "d_rating_" + model_type,
+                    type="quantitative",
+                    title="Defensive Rating",
+                ),
+                y=alt.Y(
+                    "o_rating_" + model_type,
+                    type="quantitative",
+                    title="Offensive Rating",
+                ),
+                tooltip=[
+                    alt.Tooltip("team_name", title="Team"),
+                    alt.Tooltip(
+                        "o_rating_" + model_type, title="Offensive Rating", format="d"
+                    ),
+                    alt.Tooltip(
+                        "d_rating_" + model_type, title="Defensive Rating", format=".2f"
+                    ),
+                ],
+                color=alt.Color("team_name", legend=None),
+            )
+            .configure_range(
+                category=alt.RangeScheme(odm_data["team_colour"].to_list())
+            )
+        )
+        st.altair_chart(scatter_chart, use_container_width=True)
+
+    with col2:
+        # Overall rating chart
+        st.header("Overall Ratings")
+        st.caption("Greater value indicates stronger overall")
+        ovr_chart = (
+            alt.Chart(odm_data, height=600)
+            .mark_bar()
+            .encode(
+                x=alt.X(
+                    "ovr_rating_" + model_type,
+                    type="quantitative",
+                    title="Offensive Rating",
+                ),
+                y=alt.Y("team_short", type="nominal", title="").sort("-x"),
+                color=alt.condition(
+                    context_selection, alt.value("#8B61FF"), alt.value("#262730")
+                ),
+                tooltip=[
+                    alt.Tooltip("team", title="Team"),
+                    alt.Tooltip(
+                        "ovr_rating_" + model_type,
+                        title="Overall Rating",
+                        type="quantitative",
+                        format="d",
+                    ),
+                ],
+            )
+            .add_params(context_selection)
+        )
+        st.altair_chart(ovr_chart, use_container_width=True)
