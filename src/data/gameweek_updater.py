@@ -1,6 +1,7 @@
 import sys
-from get_fixture_data import get_fixture_data_func
-from get_player_data import get_player_data_func
+import pandas as pd
+from get_fixture_data import get_fixture_data
+from get_player_data import get_player_data
 
 # odm dir
 sys.path.append("src/models")
@@ -8,8 +9,14 @@ from odm import odm_func
 
 # read in finished gameweek from user input
 GW = int(sys.argv[1])
+SEASON = sys.argv[2]
 
 # run data and model scripts
-get_fixture_data_func(GW)
-odm_func(GW + 1)
-get_player_data_func()
+get_fixture_data(GW, SEASON)
+# odm_func(GW + 1)
+get_player_data(SEASON)
+
+# update app vars
+app_vars = pd.read_csv("data/app_vars.csv")
+app_vars.loc[app_vars["season"].str[:4] == SEASON, "latest_gameweek"] = GW
+app_vars.to_csv("data/app_vars.csv", index=False)

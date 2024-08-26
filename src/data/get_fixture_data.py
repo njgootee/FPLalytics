@@ -41,22 +41,22 @@ def get_fixture_data(gw, season):
 
             # add home team id
             new_fixture_data = new_fixture_data.merge(
-                team_mapping[["team_id", "team"]],
+                team_mapping[["team_id", "team_name"]],
                 how="left",
                 left_on="team_h",
-                right_on="team",
+                right_on="team_name",
             )
-            new_fixture_data.drop(columns={"team"}, inplace=True)
+            new_fixture_data.drop(columns={"team_name"}, inplace=True)
             new_fixture_data.rename(columns={"team_id": "h_id"}, inplace=True)
 
             # add away team id
             new_fixture_data = new_fixture_data.merge(
-                team_mapping[["team_id", "team"]],
+                team_mapping[["team_id", "team_name"]],
                 how="left",
                 left_on="team_a",
-                right_on="team",
+                right_on="team_name",
             )
-            new_fixture_data.drop(columns={"team"}, inplace=True)
+            new_fixture_data.drop(columns={"team_name"}, inplace=True)
             new_fixture_data.rename(columns={"team_id": "a_id"}, inplace=True)
 
             # consolidate fixture id
