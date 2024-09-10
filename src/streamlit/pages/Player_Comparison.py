@@ -150,7 +150,7 @@ aux_df = (
         appearances=("web_name_pos", "count"),
         yc=("yellow_card", "sum"),
         rc=("red_card", "sum"),
-        penalties=("penalty", "sum"),
+        penalties=("penalty_scored", "sum"),
     )
     .rename(columns={"team_name": "team"})
 )
@@ -238,7 +238,9 @@ st.dataframe(
         "minutes": "Minutes",
         "appearances": "Appearances",
         "mpa": st.column_config.NumberColumn("MPA", help="Minutes Per Appearance"),
-        "penalties": "Penalties",
+        "penalties": st.column_config.NumberColumn(
+            "Penalties", help="Penalties Scored"
+        ),
         "yc": st.column_config.NumberColumn("YC", help="Yellow Cards"),
         "rc": st.column_config.NumberColumn("RC", help="Red Cards"),
         "o_rating": st.column_config.NumberColumn(

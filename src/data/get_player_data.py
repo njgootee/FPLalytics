@@ -42,11 +42,19 @@ def get_player_data(season):
         home_shots = pd.DataFrame(shot_data["h"])
         away_shots = pd.DataFrame(shot_data["a"])
         shots = pd.concat([home_shots, away_shots])
-        penalties = shots[shots["situation"] == "Penalty"][
-            ["player_id", "match_id"]
+        penalties = shots[shots["situation"] == "Penalty"].reset_index()
+        penalty_xG = float(penalties["xG"].max())
+        if penalties.empty:
+            penalty_xG = 0.0
+        penalties["penalty_attempt"] = 1
+        penalties["penalty_scored"] = np.where(penalties["result"] == "Goal", 1, 0)
+        penalties = penalties[
+            ["player_id", "match_id", "penalty_attempt", "penalty_scored"]
         ].rename(columns={"match_id": "fixture_id"})
-        penalties = penalties.value_counts().reset_index(name="penalty")
         penalties = penalties.astype("int64")
+        penalties = penalties.groupby(
+            by=["player_id", "fixture_id"], as_index=False
+        ).sum()
 
         # add fixture id feature
         new_player_data["fixture_id"] = int(new_fixture)
@@ -90,11 +98,14 @@ def get_player_data(season):
         new_player_data = new_player_data.merge(
             penalties, how="left", on=["fixture_id", "player_id"]
         )
-        new_player_data["penalty"] = (
-            new_player_data["penalty"].fillna(0).astype("int64")
+        new_player_data["penalty_attempt"] = (
+            new_player_data["penalty_attempt"].fillna(0).astype("int64")
+        )
+        new_player_data["penalty_scored"] = (
+            new_player_data["penalty_scored"].fillna(0).astype("int64")
         )
         new_player_data["npxG"] = (
-            new_player_data["xG"] - new_player_data["penalty"] * 0.7611688375473022
+            new_player_data["xG"] - new_player_data["penalty_attempt"] * penalty_xG
         )
         new_player_data["npxGI"] = new_player_data["npxG"] + new_player_data["xA"]
 
