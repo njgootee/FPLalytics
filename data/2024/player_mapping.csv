@@ -170,7 +170,7 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,now_cost,pos,penalties_or
 8430,Chris Richards,194,Chris Richards,C.Richards,2,4.5,(D),
 11167,Chadi Riad,195,Chadi Riad Dnanou,Chadi Riad,2,4.5,(D),
 603,Nathaniel Clyne,196,Nathaniel Clyne,Clyne,2,4.4,(D),
-8706,Eberechi Eze,199,Eberechi Eze,Eze,3,6.9,(M),1
+8706,Eberechi Eze,199,Eberechi Eze,Eze,3,6.9,(M),2
 7603,Marc Guehi,200,Marc Guéhi,Guéhi,2,4.5,(D),
 7702,Dean Henderson,201,Dean Henderson,Henderson,1,4.5,(G),
 ,,202,Rob Holding,Holding,2,4.4,(D),
@@ -416,7 +416,7 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,now_cost,pos,penalties_or
 ,,430,Emmanuel Dennis,Dennis,4,5,(F),
 8252,Nicolás Domínguez,431,Nicolás Domínguez,Dominguez,3,4.9,(M),
 9524,Anthony Elanga,432,Anthony Elanga,Elanga,3,5.4,(M),
-6857,Morgan Gibbs-White,433,Morgan Gibbs-White,Gibbs-White,3,6.5,(M),1
+6857,Morgan Gibbs-White,433,Morgan Gibbs-White,Gibbs-White,3,6.5,(M),2
 6456,Callum Hudson-Odoi,434,Callum Hudson-Odoi,Hudson-Odoi,3,5.5,(M),
 12123,Murillo,436,Murillo Santiago Costa dos Santos,Murillo,2,4.5,(D),
 8204,Neco Williams,437,Neco Williams,N.Williams,2,4.5,(D),
@@ -425,7 +425,7 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,now_cost,pos,penalties_or
 6903,Matz Sels,443,Matz Sels,Sels,1,4.5,(G),
 10758,Harry Toffolo,444,Harry Toffolo,Toffolo,2,4.4,(D),
 ,,446,Hwang Ui-jo,Ui-jo,4,4.5,(F),
-4456,Chris Wood,447,Chris Wood,Wood,4,6.1,(F),
+4456,Chris Wood,447,Chris Wood,Wood,4,6.1,(F),1
 11003,Ryan Yates,449,Ryan Yates,Yates,3,5,(M),
 843,James Ward-Prowse,531,James Ward-Prowse,Ward-Prowse,3,6.4,(M),
 6174,Nikola Milenkovic,573,Nikola Milenković,Milenković,2,4.5,(D),
