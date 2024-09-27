@@ -90,7 +90,7 @@ with st.expander("Options", expanded=False):
         chart_df["assists"] = chart_df["assists"] / chart_df["time"] * 90
 
     # slider to set npxG / xA quantile
-    quantile = st.slider("npxG / xA Quantile", 0.01, 0.99, 0.90)
+    quantile = st.slider("npxG / xA Quantile", 0.01, 0.99, 0.75)
     # quantile caption
     st.caption(
         "Filtered to: npxG ≥ "
