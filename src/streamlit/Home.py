@@ -47,6 +47,7 @@ Use our latest data, stats, and models to prepare your team for success in Gamew
 
 # development updates
 st.markdown(
-    """##### Development Updates  
-- Player efficiency dashboard updated."""
+    """##### Development Updates
+    - Player Efficiency dashboard updated
+    - Team Rating dashboard updated"""
 )
