@@ -43,9 +43,7 @@ Efficiency is defined as the difference between xG and goals, or xA and assists.
 Use the options section to manipulate the source data.
 * A smaller gameweek range can be a better indicator of form, but is more sensitive to outliers and variance (luck)
 
-The data elements can also be interacted with.
-* Search the dataframe and select players via the leftmost column to highlight their position in the adjacent scatter plot.
-* Hover of scatterplot marks for detailed tooltip"""
+The dataframe and scatter plot are also interactive."""
     )
 
 # options
@@ -90,7 +88,7 @@ with st.expander("Options", expanded=False):
         chart_df["assists"] = chart_df["assists"] / chart_df["time"] * 90
 
     # slider to set npxG / xA quantile
-    quantile = st.slider("npxG / xA Quantile", 0.01, 0.99, 0.75)
+    quantile = st.slider("npxG / xA Quantile", 0.01, 0.99, 0.66)
     # quantile caption
     st.caption(
         "Filtered to: npxG ≥ "
@@ -136,7 +134,7 @@ with g_tab:
                     help="npGoals - npxG",
                 ),
             },
-            column_order=("web_name_pos", "npgoals", "npxG", "npxG_difference"),
+            column_order=("web_name_pos", "npxG_difference", "npgoals", "npxG"),
             hide_index=True,
             on_select="rerun",
             use_container_width=True,
@@ -186,9 +184,9 @@ with g_tab:
         )
 
         # Efficiency=0 line
-        line = (
+        zero_line = (
             alt.Chart(pd.DataFrame({"Efficiency": [0]}))
-            .mark_rule(color="#ff4b4b")
+            .mark_rule(color="#ff4b4b", opacity=0.66)
             .encode(y="Efficiency")
         )
 
@@ -196,9 +194,16 @@ with g_tab:
         text = (
             alt.Chart(chart_df[chart_df["player_id"].isin(selected_player_id)])
             .mark_text(color="#FFE261", align="center", dy=-10)
-            .encode(x="npxG", y="npxG_difference", text="web_name_pos")
+            .encode(
+                x="npxG",
+                y="npxG_difference",
+                text="web_name_pos",
+                tooltip=alt.value(None),
+            )
         )
-        st.altair_chart(goal_eff_chart + line + text, use_container_width=True)
+
+        # layer chart
+        st.altair_chart(zero_line + goal_eff_chart + text, use_container_width=True)
 
 # assists
 with a_tab:
@@ -222,14 +227,14 @@ with a_tab:
                     help="Assists - xA",
                 ),
             },
-            column_order=("web_name_pos", "assists", "xA", "xA_difference"),
+            column_order=("web_name_pos", "xA_difference", "assists", "xA"),
             hide_index=True,
             on_select="rerun",
             use_container_width=True,
             height=490,
         )
 
-    # user player higlight selection
+    # identify selected players to highlight
     selected_players = assist_eff_df.selection.rows
     selected_player_id = (
         chart_df[(chart_df["xA"] >= chart_df["xA"].quantile(q=quantile))]
@@ -269,17 +274,17 @@ with a_tab:
             .properties(height=565)
         )
 
-        # Efficiency=0 line
-        line = (
-            alt.Chart(pd.DataFrame({"Efficiency": [0]}))
-            .mark_rule(color="#ff4b4b")
-            .encode(y="Efficiency")
-        )
-
         # Highlighted players text
         text = (
             alt.Chart(chart_df[chart_df["player_id"].isin(selected_player_id)])
             .mark_text(color="#FFE261", align="center", dy=-10)
-            .encode(x="xA", y="xA_difference", text="web_name_pos")
+            .encode(
+                x="xA",
+                y="xA_difference",
+                text="web_name_pos",
+                tooltip=alt.value(None),
+            )
         )
-        st.altair_chart(assist_eff_chart + line + text, use_container_width=True)
+
+        # layer chart
+        st.altair_chart(zero_line + assist_eff_chart + text, use_container_width=True)
