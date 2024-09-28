@@ -19,7 +19,7 @@ with st.sidebar:
     st.markdown(""":chart_with_upwards_trend: :blue[FPL]*alytics*""")
     season_option = st.selectbox("Season", seasons)
     latest_gw = app_vars[app_vars["season"] == season_option]["latest_gameweek"].item()
-    st.markdown(
+    st.caption(
         """Latest gameweek data: :blue["""
         + str(latest_gw)
         + """]  
