@@ -2,15 +2,20 @@ import pandas as pd
 import numpy as np
 
 
-def odm_func(gw):
+def odm_func(gw, season):
     """Calculate offensive and defensive ratings of teams via the ODM model.
     Ratings for a given gameweek are the teams determined strengths before that gameweek has been played.
 
     Args:
         gw (int): FPL gameweek to assign to ratings
+        season (str): start year of EPL season to retrieve
     """
-    # read in fixture data, setup dataframes for season long model and past 6 "form" model
-    fixture_data = pd.read_csv("data/2023/fixture_data.csv")
+    # read in team to id mapping
+    team_mapping = pd.read_csv("data/" + season + "/team_mapping.csv")
+
+    # read in fixture data
+    fixture_data = pd.read_csv("data/" + season + "/fixture_data.csv")
+    # setup season long and past 6 "form" model
     full_season = fixture_data[fixture_data["gameweek"] < gw]
     full_season.name = "full_season"
     past_six = fixture_data[
@@ -36,54 +41,12 @@ def odm_func(gw):
 
         # Construct Rating Dataframe
         if model.name == "full_season":
-            team_ids = [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15,
-                16,
-                17,
-                18,
-                19,
-            ]
-            team_list = [
-                "Arsenal",
-                "Aston Villa",
-                "Bournemouth",
-                "Brentford",
-                "Brighton",
-                "Burnley",
-                "Chelsea",
-                "Crystal Palace",
-                "Everton",
-                "Fulham",
-                "Liverpool",
-                "Luton",
-                "Manchester City",
-                "Manchester United",
-                "Newcastle United",
-                "Nottingham Forest",
-                "Sheffield United",
-                "Tottenham",
-                "West Ham",
-                "Wolverhampton Wanderers",
-            ]
+            team_ids = team_mapping["team_id"].to_list()
+            team_names = team_mapping["team_name"].to_list()
             rating_df = pd.DataFrame(
                 data={
                     "team_id": team_ids,
-                    "team": team_list,
+                    "team": team_names,
                     "gameweek": gw,
                     "o_rating_season": o.flatten(),
                     "d_rating_season": d.flatten(),
@@ -94,6 +57,6 @@ def odm_func(gw):
             rating_df["d_rating_psix"] = d.flatten()
 
     # Append to existing rating database, write updates
-    past_rating = pd.read_csv("data/2023/odm_rating.csv")
+    past_rating = pd.read_csv("data/" + season + "/odm_rating.csv")
     rating_df = pd.concat([past_rating, rating_df])
-    rating_df.to_csv("data/2023/odm_rating.csv", index=False)
+    rating_df.to_csv("data/" + season + "/odm_rating.csv", index=False)

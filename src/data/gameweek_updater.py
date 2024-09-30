@@ -13,7 +13,7 @@ SEASON = sys.argv[2]
 
 # run data and model scripts
 get_fixture_data(GW, SEASON)
-# odm_func(GW + 1)
+odm_func(GW + 1, SEASON)
 get_player_data(SEASON)
 
 # update app vars
