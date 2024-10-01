@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import altair as alt
 
 # read app vars in
 app_vars = pd.read_csv("data/app_vars.csv")
@@ -47,7 +45,8 @@ Use our latest data, stats, and models to prepare your team for success in Gamew
 
 # development updates
 st.markdown(
-    """##### Development Updates
+"""##### Development Updates
     - Player Efficiency dashboard updated
-    - Team Rating dashboard updated"""
+    - Team Ratings dashboard updated
+    - Talisman Finder dashboard updated"""
 )
