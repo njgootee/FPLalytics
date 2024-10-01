@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 
 # read app vars in
@@ -42,7 +41,7 @@ if latest_gw == 38:
         ":warning: Post-Season View",
         help="Post-season view displays the final 6 gameweeks",
     )
-if latest_gw < 7:
+if latest_gw < 6:
     st.caption(
         ":warning: Early Season View",
         help="ODM ratings are based on past season until Gameweek 7",
