@@ -39,7 +39,7 @@ odm_data["ovr_rating_psix"] = odm_data["o_rating_psix"] / odm_data["d_rating_psi
 
 # title and information
 st.title("Team Offensive / Defensive Ratings")
-if latest_gw < 7:
+if latest_gw < 6:
     st.caption(
         ":warning: Early Season View",
         help="ODM ratings are based on past season until Gameweek 7",
@@ -116,6 +116,10 @@ selected_team_id = (
 )
 
 with col2:
+    # scatter plot range and domain
+    x_domain = [0, odm_data["d_rating_" + model_type].max().round(1) + 0.1]
+    y_range = [0, odm_data["o_rating_" + model_type].max() + 100]
+
     # offense vs defense scatter plot
     scatter_plot = (
         alt.Chart(odm_data, height=750)
@@ -125,11 +129,13 @@ with col2:
                 "d_rating_" + model_type,
                 type="quantitative",
                 title="Defensive Rating",
+                scale=alt.Scale(domain=x_domain),
             ),
             y=alt.Y(
                 "o_rating_" + model_type,
                 type="quantitative",
                 title="Offensive Rating",
+                scale=alt.Scale(domain=y_range),
             ),
             tooltip=[
                 alt.Tooltip("team_name", title="Team"),
@@ -200,14 +206,14 @@ with col2:
                 {
                     "text": ["Strong Offense, Strong Defense"],
                     "x": [0],
-                    "y": [odm_data["o_rating_" + model_type].max()],
+                    "y": [y_range[1]],
                 }
             )
         )
         .mark_text(
             align="left",
             dx=10,
-            dy=-35,
+            dy=-25,
             color="#60b4ff",
             opacity=0.5,
         )
@@ -224,15 +230,15 @@ with col2:
             pd.DataFrame(
                 {
                     "text": ["Strong Offense, Weak Defense"],
-                    "x": [odm_data["d_rating_" + model_type].max()],
-                    "y": [odm_data["o_rating_" + model_type].max()],
+                    "x": [x_domain[1]],
+                    "y": [y_range[1]],
                 }
             )
         )
         .mark_text(
             align="right",
-            dx=10,
-            dy=-35,
+            dx=-10,
+            dy=-25,
             color="#60b4ff",
             opacity=0.5,
         )
@@ -268,14 +274,14 @@ with col2:
             pd.DataFrame(
                 {
                     "text": ["Weak Offense, Weak Defense"],
-                    "x": [odm_data["d_rating_" + model_type].max()],
+                    "x": [x_domain[1]],
                     "y": [0],
                 }
             )
         )
         .mark_text(
             align="right",
-            dx=10,
+            dx=-10,
             dy=-10,
             color="#60b4ff",
             opacity=0.5,
