@@ -118,9 +118,10 @@ with col1:
     talisman_df = st.dataframe(
         chart_df.style.background_gradient(
             axis=0, subset=["t_score", "xG_perc"], cmap="Blues"
-        ).format(
-            {"t_score": "{:.2f} %", "xG_perc": "{:.2f} %", "penalties_order": "{:.0f}"},
-            precision=2,
+        ).highlight_between(subset="penalties_order", color="#60B4FF", right=1)
+        .format(
+            {"t_score": "{:.0f} %", "xG_perc": "{:.0f} %", "penalties_order": "{:.0f}"},
+            precision=0,
         ),
         column_config={
             "web_name_pos": "Player",
@@ -191,8 +192,8 @@ with col2:
             ),
             tooltip=[
                 alt.Tooltip("web_name_pos", title="Player"),
-                alt.Tooltip("t_score", title="Talisman Score", format=".2f"),
-                alt.Tooltip("xG_perc", title="Goal Threat Bias", format=".2f"),
+                alt.Tooltip("t_score", title="Talisman Score", format=".0f"),
+                alt.Tooltip("xG_perc", title="Goal Threat Bias", format=".0f"),
                 alt.Tooltip("time", title="Minutes", format=".0f"),
                 alt.Tooltip("penalties_order", title="Penalty Order"),
             ],
