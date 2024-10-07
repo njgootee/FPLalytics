@@ -46,7 +46,9 @@ Use our latest data, stats, and models to prepare your team for success in Gamew
 # development updates
 st.markdown(
 """##### Development Updates
-    - Player Efficiency dashboard updated
-    - Team Ratings dashboard updated
-    - Talisman Finder dashboard updated"""
+    - Player Comparison dashboard updates
+        - Performance stats redesign
+        - Enhanced filter options
+        - Historical gameweek performance comparison
+        - Upcoming fixtures comparison"""
 )
