@@ -119,7 +119,7 @@ with g_tab:
             chart_df[(chart_df["npxG"] >= chart_df["npxG"].quantile(q=quantile))]
             .sort_values(by="npxG_difference", ascending=False)
             .style.background_gradient(
-                axis=0, subset=["npxG_difference"], cmap="RdYlGn"
+                axis=0, subset=["npxG_difference"], cmap="RdYlGn", vmax=chart_df["npxG_difference"].max(), vmin=-chart_df["npxG_difference"].max()
             )
             .format(precision=2),
             column_config={
@@ -177,7 +177,7 @@ with g_tab:
                         field="player_id", oneOf=selected_player_id
                     ),
                     if_true=alt.value("#FFE261"),
-                    if_false=alt.value("#60b4ff"),
+                    if_false=alt.Color("npxG_difference", scale=alt.Scale(type = "threshold", range=["#ff4b4b", '#60b4ff'], domain=[0]), legend=None),
                 ),
             )
             .properties(height=565)
@@ -213,7 +213,7 @@ with a_tab:
         assist_eff_df = st.dataframe(
             chart_df[(chart_df["xA"] >= chart_df["xA"].quantile(q=quantile))]
             .sort_values(by="xA_difference", ascending=False)
-            .style.background_gradient(axis=0, subset=["xA_difference"], cmap="RdYlGn")
+            .style.background_gradient(axis=0, subset=["xA_difference"], cmap="RdYlGn", vmax=chart_df["xA_difference"].max(), vmin=-chart_df["xA_difference"].max())
             .format(precision=2),
             column_config={
                 "web_name_pos": "Player",
@@ -268,7 +268,7 @@ with a_tab:
                         field="player_id", oneOf=selected_player_id
                     ),
                     if_true=alt.value("#FFE261"),
-                    if_false=alt.value("#60b4ff"),
+                    if_false=alt.Color("xA_difference", scale=alt.Scale(type = "threshold", range=["#ff4b4b", '#60b4ff'], domain=[0]), legend=None),
                 ),
             )
             .properties(height=565)
