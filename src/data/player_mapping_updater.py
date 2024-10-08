@@ -4,8 +4,8 @@ import requests
 import sys
 
 
-def get_fpl_player_data(season):
-    """Retrieve player data from fantasy premier league and update player mapping file, via API request to Fantasy Premier League.
+def get_fpl_player_maps(season):
+    """Retrieve player informational data from fantasy premier league and update player mapping file, via API request to Fantasy Premier League.
 
     Args:
         season (str): start year of EPL season
