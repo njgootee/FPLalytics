@@ -90,4 +90,4 @@ def get_fpl_player_maps(season):
 
 
 if __name__ == "__main__":
-    get_fpl_player_data(sys.argv[1])
+    get_fpl_player_maps(sys.argv[1])
