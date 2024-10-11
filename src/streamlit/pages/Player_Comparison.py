@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from functions.generate_fixture_df import generate_fixtures_df
 
 # ----------------------------------------------------------------------#
 # Session state storage, callback functions
@@ -220,91 +221,17 @@ Utilize the filters in the options section to narrow your search for the perfect
     perf_df = perf_df.sort_values("npxGI", ascending=False)
 
     # ----------------------------------------------------------------------#
-    # Upcoming fixtures dataframe setup
+    # Upcoming and past fixtures dataframe setup
     # ----------------------------------------------------------------------#
     # past fixtures
-    past_fixtures = fixtures[
-        (fixtures["gameweek"] >= gw_range[0]) & (fixtures["gameweek"] <= gw_range[1])
-    ]
-    home_fixtures = past_fixtures.rename(columns={"home": "team", "away": "opponent"})
-    home_fixtures = home_fixtures.merge(
-        team_mapping[["team_id", "team_short"]], left_on="a_id", right_on="team_id"
+    past_fixtures2, temp, temp, temp, temp, temp, temp, temp = generate_fixtures_df(
+        fixtures, team_mapping, odm_data, gw_range[0], gw_range[1]
     )
-    home_fixtures["team_short"] = "v" + home_fixtures["team_short"]
-    away_fixtures = past_fixtures.rename(columns={"away": "team", "home": "opponent"})
-    away_fixtures = away_fixtures.merge(
-        team_mapping[["team_id", "team_short"]], left_on="h_id", right_on="team_id"
-    )
-    away_fixtures["team_short"] = "@" + away_fixtures["team_short"]
-    past_fixtures = pd.concat([home_fixtures, away_fixtures])
-    past_fixtures = past_fixtures.pivot_table(
-        values="team_short", index="team", columns="gameweek", aggfunc=pd.unique
-    )
-    past_fixtures = past_fixtures.add_prefix("GW ")
 
-    # filter and transform
-    fixtures = fixtures[
-        (fixtures["gameweek"] >= curr_gw) & (fixtures["gameweek"] <= gw_lookahead)
-    ]
-    home_fixtures = fixtures.rename(columns={"home": "team", "away": "opponent"})
-    away_fixtures = fixtures.rename(columns={"away": "team", "home": "opponent"})
-    fixtures = pd.concat([home_fixtures, away_fixtures])
-    fixtures = fixtures.pivot_table(
-        values="opponent", index="team", columns="gameweek", aggfunc=pd.unique
+    # upcoming fixtures
+    o_fx, o_fx_v, min_o, max_o, d_fx, d_fx_v, min_d, max_d = generate_fixtures_df(
+        fixtures, team_mapping, odm_data, curr_gw, gw_lookahead
     )
-    fixtures = fixtures.add_prefix("GW ")
-    fixtures.index.name = None
-    fixtures.columns.name = None
-    fixtures = fixtures.replace({np.nan: ""})
-
-    # get ratings
-    o_rating_dict = odm_data.set_index("team")["o_rating_season"].to_dict()
-    d_rating_dict = odm_data.set_index("team")["d_rating_season"].to_dict()
-
-    # short team names
-    short_name_dict = dict(zip(team_mapping["team_name"], team_mapping["team_short"]))
-
-    # create offence data frames
-    o_fixture_values = fixtures.map(
-        lambda x: (
-            (sum([d_rating_dict[i] for i in x])) / (len(x) - 1)
-            if len(x) > 1
-            else sum([d_rating_dict[i] for i in x])
-        )
-    )
-    o_fixture_values = o_fixture_values.replace(0, min(d_rating_dict.values()) / 1.25)
-    o_FR = pd.DataFrame(
-        o_fixture_values.sum(axis=1) / o_fixture_values.sum(axis=1).mean() * 100,
-        columns=["FR"],
-    )
-    o_fixtures = fixtures.map(lambda x: ", ".join([short_name_dict[i] for i in x]))
-    o_fixtures = o_fixtures.merge(o_FR, left_index=True, right_index=True).sort_values(
-        "FR", ascending=False
-    )
-    o_fixture_values = o_fixture_values.merge(
-        o_FR, left_index=True, right_index=True
-    ).sort_values("FR", ascending=False)
-
-    # create defence data frames
-    d_fixture_values = fixtures.map(
-        lambda x: (
-            (sum([o_rating_dict[i] for i in x])) / (len(x) + 1)
-            if len(x) > 1
-            else sum([o_rating_dict[i] for i in x])
-        )
-    )
-    d_fixture_values = d_fixture_values.replace(0, max(o_rating_dict.values()) * 1.25)
-    d_FR = pd.DataFrame(
-        1 / (d_fixture_values.sum(axis=1) / d_fixture_values.sum(axis=1).mean()) * 100,
-        columns=["FR"],
-    )
-    d_fixtures = fixtures.map(lambda x: ", ".join([short_name_dict[i] for i in x]))
-    d_fixtures = d_fixtures.merge(d_FR, left_index=True, right_index=True).sort_values(
-        "FR", ascending=False
-    )
-    d_fixture_values = d_fixture_values.merge(
-        d_FR, left_index=True, right_index=True
-    ).sort_values("FR", ascending=False)
 
     # ----------------------------------------------------------------------#
     # Performance dataframe
@@ -442,12 +369,12 @@ Utilize the filters in the options section to narrow your search for the perfect
 
         if len(selected_players) > 0:
             # opponent names
-            past_fixtures = past_fixtures.reset_index(names="team")
+            past_fixtures = past_fixtures2.reset_index(names="team")
             past_fixtures = filtered_perf_df[["web_name_pos", "team"]].merge(
                 past_fixtures, on="team", how="left"
             )
             past_fixtures = (
-                past_fixtures.drop(columns="team")
+                past_fixtures.drop(columns=["team", "FR"])
                 .rename(columns={"web_name_pos": "Player"})
                 .set_index("Player")
                 .reindex(selected_players_names)
@@ -488,36 +415,36 @@ Utilize the filters in the options section to narrow your search for the perfect
             o_tab, d_tab = st.tabs(["Offence", "Defence"])
             # offensive fixtures
             with o_tab:
-                # adjust offensive fixtures dataframe from team basis to player basis
-                o_fixtures = o_fixtures.reset_index(names="team")
-                o_fixtures = filtered_perf_df[["web_name_pos", "team"]].merge(
-                    o_fixtures, on="team", how="left"
+                # adjust offensive fixtures dataframes from team basis to player basis
+                o_fx = o_fx.reset_index(names="team")
+                o_fx = filtered_perf_df[["web_name_pos", "team"]].merge(
+                    o_fx, on="team", how="left"
                 )
-                o_fixtures = (
-                    o_fixtures.drop(columns="team")
+                o_fx = (
+                    o_fx.drop(columns="team")
                     .rename(columns={"web_name_pos": "Player"})
                     .set_index("Player")
                     .reindex(selected_players_names)
                 )
 
-                o_fixture_values = o_fixture_values.reset_index(names="team")
-                o_fixture_values = filtered_perf_df[["web_name_pos", "team"]].merge(
-                    o_fixture_values, on="team", how="left"
+                o_fx_v = o_fx_v.reset_index(names="team")
+                o_fx_v = filtered_perf_df[["web_name_pos", "team"]].merge(
+                    o_fx_v, on="team", how="left"
                 )
-                o_fixture_values = (
-                    o_fixture_values.drop(columns="team")
+                o_fx_v = (
+                    o_fx_v.drop(columns="team")
                     .rename(columns={"web_name_pos": "Player"})
                     .set_index("Player")
                     .reindex(selected_players_names)
                 )
                 # offensive dataframe
                 st.dataframe(
-                    o_fixtures.style.background_gradient(
+                    o_fx.style.background_gradient(
                         axis=None,
                         cmap="RdYlGn",
-                        gmap=o_fixture_values,
-                        vmax=max(d_rating_dict.values()),
-                        vmin=min(d_rating_dict.values()),
+                        gmap=o_fx_v,
+                        vmax=max_d,
+                        vmin=min_d,
                     )
                     .background_gradient(cmap="Blues", subset=["FR"])
                     .format({"FR": "{:1.0f} %"}),
@@ -531,36 +458,36 @@ Utilize the filters in the options section to narrow your search for the perfect
 
             # defensive fixtures
             with d_tab:
-                # adjust defensive fixtures dataframe from team basis to player basis
-                d_fixtures = d_fixtures.reset_index(names="team")
-                d_fixtures = filtered_perf_df[["web_name_pos", "team"]].merge(
-                    d_fixtures, on="team", how="left"
+                # adjust defensive fixtures dataframes from team basis to player basis
+                d_fx = d_fx.reset_index(names="team")
+                d_fx = filtered_perf_df[["web_name_pos", "team"]].merge(
+                    d_fx, on="team", how="left"
                 )
-                d_fixtures = (
-                    d_fixtures.drop(columns="team")
+                d_fx = (
+                    d_fx.drop(columns="team")
                     .rename(columns={"web_name_pos": "Player"})
                     .set_index("Player")
                     .reindex(selected_players_names)
                 )
 
-                d_fixture_values = d_fixture_values.reset_index(names="team")
-                d_fixture_values = filtered_perf_df[["web_name_pos", "team"]].merge(
-                    d_fixture_values, on="team", how="left"
+                d_fx_v = d_fx_v.reset_index(names="team")
+                d_fx_v = filtered_perf_df[["web_name_pos", "team"]].merge(
+                    d_fx_v, on="team", how="left"
                 )
-                d_fixture_values = (
-                    d_fixture_values.drop(columns="team")
+                d_fx_v = (
+                    d_fx_v.drop(columns="team")
                     .rename(columns={"web_name_pos": "Player"})
                     .set_index("Player")
                     .reindex(selected_players_names)
                 )
                 # defensive dataframe
                 st.dataframe(
-                    d_fixtures.style.background_gradient(
+                    d_fx.style.background_gradient(
                         axis=None,
                         cmap="RdYlGn_r",
-                        gmap=d_fixture_values,
-                        vmax=max(o_rating_dict.values()),
-                        vmin=min(o_rating_dict.values()),
+                        gmap=d_fx_v,
+                        vmax=max_o,
+                        vmin=min_o,
                     )
                     .background_gradient(cmap="Blues", subset=["FR"])
                     .format({"FR": "{:1.0f} %"}),
