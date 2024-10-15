@@ -1,3 +1,10 @@
 *.ipynb
 points_predictor.py
+points_cs.py
+points_functions.py
+points_future_gw.py
+points_npxg.py
+points_other.py
+points_preprocess.py
+points_xa.py
 __pycache__
