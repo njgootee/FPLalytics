@@ -46,6 +46,8 @@ Use our latest data, stats, and models to prepare your team for success in Gamew
 # development updates
 st.markdown(
 """##### Development Updates
+    - Points Projections
+        - Live for 2024 season
     - Fixture Ticker
         - Home/Away fixtures
     - Player Comparison dashboard updates
