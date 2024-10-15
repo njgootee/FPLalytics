@@ -1,381 +1,381 @@
-fixture_id,datetime,home,away,h_id,a_id,gameweek
-22275,2023-08-11 19:00:00,Burnley,Manchester City,5,12,1
-22276,2023-08-12 11:30:00,Arsenal,Nottingham Forest,0,15,1
-22277,2023-08-12 14:00:00,Bournemouth,West Ham,2,18,1
-22278,2023-08-12 14:00:00,Brighton,Luton,4,11,1
-22279,2023-08-12 14:00:00,Everton,Fulham,8,9,1
-22280,2023-08-12 14:00:00,Sheffield United,Crystal Palace,16,7,1
-22281,2023-08-12 16:30:00,Newcastle United,Aston Villa,14,1,1
-22282,2023-08-13 13:00:00,Brentford,Tottenham,3,17,1
-22283,2023-08-13 15:30:00,Chelsea,Liverpool,6,10,1
-22284,2023-08-14 19:00:00,Manchester United,Wolverhampton Wanderers,13,19,1
-22285,2023-08-18 18:45:00,Nottingham Forest,Sheffield United,15,16,2
-22286,2023-08-19 14:00:00,Wolverhampton Wanderers,Brighton,19,4,2
-22287,2023-08-19 14:00:00,Fulham,Brentford,9,3,2
-22288,2023-08-19 14:00:00,Liverpool,Bournemouth,10,2,2
-22290,2023-08-19 16:30:00,Tottenham,Manchester United,17,13,2
-22291,2023-08-19 19:00:00,Manchester City,Newcastle United,12,14,2
-22292,2023-08-20 13:00:00,Aston Villa,Everton,1,8,2
-22293,2023-08-20 15:30:00,West Ham,Chelsea,18,6,2
-22294,2023-08-21 19:00:00,Crystal Palace,Arsenal,7,0,2
-22295,2023-08-25 19:00:00,Chelsea,Luton,6,11,3
-22296,2023-08-26 11:30:00,Bournemouth,Tottenham,2,17,3
-22297,2023-08-26 14:00:00,Arsenal,Fulham,0,9,3
-22298,2023-08-26 14:00:00,Brentford,Crystal Palace,3,7,3
-22299,2023-08-26 14:00:00,Everton,Wolverhampton Wanderers,8,19,3
-22300,2023-08-26 14:00:00,Manchester United,Nottingham Forest,13,15,3
-22301,2023-08-26 16:30:00,Brighton,West Ham,4,18,3
-22302,2023-08-27 13:00:00,Burnley,Aston Villa,5,1,3
-22303,2023-08-27 13:00:00,Sheffield United,Manchester City,16,12,3
-22304,2023-08-27 15:30:00,Newcastle United,Liverpool,14,10,3
-21925,2023-09-01 19:00:00,Luton,West Ham,11,18,4
-21926,2023-09-02 11:30:00,Sheffield United,Everton,16,8,4
-21927,2023-09-02 14:00:00,Manchester City,Fulham,12,9,4
-21928,2023-09-02 14:00:00,Brentford,Bournemouth,3,2,4
-21929,2023-09-02 14:00:00,Burnley,Tottenham,5,17,4
-21930,2023-09-02 14:00:00,Chelsea,Nottingham Forest,6,15,4
-21931,2023-09-02 16:30:00,Brighton,Newcastle United,4,14,4
-21932,2023-09-03 13:00:00,Crystal Palace,Wolverhampton Wanderers,7,19,4
-21933,2023-09-03 13:00:00,Liverpool,Aston Villa,10,1,4
-21934,2023-09-03 15:30:00,Arsenal,Manchester United,0,13,4
-21935,2023-09-16 11:30:00,Wolverhampton Wanderers,Liverpool,19,10,5
-21936,2023-09-16 14:00:00,Tottenham,Sheffield United,17,16,5
-21937,2023-09-16 14:00:00,West Ham,Manchester City,18,12,5
-21938,2023-09-16 14:00:00,Aston Villa,Crystal Palace,1,7,5
-21939,2023-09-16 14:00:00,Fulham,Luton,9,11,5
-21940,2023-09-16 14:00:00,Manchester United,Brighton,13,4,5
-21943,2023-09-16 16:30:00,Newcastle United,Brentford,14,3,5
-21942,2023-09-17 13:00:00,Bournemouth,Chelsea,2,6,5
-21941,2023-09-17 15:30:00,Everton,Arsenal,8,0,5
-21944,2023-09-18 18:45:00,Nottingham Forest,Burnley,15,5,5
-21945,2023-09-23 14:00:00,Luton,Wolverhampton Wanderers,11,19,6
-21946,2023-09-23 14:00:00,Manchester City,Nottingham Forest,12,15,6
-21948,2023-09-23 14:00:00,Crystal Palace,Fulham,7,9,6
-21949,2023-09-23 16:30:00,Brentford,Everton,3,8,6
-21950,2023-09-23 19:00:00,Burnley,Manchester United,5,13,6
-21947,2023-09-24 13:00:00,Chelsea,Aston Villa,6,1,6
-21951,2023-09-24 13:00:00,Brighton,Bournemouth,4,2,6
-21952,2023-09-24 13:00:00,Arsenal,Tottenham,0,17,6
-21953,2023-09-24 13:00:00,Liverpool,West Ham,10,18,6
-21954,2023-09-24 15:30:00,Sheffield United,Newcastle United,16,14,6
-21955,2023-09-30 11:30:00,Aston Villa,Brighton,1,4,7
-21956,2023-09-30 14:00:00,Everton,Luton,8,11,7
-21957,2023-09-30 14:00:00,Manchester United,Crystal Palace,13,7,7
-21958,2023-09-30 14:00:00,Newcastle United,Burnley,14,5,7
-21959,2023-09-30 14:00:00,Bournemouth,Arsenal,2,0,7
-21960,2023-09-30 14:00:00,West Ham,Sheffield United,18,16,7
-21961,2023-09-30 14:00:00,Wolverhampton Wanderers,Manchester City,19,12,7
-21962,2023-09-30 16:30:00,Tottenham,Liverpool,17,10,7
-21963,2023-10-01 13:00:00,Nottingham Forest,Brentford,15,3,7
-21964,2023-10-02 19:00:00,Fulham,Chelsea,9,6,7
-22289,2023-10-03 18:30:00,Luton,Burnley,11,5,7
-21971,2023-10-07 11:30:00,Luton,Tottenham,11,17,8
-21967,2023-10-07 14:00:00,Burnley,Chelsea,5,6,8
-21969,2023-10-07 14:00:00,Everton,Bournemouth,8,2,8
-21970,2023-10-07 14:00:00,Fulham,Sheffield United,9,16,8
-21972,2023-10-07 14:00:00,Manchester United,Brentford,13,3,8
-21968,2023-10-07 16:30:00,Crystal Palace,Nottingham Forest,7,15,8
-21966,2023-10-08 13:00:00,Brighton,Liverpool,4,10,8
-21973,2023-10-08 13:00:00,West Ham,Newcastle United,18,14,8
-21974,2023-10-08 13:00:00,Wolverhampton Wanderers,Aston Villa,19,1,8
-21965,2023-10-08 15:30:00,Arsenal,Manchester City,0,12,8
-21979,2023-10-21 11:30:00,Liverpool,Everton,10,8,9
-21975,2023-10-21 14:00:00,Bournemouth,Wolverhampton Wanderers,2,19,9
-21977,2023-10-21 14:00:00,Brentford,Burnley,3,5,9
-21980,2023-10-21 14:00:00,Manchester City,Brighton,12,4,9
-21981,2023-10-21 14:00:00,Newcastle United,Crystal Palace,14,7,9
-21982,2023-10-21 14:00:00,Nottingham Forest,Luton,15,11,9
-21978,2023-10-21 16:30:00,Chelsea,Arsenal,6,0,9
-21983,2023-10-21 19:00:00,Sheffield United,Manchester United,16,13,9
-21976,2023-10-22 15:30:00,Aston Villa,West Ham,1,18,9
-21984,2023-10-23 19:00:00,Tottenham,Fulham,17,9,9
-21990,2023-10-27 19:00:00,Crystal Palace,Tottenham,7,17,10
-21989,2023-10-28 11:30:00,Chelsea,Brentford,6,3,10
-21985,2023-10-28 14:00:00,Bournemouth,Burnley,2,5,10
-21986,2023-10-28 14:00:00,Arsenal,Sheffield United,0,16,10
-21994,2023-10-28 16:30:00,Wolverhampton Wanderers,Newcastle United,19,14,10
-21993,2023-10-29 13:00:00,West Ham,Everton,18,8,10
-21987,2023-10-29 14:00:00,Aston Villa,Luton,1,11,10
-21988,2023-10-29 14:00:00,Brighton,Fulham,4,9,10
-21991,2023-10-29 14:00:00,Liverpool,Nottingham Forest,10,15,10
-21992,2023-10-29 15:30:00,Manchester United,Manchester City,13,12,10
-21998,2023-11-04 12:30:00,Fulham,Manchester United,9,13,11
-21995,2023-11-04 15:00:00,Brentford,West Ham,3,18,11
-21996,2023-11-04 15:00:00,Burnley,Crystal Palace,5,7,11
-21997,2023-11-04 15:00:00,Everton,Brighton,8,4,11
-22000,2023-11-04 15:00:00,Manchester City,Bournemouth,12,2,11
-22003,2023-11-04 15:00:00,Sheffield United,Wolverhampton Wanderers,16,19,11
-22001,2023-11-04 17:30:00,Newcastle United,Arsenal,14,0,11
-22002,2023-11-05 14:00:00,Nottingham Forest,Aston Villa,15,1,11
-21999,2023-11-05 16:30:00,Luton,Liverpool,11,10,11
-22004,2023-11-06 20:00:00,Tottenham,Chelsea,17,6,11
-22014,2023-11-11 12:30:00,Wolverhampton Wanderers,Tottenham,19,17,12
-22006,2023-11-11 15:00:00,Arsenal,Burnley,0,5,12
-22010,2023-11-11 15:00:00,Crystal Palace,Everton,7,8,12
-22012,2023-11-11 15:00:00,Manchester United,Luton,13,11,12
-22005,2023-11-11 17:30:00,Bournemouth,Newcastle United,2,14,12
-22007,2023-11-12 14:00:00,Aston Villa,Fulham,1,9,12
-22008,2023-11-12 14:00:00,Brighton,Sheffield United,4,16,12
-22011,2023-11-12 14:00:00,Liverpool,Brentford,10,3,12
-22013,2023-11-12 14:00:00,West Ham,Nottingham Forest,18,15,12
-22009,2023-11-12 16:30:00,Chelsea,Manchester City,6,12,12
-22020,2023-11-25 12:30:00,Manchester City,Liverpool,12,10,13
-22016,2023-11-25 15:00:00,Burnley,West Ham,5,18,13
-22019,2023-11-25 15:00:00,Luton,Crystal Palace,11,7,13
-22021,2023-11-25 15:00:00,Newcastle United,Chelsea,14,6,13
-22022,2023-11-25 15:00:00,Nottingham Forest,Brighton,15,4,13
-22023,2023-11-25 15:00:00,Sheffield United,Bournemouth,16,2,13
-22015,2023-11-25 17:30:00,Brentford,Arsenal,3,0,13
-22024,2023-11-26 14:00:00,Tottenham,Aston Villa,17,1,13
-22017,2023-11-26 16:30:00,Everton,Manchester United,8,13,13
-22018,2023-11-27 20:00:00,Fulham,Wolverhampton Wanderers,9,19,13
-22026,2023-12-02 15:00:00,Arsenal,Wolverhampton Wanderers,0,19,14
-22027,2023-12-02 15:00:00,Brentford,Luton,3,11,14
-22028,2023-12-02 15:00:00,Burnley,Sheffield United,5,16,14
-22033,2023-12-02 17:30:00,Nottingham Forest,Everton,15,8,14
-22032,2023-12-02 20:00:00,Newcastle United,Manchester United,14,13,14
-22025,2023-12-03 14:00:00,Bournemouth,Aston Villa,2,1,14
-22029,2023-12-03 14:00:00,Chelsea,Brighton,6,4,14
-22030,2023-12-03 14:00:00,Liverpool,Fulham,10,9,14
-22034,2023-12-03 14:00:00,West Ham,Crystal Palace,18,7,14
-22031,2023-12-03 16:30:00,Manchester City,Tottenham,12,17,14
-22042,2023-12-05 19:30:00,Wolverhampton Wanderers,Burnley,19,5,15
-22039,2023-12-05 20:15:00,Luton,Arsenal,11,0,15
-22036,2023-12-06 19:30:00,Brighton,Brentford,4,3,15
-22038,2023-12-06 19:30:00,Fulham,Nottingham Forest,9,15,15
-22040,2023-12-06 19:30:00,Sheffield United,Liverpool,16,10,15
-22043,2023-12-06 19:30:00,Crystal Palace,Bournemouth,7,2,15
-22035,2023-12-06 20:15:00,Aston Villa,Manchester City,1,12,15
-22044,2023-12-06 20:15:00,Manchester United,Chelsea,13,6,15
-22037,2023-12-07 19:30:00,Everton,Newcastle United,8,14,15
-22041,2023-12-07 20:15:00,Tottenham,West Ham,17,18,15
-22047,2023-12-09 12:30:00,Crystal Palace,Liverpool,7,10,16
-22046,2023-12-09 15:00:00,Brighton,Burnley,4,5,16
-22051,2023-12-09 15:00:00,Manchester United,Bournemouth,13,2,16
-22052,2023-12-09 15:00:00,Sheffield United,Brentford,16,3,16
-22054,2023-12-09 15:00:00,Wolverhampton Wanderers,Nottingham Forest,19,15,16
-22045,2023-12-09 17:30:00,Aston Villa,Arsenal,1,0,16
-22048,2023-12-10 14:00:00,Everton,Chelsea,8,6,16
-22049,2023-12-10 14:00:00,Fulham,West Ham,9,18,16
-22050,2023-12-10 14:00:00,Luton,Manchester City,11,12,16
-22053,2023-12-10 16:30:00,Tottenham,Newcastle United,17,14,16
-22063,2023-12-15 20:00:00,Nottingham Forest,Tottenham,15,17,17
-22059,2023-12-16 15:00:00,Chelsea,Sheffield United,6,16,17
-22061,2023-12-16 15:00:00,Manchester City,Crystal Palace,12,7,17
-22062,2023-12-16 15:00:00,Newcastle United,Fulham,14,9,17
-22058,2023-12-16 17:30:00,Burnley,Everton,5,8,17
-22056,2023-12-17 14:00:00,Arsenal,Brighton,0,4,17
-22057,2023-12-17 14:00:00,Brentford,Aston Villa,3,1,17
-22064,2023-12-17 14:00:00,West Ham,Wolverhampton Wanderers,18,19,17
-22060,2023-12-17 16:30:00,Liverpool,Manchester United,10,13,17
-22066,2023-12-21 20:00:00,Crystal Palace,Brighton,7,4,18
-22065,2023-12-22 20:00:00,Aston Villa,Sheffield United,1,16,18
-22072,2023-12-23 12:30:00,West Ham,Manchester United,18,13,18
-22067,2023-12-23 15:00:00,Fulham,Burnley,9,5,18
-22069,2023-12-23 15:00:00,Luton,Newcastle United,11,14,18
-22070,2023-12-23 15:00:00,Nottingham Forest,Bournemouth,15,2,18
-22071,2023-12-23 15:00:00,Tottenham,Everton,17,8,18
-22068,2023-12-23 17:30:00,Liverpool,Arsenal,10,0,18
-22073,2023-12-24 13:00:00,Wolverhampton Wanderers,Chelsea,19,6,18
-22083,2023-12-26 12:30:00,Newcastle United,Nottingham Forest,14,15,19
-22075,2023-12-26 15:00:00,Bournemouth,Fulham,2,9,19
-22084,2023-12-26 15:00:00,Sheffield United,Luton,16,11,19
-22079,2023-12-26 17:30:00,Burnley,Liverpool,5,10,19
-22082,2023-12-26 20:00:00,Manchester United,Aston Villa,13,1,19
-22077,2023-12-27 19:30:00,Brentford,Wolverhampton Wanderers,3,19,19
-22080,2023-12-27 19:30:00,Chelsea,Crystal Palace,6,7,19
-22081,2023-12-27 20:15:00,Everton,Manchester City,8,12,19
-22078,2023-12-28 19:30:00,Brighton,Tottenham,4,17,19
-22076,2023-12-28 20:15:00,Arsenal,West Ham,0,18,19
-22089,2023-12-30 12:30:00,Luton,Chelsea,11,6,20
-22085,2023-12-30 15:00:00,Aston Villa,Burnley,1,5,20
-22086,2023-12-30 15:00:00,Crystal Palace,Brentford,7,3,20
-22090,2023-12-30 15:00:00,Manchester City,Sheffield United,12,16,20
-22094,2023-12-30 15:00:00,Wolverhampton Wanderers,Everton,19,8,20
-22091,2023-12-30 17:30:00,Nottingham Forest,Manchester United,15,13,20
-22087,2023-12-31 14:00:00,Fulham,Arsenal,9,0,20
-22092,2023-12-31 14:00:00,Tottenham,Bournemouth,17,2,20
-22088,2024-01-01 19:00:00,Liverpool,Newcastle United,10,14,20
-22093,2024-01-02 18:30:00,West Ham,Brighton,18,4,20
-22096,2024-01-12 19:45:00,Burnley,Luton,5,11,21
-22097,2024-01-13 12:30:00,Chelsea,Fulham,6,9,21
-22100,2024-01-13 17:30:00,Newcastle United,Manchester City,14,12,21
-22098,2024-01-14 14:00:00,Everton,Aston Villa,8,1,21
-22099,2024-01-14 16:30:00,Manchester United,Tottenham,13,17,21
-22103,2024-01-20 12:30:00,Arsenal,Crystal Palace,0,7,21
-22104,2024-01-20 17:30:00,Brentford,Nottingham Forest,3,15,21
-22101,2024-01-21 14:00:00,Sheffield United,West Ham,16,18,21
-22102,2024-01-21 16:30:00,Bournemouth,Liverpool,2,10,21
-22095,2024-01-22 19:45:00,Brighton,Wolverhampton Wanderers,4,19,21
-22108,2024-01-30 19:30:00,Nottingham Forest,Arsenal,15,0,22
-22106,2024-01-30 19:45:00,Fulham,Everton,9,8,22
-22107,2024-01-30 19:45:00,Luton,Brighton,11,4,22
-22112,2024-01-30 20:00:00,Crystal Palace,Sheffield United,7,16,22
-22105,2024-01-30 20:15:00,Aston Villa,Newcastle United,1,14,22
-22109,2024-01-31 19:30:00,Tottenham,Brentford,17,3,22
-22114,2024-01-31 19:30:00,Manchester City,Burnley,12,5,22
-22113,2024-01-31 20:15:00,Liverpool,Chelsea,10,6,22
-22110,2024-02-01 19:30:00,West Ham,Bournemouth,18,2,22
-22111,2024-02-01 20:15:00,Wolverhampton Wanderers,Manchester United,19,13,22
-22121,2024-02-03 12:30:00,Everton,Tottenham,8,17,23
-22118,2024-02-03 15:00:00,Brighton,Crystal Palace,4,7,23
-22119,2024-02-03 15:00:00,Burnley,Fulham,5,9,23
-22123,2024-02-03 15:00:00,Newcastle United,Luton,14,11,23
-22124,2024-02-03 17:30:00,Sheffield United,Aston Villa,16,1,23
-22115,2024-02-04 14:00:00,Bournemouth,Nottingham Forest,2,15,23
-22120,2024-02-04 14:00:00,Chelsea,Wolverhampton Wanderers,6,19,23
-22122,2024-02-04 14:00:00,Manchester United,West Ham,13,18,23
-22116,2024-02-04 16:30:00,Arsenal,Liverpool,0,10,23
-22117,2024-02-05 20:00:00,Brentford,Manchester City,3,12,23
-22130,2024-02-10 12:30:00,Manchester City,Everton,12,8,24
-22127,2024-02-10 15:00:00,Fulham,Bournemouth,9,2,24
-22128,2024-02-10 15:00:00,Liverpool,Burnley,10,5,24
-22129,2024-02-10 15:00:00,Luton,Sheffield United,11,16,24
-22132,2024-02-10 15:00:00,Tottenham,Brighton,17,4,24
-22134,2024-02-10 15:00:00,Wolverhampton Wanderers,Brentford,19,3,24
-22131,2024-02-10 17:30:00,Nottingham Forest,Newcastle United,15,14,24
-22133,2024-02-11 14:00:00,West Ham,Arsenal,18,0,24
-22125,2024-02-11 16:30:00,Aston Villa,Manchester United,1,13,24
-22126,2024-02-12 20:00:00,Crystal Palace,Chelsea,7,6,24
-22135,2024-02-17 12:30:00,Brentford,Liverpool,3,10,25
-22136,2024-02-17 15:00:00,Burnley,Arsenal,5,0,25
-22138,2024-02-17 15:00:00,Fulham,Aston Villa,9,1,25
-22141,2024-02-17 15:00:00,Newcastle United,Bournemouth,14,2,25
-22142,2024-02-17 15:00:00,Nottingham Forest,West Ham,15,18,25
-22144,2024-02-17 15:00:00,Tottenham,Wolverhampton Wanderers,17,19,25
-22140,2024-02-17 17:30:00,Manchester City,Chelsea,12,6,25
-22143,2024-02-18 14:00:00,Sheffield United,Brighton,16,4,25
-22139,2024-02-18 16:30:00,Luton,Manchester United,11,13,25
-22137,2024-02-19 20:00:00,Everton,Crystal Palace,8,7,25
-22074,2024-02-20 18:30:00,Manchester City,Brentford,12,3,25
-22151,2024-02-21 15:00:00,Liverpool,Luton,10,11,25
-22147,2024-02-24 15:00:00,Aston Villa,Nottingham Forest,1,15,26
-22148,2024-02-24 15:00:00,Brighton,Everton,4,8,26
-22150,2024-02-24 15:00:00,Crystal Palace,Burnley,7,5,26
-22152,2024-02-24 15:00:00,Manchester United,Fulham,13,9,26
-22145,2024-02-24 17:30:00,Bournemouth,Manchester City,2,12,26
-22146,2024-02-24 20:00:00,Arsenal,Newcastle United,0,14,26
-22154,2024-02-25 13:30:00,Wolverhampton Wanderers,Sheffield United,19,16,26
-22153,2024-02-26 20:00:00,West Ham,Brentford,18,3,26
-22155,2024-03-02 15:00:00,Brentford,Chelsea,3,6,27
-22157,2024-03-02 15:00:00,Everton,West Ham,8,18,27
-22158,2024-03-02 15:00:00,Fulham,Brighton,9,4,27
-22161,2024-03-02 15:00:00,Newcastle United,Wolverhampton Wanderers,14,19,27
-22162,2024-03-02 15:00:00,Nottingham Forest,Liverpool,15,10,27
-22164,2024-03-02 15:00:00,Tottenham,Crystal Palace,17,7,27
-22159,2024-03-02 17:30:00,Luton,Aston Villa,11,1,27
-22156,2024-03-03 13:00:00,Burnley,Bournemouth,5,2,27
-22160,2024-03-03 15:30:00,Manchester City,Manchester United,12,13,27
-22163,2024-03-04 20:00:00,Sheffield United,Arsenal,16,0,27
-22172,2024-03-09 12:30:00,Manchester United,Everton,13,8,28
-22165,2024-03-09 15:00:00,Bournemouth,Sheffield United,2,16,28
-22170,2024-03-09 15:00:00,Crystal Palace,Luton,7,11,28
-22174,2024-03-09 15:00:00,Wolverhampton Wanderers,Fulham,19,9,28
-22166,2024-03-09 17:30:00,Arsenal,Brentford,0,3,28
-22167,2024-03-10 13:00:00,Aston Villa,Tottenham,1,17,28
-22168,2024-03-10 14:00:00,Brighton,Nottingham Forest,4,15,28
-22173,2024-03-10 14:00:00,West Ham,Burnley,18,5,28
-22171,2024-03-10 15:45:00,Liverpool,Manchester City,10,12,28
-22169,2024-03-11 20:00:00,Chelsea,Newcastle United,6,14,28
-25861,2024-03-13 19:30:00,Bournemouth,Luton,2,11,28
-22177,2024-03-16 15:00:00,Burnley,Brentford,5,3,29
-22181,2024-03-16 15:00:00,Luton,Nottingham Forest,11,15,29
-22180,2024-03-16 17:30:00,Fulham,Tottenham,9,17,29
-22183,2024-03-17 14:00:00,West Ham,Aston Villa,18,1,29
-22191,2024-03-30 12:30:00,Newcastle United,West Ham,14,18,30
-22185,2024-03-30 15:00:00,Bournemouth,Everton,2,8,30
-22188,2024-03-30 15:00:00,Chelsea,Burnley,6,5,30
-22192,2024-03-30 15:00:00,Nottingham Forest,Crystal Palace,15,7,30
-22193,2024-03-30 15:00:00,Sheffield United,Fulham,16,9,30
-22194,2024-03-30 15:00:00,Tottenham,Luton,17,11,30
-22186,2024-03-30 17:30:00,Aston Villa,Wolverhampton Wanderers,1,19,30
-22187,2024-03-30 20:00:00,Brentford,Manchester United,3,13,30
-22189,2024-03-31 14:00:00,Liverpool,Brighton,10,4,30
-22190,2024-03-31 16:30:00,Manchester City,Arsenal,12,0,30
-22198,2024-04-02 18:30:00,Nottingham Forest,Fulham,15,9,31
-22202,2024-04-02 18:30:00,Newcastle United,Everton,14,8,31
-22195,2024-04-02 18:45:00,Bournemouth,Crystal Palace,2,7,31
-22197,2024-04-02 18:45:00,Burnley,Wolverhampton Wanderers,5,19,31
-22199,2024-04-02 19:15:00,West Ham,Tottenham,18,17,31
-22196,2024-04-03 18:30:00,Arsenal,Luton,0,11,31
-22200,2024-04-03 18:30:00,Brentford,Brighton,3,4,31
-22204,2024-04-03 19:15:00,Manchester City,Aston Villa,12,1,31
-22203,2024-04-04 18:30:00,Liverpool,Sheffield United,10,16,31
-22201,2024-04-04 19:15:00,Chelsea,Manchester United,6,13,31
-22207,2024-04-06 11:30:00,Crystal Palace,Manchester City,7,12,32
-22205,2024-04-06 14:00:00,Aston Villa,Brentford,1,3,32
-22208,2024-04-06 14:00:00,Everton,Burnley,8,5,32
-22209,2024-04-06 14:00:00,Fulham,Newcastle United,9,14,32
-22210,2024-04-06 14:00:00,Luton,Bournemouth,11,2,32
-22214,2024-04-06 14:00:00,Wolverhampton Wanderers,West Ham,19,18,32
-22206,2024-04-06 16:30:00,Brighton,Arsenal,4,0,32
-22211,2024-04-07 14:30:00,Manchester United,Liverpool,13,10,32
-22212,2024-04-07 16:30:00,Sheffield United,Chelsea,16,6,32
-22213,2024-04-07 19:00:00,Tottenham,Nottingham Forest,17,15,32
-22222,2024-04-13 11:30:00,Newcastle United,Tottenham,14,17,33
-22217,2024-04-13 14:00:00,Brentford,Sheffield United,3,16,33
-22218,2024-04-13 14:00:00,Burnley,Brighton,5,4,33
-22221,2024-04-13 14:00:00,Manchester City,Luton,12,11,33
-22223,2024-04-13 14:00:00,Nottingham Forest,Wolverhampton Wanderers,15,19,33
-22215,2024-04-13 16:30:00,Bournemouth,Manchester United,2,13,33
-22220,2024-04-14 13:00:00,Liverpool,Crystal Palace,10,7,33
-22224,2024-04-14 13:00:00,West Ham,Fulham,18,9,33
-22216,2024-04-14 15:30:00,Arsenal,Aston Villa,0,1,33
-22219,2024-04-15 19:00:00,Chelsea,Everton,6,8,33
-22230,2024-04-20 14:00:00,Luton,Brentford,11,3,34
-22232,2024-04-20 14:00:00,Sheffield United,Burnley,16,5,34
-22234,2024-04-20 18:30:00,Wolverhampton Wanderers,Arsenal,19,0,34
-22228,2024-04-21 12:30:00,Everton,Nottingham Forest,8,15,34
-22225,2024-04-21 14:00:00,Aston Villa,Bournemouth,1,2,34
-22227,2024-04-21 14:00:00,Crystal Palace,West Ham,7,18,34
-22229,2024-04-21 15:30:00,Fulham,Liverpool,9,10,34
-22175,2024-04-23 19:00:00,Arsenal,Chelsea,0,6,34
-22184,2024-04-24 18:45:00,Wolverhampton Wanderers,Bournemouth,19,2,34
-22178,2024-04-24 19:00:00,Crystal Palace,Newcastle United,7,14,34
-22179,2024-04-24 19:00:00,Everton,Liverpool,8,10,34
-22182,2024-04-24 19:00:00,Manchester United,Sheffield United,13,16,34
-22176,2024-04-25 19:00:00,Brighton,Manchester City,4,12,34
-22243,2024-04-27 11:30:00,West Ham,Liverpool,18,10,35
-22238,2024-04-27 14:00:00,Fulham,Crystal Palace,9,7,35
-22239,2024-04-27 14:00:00,Manchester United,Burnley,13,5,35
-22240,2024-04-27 14:00:00,Newcastle United,Sheffield United,14,16,35
-22244,2024-04-27 14:00:00,Wolverhampton Wanderers,Luton,19,11,35
-22237,2024-04-27 16:30:00,Everton,Brentford,8,3,35
-22236,2024-04-27 19:00:00,Aston Villa,Chelsea,1,6,35
-22235,2024-04-28 13:00:00,Bournemouth,Brighton,2,4,35
-22241,2024-04-28 13:00:00,Tottenham,Arsenal,17,0,35
-22242,2024-04-28 15:30:00,Nottingham Forest,Manchester City,15,12,35
-22149,2024-05-02 18:30:00,Chelsea,Tottenham,6,17,35
-22252,2024-05-03 19:00:00,Luton,Everton,11,8,36
-22245,2024-05-04 11:30:00,Arsenal,Bournemouth,0,2,36
-22246,2024-05-04 14:00:00,Brentford,Fulham,3,9,36
-22248,2024-05-04 14:00:00,Burnley,Newcastle United,5,14,36
-22254,2024-05-04 14:00:00,Sheffield United,Nottingham Forest,16,15,36
-22253,2024-05-04 16:30:00,Manchester City,Wolverhampton Wanderers,12,19,36
-22247,2024-05-05 13:00:00,Brighton,Aston Villa,4,1,36
-22249,2024-05-05 13:00:00,Chelsea,West Ham,6,18,36
-22251,2024-05-05 15:30:00,Liverpool,Tottenham,10,17,36
-22250,2024-05-06 19:00:00,Crystal Palace,Manchester United,7,13,36
-22258,2024-05-11 11:30:00,Fulham,Manchester City,9,12,37
-22255,2024-05-11 14:00:00,Bournemouth,Brentford,2,3,37
-22257,2024-05-11 14:00:00,Everton,Sheffield United,8,16,37
-22260,2024-05-11 14:00:00,Newcastle United,Brighton,14,4,37
-22262,2024-05-11 14:00:00,Tottenham,Burnley,17,5,37
-22263,2024-05-11 14:00:00,West Ham,Luton,18,11,37
-22264,2024-05-11 14:00:00,Wolverhampton Wanderers,Crystal Palace,19,7,37
-22261,2024-05-11 16:30:00,Nottingham Forest,Chelsea,15,6,37
-22259,2024-05-12 15:30:00,Manchester United,Arsenal,13,0,37
-22256,2024-05-13 19:00:00,Aston Villa,Liverpool,1,10,37
-22233,2024-05-14 19:00:00,Tottenham,Manchester City,17,12,37
-22226,2024-05-15 18:45:00,Brighton,Chelsea,4,6,37
-22231,2024-05-15 19:00:00,Manchester United,Newcastle United,13,14,37
-22265,2024-05-19 15:00:00,Arsenal,Everton,0,8,38
-22266,2024-05-19 15:00:00,Brentford,Newcastle United,3,14,38
-22267,2024-05-19 15:00:00,Brighton,Manchester United,4,13,38
-22268,2024-05-19 15:00:00,Burnley,Nottingham Forest,5,15,38
-22269,2024-05-19 15:00:00,Chelsea,Bournemouth,6,2,38
-22270,2024-05-19 15:00:00,Crystal Palace,Aston Villa,7,1,38
-22271,2024-05-19 15:00:00,Liverpool,Wolverhampton Wanderers,10,19,38
-22272,2024-05-19 15:00:00,Luton,Fulham,11,9,38
-22273,2024-05-19 15:00:00,Manchester City,West Ham,12,18,38
-22274,2024-05-19 15:00:00,Sheffield United,Tottenham,16,17,38
+fixture_id,datetime,home,away,h_id,a_id,h,a,gameweek
+22275,2023-08-11 19:00:00,Burnley,Manchester City,5,12,92,88,1
+22276,2023-08-12 11:30:00,Arsenal,Nottingham Forest,0,15,83,249,1
+22277,2023-08-12 14:00:00,Bournemouth,West Ham,2,18,73,81,1
+22278,2023-08-12 14:00:00,Brighton,Luton,4,11,220,256,1
+22279,2023-08-12 14:00:00,Everton,Fulham,8,9,72,228,1
+22280,2023-08-12 14:00:00,Sheffield United,Crystal Palace,16,7,238,78,1
+22281,2023-08-12 16:30:00,Newcastle United,Aston Villa,14,1,86,71,1
+22282,2023-08-13 13:00:00,Brentford,Tottenham,3,17,244,82,1
+22283,2023-08-13 15:30:00,Chelsea,Liverpool,6,10,80,87,1
+22284,2023-08-14 19:00:00,Manchester United,Wolverhampton Wanderers,13,19,89,229,1
+22285,2023-08-18 18:45:00,Nottingham Forest,Sheffield United,15,16,249,238,2
+22286,2023-08-19 14:00:00,Wolverhampton Wanderers,Brighton,19,4,229,220,2
+22287,2023-08-19 14:00:00,Fulham,Brentford,9,3,228,244,2
+22288,2023-08-19 14:00:00,Liverpool,Bournemouth,10,2,87,73,2
+22290,2023-08-19 16:30:00,Tottenham,Manchester United,17,13,82,89,2
+22291,2023-08-19 19:00:00,Manchester City,Newcastle United,12,14,88,86,2
+22292,2023-08-20 13:00:00,Aston Villa,Everton,1,8,71,72,2
+22293,2023-08-20 15:30:00,West Ham,Chelsea,18,6,81,80,2
+22294,2023-08-21 19:00:00,Crystal Palace,Arsenal,7,0,78,83,2
+22295,2023-08-25 19:00:00,Chelsea,Luton,6,11,80,256,3
+22296,2023-08-26 11:30:00,Bournemouth,Tottenham,2,17,73,82,3
+22297,2023-08-26 14:00:00,Arsenal,Fulham,0,9,83,228,3
+22298,2023-08-26 14:00:00,Brentford,Crystal Palace,3,7,244,78,3
+22299,2023-08-26 14:00:00,Everton,Wolverhampton Wanderers,8,19,72,229,3
+22300,2023-08-26 14:00:00,Manchester United,Nottingham Forest,13,15,89,249,3
+22301,2023-08-26 16:30:00,Brighton,West Ham,4,18,220,81,3
+22302,2023-08-27 13:00:00,Burnley,Aston Villa,5,1,92,71,3
+22303,2023-08-27 13:00:00,Sheffield United,Manchester City,16,12,238,88,3
+22304,2023-08-27 15:30:00,Newcastle United,Liverpool,14,10,86,87,3
+21925,2023-09-01 19:00:00,Luton,West Ham,11,18,256,81,4
+21926,2023-09-02 11:30:00,Sheffield United,Everton,16,8,238,72,4
+21927,2023-09-02 14:00:00,Manchester City,Fulham,12,9,88,228,4
+21928,2023-09-02 14:00:00,Brentford,Bournemouth,3,2,244,73,4
+21929,2023-09-02 14:00:00,Burnley,Tottenham,5,17,92,82,4
+21930,2023-09-02 14:00:00,Chelsea,Nottingham Forest,6,15,80,249,4
+21931,2023-09-02 16:30:00,Brighton,Newcastle United,4,14,220,86,4
+21932,2023-09-03 13:00:00,Crystal Palace,Wolverhampton Wanderers,7,19,78,229,4
+21933,2023-09-03 13:00:00,Liverpool,Aston Villa,10,1,87,71,4
+21934,2023-09-03 15:30:00,Arsenal,Manchester United,0,13,83,89,4
+21935,2023-09-16 11:30:00,Wolverhampton Wanderers,Liverpool,19,10,229,87,5
+21936,2023-09-16 14:00:00,Tottenham,Sheffield United,17,16,82,238,5
+21937,2023-09-16 14:00:00,West Ham,Manchester City,18,12,81,88,5
+21938,2023-09-16 14:00:00,Aston Villa,Crystal Palace,1,7,71,78,5
+21939,2023-09-16 14:00:00,Fulham,Luton,9,11,228,256,5
+21940,2023-09-16 14:00:00,Manchester United,Brighton,13,4,89,220,5
+21943,2023-09-16 16:30:00,Newcastle United,Brentford,14,3,86,244,5
+21942,2023-09-17 13:00:00,Bournemouth,Chelsea,2,6,73,80,5
+21941,2023-09-17 15:30:00,Everton,Arsenal,8,0,72,83,5
+21944,2023-09-18 18:45:00,Nottingham Forest,Burnley,15,5,249,92,5
+21945,2023-09-23 14:00:00,Luton,Wolverhampton Wanderers,11,19,256,229,6
+21946,2023-09-23 14:00:00,Manchester City,Nottingham Forest,12,15,88,249,6
+21948,2023-09-23 14:00:00,Crystal Palace,Fulham,7,9,78,228,6
+21949,2023-09-23 16:30:00,Brentford,Everton,3,8,244,72,6
+21950,2023-09-23 19:00:00,Burnley,Manchester United,5,13,92,89,6
+21947,2023-09-24 13:00:00,Chelsea,Aston Villa,6,1,80,71,6
+21951,2023-09-24 13:00:00,Brighton,Bournemouth,4,2,220,73,6
+21952,2023-09-24 13:00:00,Arsenal,Tottenham,0,17,83,82,6
+21953,2023-09-24 13:00:00,Liverpool,West Ham,10,18,87,81,6
+21954,2023-09-24 15:30:00,Sheffield United,Newcastle United,16,14,238,86,6
+21955,2023-09-30 11:30:00,Aston Villa,Brighton,1,4,71,220,7
+21956,2023-09-30 14:00:00,Everton,Luton,8,11,72,256,7
+21957,2023-09-30 14:00:00,Manchester United,Crystal Palace,13,7,89,78,7
+21958,2023-09-30 14:00:00,Newcastle United,Burnley,14,5,86,92,7
+21959,2023-09-30 14:00:00,Bournemouth,Arsenal,2,0,73,83,7
+21960,2023-09-30 14:00:00,West Ham,Sheffield United,18,16,81,238,7
+21961,2023-09-30 14:00:00,Wolverhampton Wanderers,Manchester City,19,12,229,88,7
+21962,2023-09-30 16:30:00,Tottenham,Liverpool,17,10,82,87,7
+21963,2023-10-01 13:00:00,Nottingham Forest,Brentford,15,3,249,244,7
+21964,2023-10-02 19:00:00,Fulham,Chelsea,9,6,228,80,7
+22289,2023-10-03 18:30:00,Luton,Burnley,11,5,256,92,7
+21971,2023-10-07 11:30:00,Luton,Tottenham,11,17,256,82,8
+21967,2023-10-07 14:00:00,Burnley,Chelsea,5,6,92,80,8
+21969,2023-10-07 14:00:00,Everton,Bournemouth,8,2,72,73,8
+21970,2023-10-07 14:00:00,Fulham,Sheffield United,9,16,228,238,8
+21972,2023-10-07 14:00:00,Manchester United,Brentford,13,3,89,244,8
+21968,2023-10-07 16:30:00,Crystal Palace,Nottingham Forest,7,15,78,249,8
+21966,2023-10-08 13:00:00,Brighton,Liverpool,4,10,220,87,8
+21973,2023-10-08 13:00:00,West Ham,Newcastle United,18,14,81,86,8
+21974,2023-10-08 13:00:00,Wolverhampton Wanderers,Aston Villa,19,1,229,71,8
+21965,2023-10-08 15:30:00,Arsenal,Manchester City,0,12,83,88,8
+21979,2023-10-21 11:30:00,Liverpool,Everton,10,8,87,72,9
+21975,2023-10-21 14:00:00,Bournemouth,Wolverhampton Wanderers,2,19,73,229,9
+21977,2023-10-21 14:00:00,Brentford,Burnley,3,5,244,92,9
+21980,2023-10-21 14:00:00,Manchester City,Brighton,12,4,88,220,9
+21981,2023-10-21 14:00:00,Newcastle United,Crystal Palace,14,7,86,78,9
+21982,2023-10-21 14:00:00,Nottingham Forest,Luton,15,11,249,256,9
+21978,2023-10-21 16:30:00,Chelsea,Arsenal,6,0,80,83,9
+21983,2023-10-21 19:00:00,Sheffield United,Manchester United,16,13,238,89,9
+21976,2023-10-22 15:30:00,Aston Villa,West Ham,1,18,71,81,9
+21984,2023-10-23 19:00:00,Tottenham,Fulham,17,9,82,228,9
+21990,2023-10-27 19:00:00,Crystal Palace,Tottenham,7,17,78,82,10
+21989,2023-10-28 11:30:00,Chelsea,Brentford,6,3,80,244,10
+21985,2023-10-28 14:00:00,Bournemouth,Burnley,2,5,73,92,10
+21986,2023-10-28 14:00:00,Arsenal,Sheffield United,0,16,83,238,10
+21994,2023-10-28 16:30:00,Wolverhampton Wanderers,Newcastle United,19,14,229,86,10
+21993,2023-10-29 13:00:00,West Ham,Everton,18,8,81,72,10
+21987,2023-10-29 14:00:00,Aston Villa,Luton,1,11,71,256,10
+21988,2023-10-29 14:00:00,Brighton,Fulham,4,9,220,228,10
+21991,2023-10-29 14:00:00,Liverpool,Nottingham Forest,10,15,87,249,10
+21992,2023-10-29 15:30:00,Manchester United,Manchester City,13,12,89,88,10
+21998,2023-11-04 12:30:00,Fulham,Manchester United,9,13,228,89,11
+21995,2023-11-04 15:00:00,Brentford,West Ham,3,18,244,81,11
+21996,2023-11-04 15:00:00,Burnley,Crystal Palace,5,7,92,78,11
+21997,2023-11-04 15:00:00,Everton,Brighton,8,4,72,220,11
+22000,2023-11-04 15:00:00,Manchester City,Bournemouth,12,2,88,73,11
+22003,2023-11-04 15:00:00,Sheffield United,Wolverhampton Wanderers,16,19,238,229,11
+22001,2023-11-04 17:30:00,Newcastle United,Arsenal,14,0,86,83,11
+22002,2023-11-05 14:00:00,Nottingham Forest,Aston Villa,15,1,249,71,11
+21999,2023-11-05 16:30:00,Luton,Liverpool,11,10,256,87,11
+22004,2023-11-06 20:00:00,Tottenham,Chelsea,17,6,82,80,11
+22014,2023-11-11 12:30:00,Wolverhampton Wanderers,Tottenham,19,17,229,82,12
+22006,2023-11-11 15:00:00,Arsenal,Burnley,0,5,83,92,12
+22010,2023-11-11 15:00:00,Crystal Palace,Everton,7,8,78,72,12
+22012,2023-11-11 15:00:00,Manchester United,Luton,13,11,89,256,12
+22005,2023-11-11 17:30:00,Bournemouth,Newcastle United,2,14,73,86,12
+22007,2023-11-12 14:00:00,Aston Villa,Fulham,1,9,71,228,12
+22008,2023-11-12 14:00:00,Brighton,Sheffield United,4,16,220,238,12
+22011,2023-11-12 14:00:00,Liverpool,Brentford,10,3,87,244,12
+22013,2023-11-12 14:00:00,West Ham,Nottingham Forest,18,15,81,249,12
+22009,2023-11-12 16:30:00,Chelsea,Manchester City,6,12,80,88,12
+22020,2023-11-25 12:30:00,Manchester City,Liverpool,12,10,88,87,13
+22016,2023-11-25 15:00:00,Burnley,West Ham,5,18,92,81,13
+22019,2023-11-25 15:00:00,Luton,Crystal Palace,11,7,256,78,13
+22021,2023-11-25 15:00:00,Newcastle United,Chelsea,14,6,86,80,13
+22022,2023-11-25 15:00:00,Nottingham Forest,Brighton,15,4,249,220,13
+22023,2023-11-25 15:00:00,Sheffield United,Bournemouth,16,2,238,73,13
+22015,2023-11-25 17:30:00,Brentford,Arsenal,3,0,244,83,13
+22024,2023-11-26 14:00:00,Tottenham,Aston Villa,17,1,82,71,13
+22017,2023-11-26 16:30:00,Everton,Manchester United,8,13,72,89,13
+22018,2023-11-27 20:00:00,Fulham,Wolverhampton Wanderers,9,19,228,229,13
+22026,2023-12-02 15:00:00,Arsenal,Wolverhampton Wanderers,0,19,83,229,14
+22027,2023-12-02 15:00:00,Brentford,Luton,3,11,244,256,14
+22028,2023-12-02 15:00:00,Burnley,Sheffield United,5,16,92,238,14
+22033,2023-12-02 17:30:00,Nottingham Forest,Everton,15,8,249,72,14
+22032,2023-12-02 20:00:00,Newcastle United,Manchester United,14,13,86,89,14
+22025,2023-12-03 14:00:00,Bournemouth,Aston Villa,2,1,73,71,14
+22029,2023-12-03 14:00:00,Chelsea,Brighton,6,4,80,220,14
+22030,2023-12-03 14:00:00,Liverpool,Fulham,10,9,87,228,14
+22034,2023-12-03 14:00:00,West Ham,Crystal Palace,18,7,81,78,14
+22031,2023-12-03 16:30:00,Manchester City,Tottenham,12,17,88,82,14
+22042,2023-12-05 19:30:00,Wolverhampton Wanderers,Burnley,19,5,229,92,15
+22039,2023-12-05 20:15:00,Luton,Arsenal,11,0,256,83,15
+22036,2023-12-06 19:30:00,Brighton,Brentford,4,3,220,244,15
+22038,2023-12-06 19:30:00,Fulham,Nottingham Forest,9,15,228,249,15
+22040,2023-12-06 19:30:00,Sheffield United,Liverpool,16,10,238,87,15
+22043,2023-12-06 19:30:00,Crystal Palace,Bournemouth,7,2,78,73,15
+22035,2023-12-06 20:15:00,Aston Villa,Manchester City,1,12,71,88,15
+22044,2023-12-06 20:15:00,Manchester United,Chelsea,13,6,89,80,15
+22037,2023-12-07 19:30:00,Everton,Newcastle United,8,14,72,86,15
+22041,2023-12-07 20:15:00,Tottenham,West Ham,17,18,82,81,15
+22047,2023-12-09 12:30:00,Crystal Palace,Liverpool,7,10,78,87,16
+22046,2023-12-09 15:00:00,Brighton,Burnley,4,5,220,92,16
+22051,2023-12-09 15:00:00,Manchester United,Bournemouth,13,2,89,73,16
+22052,2023-12-09 15:00:00,Sheffield United,Brentford,16,3,238,244,16
+22054,2023-12-09 15:00:00,Wolverhampton Wanderers,Nottingham Forest,19,15,229,249,16
+22045,2023-12-09 17:30:00,Aston Villa,Arsenal,1,0,71,83,16
+22048,2023-12-10 14:00:00,Everton,Chelsea,8,6,72,80,16
+22049,2023-12-10 14:00:00,Fulham,West Ham,9,18,228,81,16
+22050,2023-12-10 14:00:00,Luton,Manchester City,11,12,256,88,16
+22053,2023-12-10 16:30:00,Tottenham,Newcastle United,17,14,82,86,16
+22063,2023-12-15 20:00:00,Nottingham Forest,Tottenham,15,17,249,82,17
+22059,2023-12-16 15:00:00,Chelsea,Sheffield United,6,16,80,238,17
+22061,2023-12-16 15:00:00,Manchester City,Crystal Palace,12,7,88,78,17
+22062,2023-12-16 15:00:00,Newcastle United,Fulham,14,9,86,228,17
+22058,2023-12-16 17:30:00,Burnley,Everton,5,8,92,72,17
+22056,2023-12-17 14:00:00,Arsenal,Brighton,0,4,83,220,17
+22057,2023-12-17 14:00:00,Brentford,Aston Villa,3,1,244,71,17
+22064,2023-12-17 14:00:00,West Ham,Wolverhampton Wanderers,18,19,81,229,17
+22060,2023-12-17 16:30:00,Liverpool,Manchester United,10,13,87,89,17
+22066,2023-12-21 20:00:00,Crystal Palace,Brighton,7,4,78,220,18
+22065,2023-12-22 20:00:00,Aston Villa,Sheffield United,1,16,71,238,18
+22072,2023-12-23 12:30:00,West Ham,Manchester United,18,13,81,89,18
+22067,2023-12-23 15:00:00,Fulham,Burnley,9,5,228,92,18
+22069,2023-12-23 15:00:00,Luton,Newcastle United,11,14,256,86,18
+22070,2023-12-23 15:00:00,Nottingham Forest,Bournemouth,15,2,249,73,18
+22071,2023-12-23 15:00:00,Tottenham,Everton,17,8,82,72,18
+22068,2023-12-23 17:30:00,Liverpool,Arsenal,10,0,87,83,18
+22073,2023-12-24 13:00:00,Wolverhampton Wanderers,Chelsea,19,6,229,80,18
+22083,2023-12-26 12:30:00,Newcastle United,Nottingham Forest,14,15,86,249,19
+22075,2023-12-26 15:00:00,Bournemouth,Fulham,2,9,73,228,19
+22084,2023-12-26 15:00:00,Sheffield United,Luton,16,11,238,256,19
+22079,2023-12-26 17:30:00,Burnley,Liverpool,5,10,92,87,19
+22082,2023-12-26 20:00:00,Manchester United,Aston Villa,13,1,89,71,19
+22077,2023-12-27 19:30:00,Brentford,Wolverhampton Wanderers,3,19,244,229,19
+22080,2023-12-27 19:30:00,Chelsea,Crystal Palace,6,7,80,78,19
+22081,2023-12-27 20:15:00,Everton,Manchester City,8,12,72,88,19
+22078,2023-12-28 19:30:00,Brighton,Tottenham,4,17,220,82,19
+22076,2023-12-28 20:15:00,Arsenal,West Ham,0,18,83,81,19
+22089,2023-12-30 12:30:00,Luton,Chelsea,11,6,256,80,20
+22085,2023-12-30 15:00:00,Aston Villa,Burnley,1,5,71,92,20
+22086,2023-12-30 15:00:00,Crystal Palace,Brentford,7,3,78,244,20
+22090,2023-12-30 15:00:00,Manchester City,Sheffield United,12,16,88,238,20
+22094,2023-12-30 15:00:00,Wolverhampton Wanderers,Everton,19,8,229,72,20
+22091,2023-12-30 17:30:00,Nottingham Forest,Manchester United,15,13,249,89,20
+22087,2023-12-31 14:00:00,Fulham,Arsenal,9,0,228,83,20
+22092,2023-12-31 14:00:00,Tottenham,Bournemouth,17,2,82,73,20
+22088,2024-01-01 19:00:00,Liverpool,Newcastle United,10,14,87,86,20
+22093,2024-01-02 18:30:00,West Ham,Brighton,18,4,81,220,20
+22096,2024-01-12 19:45:00,Burnley,Luton,5,11,92,256,21
+22097,2024-01-13 12:30:00,Chelsea,Fulham,6,9,80,228,21
+22100,2024-01-13 17:30:00,Newcastle United,Manchester City,14,12,86,88,21
+22098,2024-01-14 14:00:00,Everton,Aston Villa,8,1,72,71,21
+22099,2024-01-14 16:30:00,Manchester United,Tottenham,13,17,89,82,21
+22103,2024-01-20 12:30:00,Arsenal,Crystal Palace,0,7,83,78,21
+22104,2024-01-20 17:30:00,Brentford,Nottingham Forest,3,15,244,249,21
+22101,2024-01-21 14:00:00,Sheffield United,West Ham,16,18,238,81,21
+22102,2024-01-21 16:30:00,Bournemouth,Liverpool,2,10,73,87,21
+22095,2024-01-22 19:45:00,Brighton,Wolverhampton Wanderers,4,19,220,229,21
+22108,2024-01-30 19:30:00,Nottingham Forest,Arsenal,15,0,249,83,22
+22106,2024-01-30 19:45:00,Fulham,Everton,9,8,228,72,22
+22107,2024-01-30 19:45:00,Luton,Brighton,11,4,256,220,22
+22112,2024-01-30 20:00:00,Crystal Palace,Sheffield United,7,16,78,238,22
+22105,2024-01-30 20:15:00,Aston Villa,Newcastle United,1,14,71,86,22
+22109,2024-01-31 19:30:00,Tottenham,Brentford,17,3,82,244,22
+22114,2024-01-31 19:30:00,Manchester City,Burnley,12,5,88,92,22
+22113,2024-01-31 20:15:00,Liverpool,Chelsea,10,6,87,80,22
+22110,2024-02-01 19:30:00,West Ham,Bournemouth,18,2,81,73,22
+22111,2024-02-01 20:15:00,Wolverhampton Wanderers,Manchester United,19,13,229,89,22
+22121,2024-02-03 12:30:00,Everton,Tottenham,8,17,72,82,23
+22118,2024-02-03 15:00:00,Brighton,Crystal Palace,4,7,220,78,23
+22119,2024-02-03 15:00:00,Burnley,Fulham,5,9,92,228,23
+22123,2024-02-03 15:00:00,Newcastle United,Luton,14,11,86,256,23
+22124,2024-02-03 17:30:00,Sheffield United,Aston Villa,16,1,238,71,23
+22115,2024-02-04 14:00:00,Bournemouth,Nottingham Forest,2,15,73,249,23
+22120,2024-02-04 14:00:00,Chelsea,Wolverhampton Wanderers,6,19,80,229,23
+22122,2024-02-04 14:00:00,Manchester United,West Ham,13,18,89,81,23
+22116,2024-02-04 16:30:00,Arsenal,Liverpool,0,10,83,87,23
+22117,2024-02-05 20:00:00,Brentford,Manchester City,3,12,244,88,23
+22130,2024-02-10 12:30:00,Manchester City,Everton,12,8,88,72,24
+22127,2024-02-10 15:00:00,Fulham,Bournemouth,9,2,228,73,24
+22128,2024-02-10 15:00:00,Liverpool,Burnley,10,5,87,92,24
+22129,2024-02-10 15:00:00,Luton,Sheffield United,11,16,256,238,24
+22132,2024-02-10 15:00:00,Tottenham,Brighton,17,4,82,220,24
+22134,2024-02-10 15:00:00,Wolverhampton Wanderers,Brentford,19,3,229,244,24
+22131,2024-02-10 17:30:00,Nottingham Forest,Newcastle United,15,14,249,86,24
+22133,2024-02-11 14:00:00,West Ham,Arsenal,18,0,81,83,24
+22125,2024-02-11 16:30:00,Aston Villa,Manchester United,1,13,71,89,24
+22126,2024-02-12 20:00:00,Crystal Palace,Chelsea,7,6,78,80,24
+22135,2024-02-17 12:30:00,Brentford,Liverpool,3,10,244,87,25
+22136,2024-02-17 15:00:00,Burnley,Arsenal,5,0,92,83,25
+22138,2024-02-17 15:00:00,Fulham,Aston Villa,9,1,228,71,25
+22141,2024-02-17 15:00:00,Newcastle United,Bournemouth,14,2,86,73,25
+22142,2024-02-17 15:00:00,Nottingham Forest,West Ham,15,18,249,81,25
+22144,2024-02-17 15:00:00,Tottenham,Wolverhampton Wanderers,17,19,82,229,25
+22140,2024-02-17 17:30:00,Manchester City,Chelsea,12,6,88,80,25
+22143,2024-02-18 14:00:00,Sheffield United,Brighton,16,4,238,220,25
+22139,2024-02-18 16:30:00,Luton,Manchester United,11,13,256,89,25
+22137,2024-02-19 20:00:00,Everton,Crystal Palace,8,7,72,78,25
+22074,2024-02-20 18:30:00,Manchester City,Brentford,12,3,88,244,25
+22151,2024-02-21 15:00:00,Liverpool,Luton,10,11,87,256,25
+22147,2024-02-24 15:00:00,Aston Villa,Nottingham Forest,1,15,71,249,26
+22148,2024-02-24 15:00:00,Brighton,Everton,4,8,220,72,26
+22150,2024-02-24 15:00:00,Crystal Palace,Burnley,7,5,78,92,26
+22152,2024-02-24 15:00:00,Manchester United,Fulham,13,9,89,228,26
+22145,2024-02-24 17:30:00,Bournemouth,Manchester City,2,12,73,88,26
+22146,2024-02-24 20:00:00,Arsenal,Newcastle United,0,14,83,86,26
+22154,2024-02-25 13:30:00,Wolverhampton Wanderers,Sheffield United,19,16,229,238,26
+22153,2024-02-26 20:00:00,West Ham,Brentford,18,3,81,244,26
+22155,2024-03-02 15:00:00,Brentford,Chelsea,3,6,244,80,27
+22157,2024-03-02 15:00:00,Everton,West Ham,8,18,72,81,27
+22158,2024-03-02 15:00:00,Fulham,Brighton,9,4,228,220,27
+22161,2024-03-02 15:00:00,Newcastle United,Wolverhampton Wanderers,14,19,86,229,27
+22162,2024-03-02 15:00:00,Nottingham Forest,Liverpool,15,10,249,87,27
+22164,2024-03-02 15:00:00,Tottenham,Crystal Palace,17,7,82,78,27
+22159,2024-03-02 17:30:00,Luton,Aston Villa,11,1,256,71,27
+22156,2024-03-03 13:00:00,Burnley,Bournemouth,5,2,92,73,27
+22160,2024-03-03 15:30:00,Manchester City,Manchester United,12,13,88,89,27
+22163,2024-03-04 20:00:00,Sheffield United,Arsenal,16,0,238,83,27
+22172,2024-03-09 12:30:00,Manchester United,Everton,13,8,89,72,28
+22165,2024-03-09 15:00:00,Bournemouth,Sheffield United,2,16,73,238,28
+22170,2024-03-09 15:00:00,Crystal Palace,Luton,7,11,78,256,28
+22174,2024-03-09 15:00:00,Wolverhampton Wanderers,Fulham,19,9,229,228,28
+22166,2024-03-09 17:30:00,Arsenal,Brentford,0,3,83,244,28
+22167,2024-03-10 13:00:00,Aston Villa,Tottenham,1,17,71,82,28
+22168,2024-03-10 14:00:00,Brighton,Nottingham Forest,4,15,220,249,28
+22173,2024-03-10 14:00:00,West Ham,Burnley,18,5,81,92,28
+22171,2024-03-10 15:45:00,Liverpool,Manchester City,10,12,87,88,28
+22169,2024-03-11 20:00:00,Chelsea,Newcastle United,6,14,80,86,28
+25861,2024-03-13 19:30:00,Bournemouth,Luton,2,11,73,256,28
+22177,2024-03-16 15:00:00,Burnley,Brentford,5,3,92,244,29
+22181,2024-03-16 15:00:00,Luton,Nottingham Forest,11,15,256,249,29
+22180,2024-03-16 17:30:00,Fulham,Tottenham,9,17,228,82,29
+22183,2024-03-17 14:00:00,West Ham,Aston Villa,18,1,81,71,29
+22191,2024-03-30 12:30:00,Newcastle United,West Ham,14,18,86,81,30
+22185,2024-03-30 15:00:00,Bournemouth,Everton,2,8,73,72,30
+22188,2024-03-30 15:00:00,Chelsea,Burnley,6,5,80,92,30
+22192,2024-03-30 15:00:00,Nottingham Forest,Crystal Palace,15,7,249,78,30
+22193,2024-03-30 15:00:00,Sheffield United,Fulham,16,9,238,228,30
+22194,2024-03-30 15:00:00,Tottenham,Luton,17,11,82,256,30
+22186,2024-03-30 17:30:00,Aston Villa,Wolverhampton Wanderers,1,19,71,229,30
+22187,2024-03-30 20:00:00,Brentford,Manchester United,3,13,244,89,30
+22189,2024-03-31 14:00:00,Liverpool,Brighton,10,4,87,220,30
+22190,2024-03-31 16:30:00,Manchester City,Arsenal,12,0,88,83,30
+22198,2024-04-02 18:30:00,Nottingham Forest,Fulham,15,9,249,228,31
+22202,2024-04-02 18:30:00,Newcastle United,Everton,14,8,86,72,31
+22195,2024-04-02 18:45:00,Bournemouth,Crystal Palace,2,7,73,78,31
+22197,2024-04-02 18:45:00,Burnley,Wolverhampton Wanderers,5,19,92,229,31
+22199,2024-04-02 19:15:00,West Ham,Tottenham,18,17,81,82,31
+22196,2024-04-03 18:30:00,Arsenal,Luton,0,11,83,256,31
+22200,2024-04-03 18:30:00,Brentford,Brighton,3,4,244,220,31
+22204,2024-04-03 19:15:00,Manchester City,Aston Villa,12,1,88,71,31
+22203,2024-04-04 18:30:00,Liverpool,Sheffield United,10,16,87,238,31
+22201,2024-04-04 19:15:00,Chelsea,Manchester United,6,13,80,89,31
+22207,2024-04-06 11:30:00,Crystal Palace,Manchester City,7,12,78,88,32
+22205,2024-04-06 14:00:00,Aston Villa,Brentford,1,3,71,244,32
+22208,2024-04-06 14:00:00,Everton,Burnley,8,5,72,92,32
+22209,2024-04-06 14:00:00,Fulham,Newcastle United,9,14,228,86,32
+22210,2024-04-06 14:00:00,Luton,Bournemouth,11,2,256,73,32
+22214,2024-04-06 14:00:00,Wolverhampton Wanderers,West Ham,19,18,229,81,32
+22206,2024-04-06 16:30:00,Brighton,Arsenal,4,0,220,83,32
+22211,2024-04-07 14:30:00,Manchester United,Liverpool,13,10,89,87,32
+22212,2024-04-07 16:30:00,Sheffield United,Chelsea,16,6,238,80,32
+22213,2024-04-07 19:00:00,Tottenham,Nottingham Forest,17,15,82,249,32
+22222,2024-04-13 11:30:00,Newcastle United,Tottenham,14,17,86,82,33
+22217,2024-04-13 14:00:00,Brentford,Sheffield United,3,16,244,238,33
+22218,2024-04-13 14:00:00,Burnley,Brighton,5,4,92,220,33
+22221,2024-04-13 14:00:00,Manchester City,Luton,12,11,88,256,33
+22223,2024-04-13 14:00:00,Nottingham Forest,Wolverhampton Wanderers,15,19,249,229,33
+22215,2024-04-13 16:30:00,Bournemouth,Manchester United,2,13,73,89,33
+22220,2024-04-14 13:00:00,Liverpool,Crystal Palace,10,7,87,78,33
+22224,2024-04-14 13:00:00,West Ham,Fulham,18,9,81,228,33
+22216,2024-04-14 15:30:00,Arsenal,Aston Villa,0,1,83,71,33
+22219,2024-04-15 19:00:00,Chelsea,Everton,6,8,80,72,33
+22230,2024-04-20 14:00:00,Luton,Brentford,11,3,256,244,34
+22232,2024-04-20 14:00:00,Sheffield United,Burnley,16,5,238,92,34
+22234,2024-04-20 18:30:00,Wolverhampton Wanderers,Arsenal,19,0,229,83,34
+22228,2024-04-21 12:30:00,Everton,Nottingham Forest,8,15,72,249,34
+22225,2024-04-21 14:00:00,Aston Villa,Bournemouth,1,2,71,73,34
+22227,2024-04-21 14:00:00,Crystal Palace,West Ham,7,18,78,81,34
+22229,2024-04-21 15:30:00,Fulham,Liverpool,9,10,228,87,34
+22175,2024-04-23 19:00:00,Arsenal,Chelsea,0,6,83,80,34
+22184,2024-04-24 18:45:00,Wolverhampton Wanderers,Bournemouth,19,2,229,73,34
+22178,2024-04-24 19:00:00,Crystal Palace,Newcastle United,7,14,78,86,34
+22179,2024-04-24 19:00:00,Everton,Liverpool,8,10,72,87,34
+22182,2024-04-24 19:00:00,Manchester United,Sheffield United,13,16,89,238,34
+22176,2024-04-25 19:00:00,Brighton,Manchester City,4,12,220,88,34
+22243,2024-04-27 11:30:00,West Ham,Liverpool,18,10,81,87,35
+22238,2024-04-27 14:00:00,Fulham,Crystal Palace,9,7,228,78,35
+22239,2024-04-27 14:00:00,Manchester United,Burnley,13,5,89,92,35
+22240,2024-04-27 14:00:00,Newcastle United,Sheffield United,14,16,86,238,35
+22244,2024-04-27 14:00:00,Wolverhampton Wanderers,Luton,19,11,229,256,35
+22237,2024-04-27 16:30:00,Everton,Brentford,8,3,72,244,35
+22236,2024-04-27 19:00:00,Aston Villa,Chelsea,1,6,71,80,35
+22235,2024-04-28 13:00:00,Bournemouth,Brighton,2,4,73,220,35
+22241,2024-04-28 13:00:00,Tottenham,Arsenal,17,0,82,83,35
+22242,2024-04-28 15:30:00,Nottingham Forest,Manchester City,15,12,249,88,35
+22149,2024-05-02 18:30:00,Chelsea,Tottenham,6,17,80,82,35
+22252,2024-05-03 19:00:00,Luton,Everton,11,8,256,72,36
+22245,2024-05-04 11:30:00,Arsenal,Bournemouth,0,2,83,73,36
+22246,2024-05-04 14:00:00,Brentford,Fulham,3,9,244,228,36
+22248,2024-05-04 14:00:00,Burnley,Newcastle United,5,14,92,86,36
+22254,2024-05-04 14:00:00,Sheffield United,Nottingham Forest,16,15,238,249,36
+22253,2024-05-04 16:30:00,Manchester City,Wolverhampton Wanderers,12,19,88,229,36
+22247,2024-05-05 13:00:00,Brighton,Aston Villa,4,1,220,71,36
+22249,2024-05-05 13:00:00,Chelsea,West Ham,6,18,80,81,36
+22251,2024-05-05 15:30:00,Liverpool,Tottenham,10,17,87,82,36
+22250,2024-05-06 19:00:00,Crystal Palace,Manchester United,7,13,78,89,36
+22258,2024-05-11 11:30:00,Fulham,Manchester City,9,12,228,88,37
+22255,2024-05-11 14:00:00,Bournemouth,Brentford,2,3,73,244,37
+22257,2024-05-11 14:00:00,Everton,Sheffield United,8,16,72,238,37
+22260,2024-05-11 14:00:00,Newcastle United,Brighton,14,4,86,220,37
+22262,2024-05-11 14:00:00,Tottenham,Burnley,17,5,82,92,37
+22263,2024-05-11 14:00:00,West Ham,Luton,18,11,81,256,37
+22264,2024-05-11 14:00:00,Wolverhampton Wanderers,Crystal Palace,19,7,229,78,37
+22261,2024-05-11 16:30:00,Nottingham Forest,Chelsea,15,6,249,80,37
+22259,2024-05-12 15:30:00,Manchester United,Arsenal,13,0,89,83,37
+22256,2024-05-13 19:00:00,Aston Villa,Liverpool,1,10,71,87,37
+22233,2024-05-14 19:00:00,Tottenham,Manchester City,17,12,82,88,37
+22226,2024-05-15 18:45:00,Brighton,Chelsea,4,6,220,80,37
+22231,2024-05-15 19:00:00,Manchester United,Newcastle United,13,14,89,86,37
+22265,2024-05-19 15:00:00,Arsenal,Everton,0,8,83,72,38
+22266,2024-05-19 15:00:00,Brentford,Newcastle United,3,14,244,86,38
+22267,2024-05-19 15:00:00,Brighton,Manchester United,4,13,220,89,38
+22268,2024-05-19 15:00:00,Burnley,Nottingham Forest,5,15,92,249,38
+22269,2024-05-19 15:00:00,Chelsea,Bournemouth,6,2,80,73,38
+22270,2024-05-19 15:00:00,Crystal Palace,Aston Villa,7,1,78,71,38
+22271,2024-05-19 15:00:00,Liverpool,Wolverhampton Wanderers,10,19,87,229,38
+22272,2024-05-19 15:00:00,Luton,Fulham,11,9,256,228,38
+22273,2024-05-19 15:00:00,Manchester City,West Ham,12,18,88,81,38
+22274,2024-05-19 15:00:00,Sheffield United,Tottenham,16,17,238,82,38
