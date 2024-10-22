@@ -1,10 +1,13 @@
 import sys
 import pandas as pd
-from data.get_fixture_data import get_fixture_data
-from data.get_player_data import get_player_data
-from data.player_mapping_updater import get_fpl_player_maps
-from data.get_fpl_player_data import get_fpl_player_data
-from models.odm import odm_func
+from get_fixture_data import get_fixture_data
+from get_player_data import get_player_data
+from player_mapping_updater import get_fpl_player_maps
+from get_fpl_player_data import get_fpl_player_data
+# odm dir
+import sys
+sys.path.append("src/models")
+from odm import odm_func
 
 
 # read in finished gameweek from user input
