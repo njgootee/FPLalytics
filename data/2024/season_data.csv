@@ -145,7 +145,7 @@ fixture_id,datetime,home,away,h_id,a_id,h,a,gameweek
 26745,2024-12-07 14:00:00,Tottenham,Chelsea,17,5,82,80,15
 26746,2024-12-07 14:00:00,West Ham,Wolverhampton Wanderers,18,19,81,229,15
 26747,2024-12-07 14:00:00,Crystal Palace,Manchester City,6,12,78,88,15
-26748,2024-12-07 14:00:00,Everton,Liverpool,7,11,72,87,15
+26748,2024-12-07 14:00:00,Everton,Liverpool,7,11,72,87,0
 26749,2024-12-07 14:00:00,Fulham,Arsenal,8,0,228,83,15
 26750,2024-12-07 14:00:00,Ipswich,Bournemouth,9,2,285,73,15
 26751,2024-12-07 14:00:00,Leicester,Brighton,10,4,75,220,15
