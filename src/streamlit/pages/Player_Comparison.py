@@ -381,7 +381,6 @@ Utilize the filters in the options section to narrow your search for the perfect
             )
 
             # setup dataframe
-            player_data["gameweek"] = "GW " + player_data["gameweek"].astype("str")
             historical_df = (
                 player_data[player_data["player_id"].isin(selected_players)]
                 .pivot_table(
@@ -393,7 +392,10 @@ Utilize the filters in the options section to narrow your search for the perfect
                 .reindex(selected_players_names)
             )
             historical_df = historical_df.round(2)
+            historical_df = historical_df.add_prefix("GW ")
             historical_df2 = historical_df.astype("str") + " " + past_fixtures
+            historical_df2 = historical_df2[historical_df.columns]
+
             # data element
             st.dataframe(
                 historical_df2.style.background_gradient(
