@@ -334,40 +334,37 @@ Utilize the filters in the options section to narrow your search for the perfect
     # historical detail dataframe
     # ----------------------------------------------------------------------#
     with st.expander("Historical Detail"):
-        st.caption(
-            "Select players in Performance Stats dataframe to view gameweek history of selected stat."
-        )
-        # stat selection option
-        stat_dict = {
-            "time": "Minutes",
-            "npGI": "npGI",
-            "npxGI": "npxGI",
-            "npgoals": "npGoals",
-            "npxG": "npxG",
-            "shots": "npShots",
-            "assists": "Assists",
-            "xA": "xA",
-            "key_passes": "KP",
-        }
-        hist_stat_option = st.selectbox(
-            "Select Stat",
-            options=(
-                "time",
-                "npGI",
-                "npxGI",
-                "npgoals",
-                "npxG",
-                "shots",
-                "assists",
-                "xA",
-                "key_passes",
-            ),
-            index=2,
-            format_func=lambda x: stat_dict.get(x),
-            label_visibility="collapsed",
-        )
-
         if len(selected_players) > 0:
+            # stat selection option
+            stat_dict = {
+                "time": "Minutes",
+                "npGI": "npGI",
+                "npxGI": "npxGI",
+                "npgoals": "npGoals",
+                "npxG": "npxG",
+                "shots": "npShots",
+                "assists": "Assists",
+                "xA": "xA",
+                "key_passes": "KP",
+            }
+            hist_stat_option = st.selectbox(
+                "Select Stat",
+                options=(
+                    "time",
+                    "npGI",
+                    "npxGI",
+                    "npgoals",
+                    "npxG",
+                    "shots",
+                    "assists",
+                    "xA",
+                    "key_passes",
+                ),
+                index=2,
+                format_func=lambda x: stat_dict.get(x),
+                label_visibility="collapsed",
+            )
+
             # opponent names
             past_fixtures = past_fixtures2.reset_index(names="team")
             past_fixtures = filtered_perf_df[["web_name_pos", "team"]].merge(
@@ -405,14 +402,17 @@ Utilize the filters in the options section to narrow your search for the perfect
                 use_container_width=True,
             )
 
+        else:
+            # help caption
+            st.caption(
+                "Select players in Performance Stats dataframe to view gameweek history of selected stat."
+            )
+
     # ----------------------------------------------------------------------#
     # upcoming fixtures dataframe
     # ----------------------------------------------------------------------#
     with st.expander("Upcoming Fixtures"):
         # Dataframe
-        st.caption(
-            "Select players in Performance Stats dataframe to view upcoming fixture information."
-        )
         if len(selected_players) > 0:
             o_tab, d_tab = st.tabs(["Offence", "Defence"])
             # offensive fixtures
@@ -501,13 +501,16 @@ Utilize the filters in the options section to narrow your search for the perfect
                     use_container_width=True,
                 )
 
+        else:
+            # help caption
+            st.caption(
+                "Select players in Performance Stats dataframe to view upcoming fixture information."
+            )
+
     # ----------------------------------------------------------------------#
     # informational stats dataframe
     # ----------------------------------------------------------------------#
     with st.expander("Informational Stats"):
-        st.caption(
-            "Select players in Performance Stats dataframe to view informational data and statistics."
-        )
         if len(selected_players) > 0:
             st.dataframe(
                 filtered_perf_df.style.background_gradient(
@@ -566,6 +569,12 @@ Utilize the filters in the options section to narrow your search for the perfect
                 ),
                 hide_index=True,
                 use_container_width=True,
+            )
+
+        else:
+            # help caption
+            st.caption(
+                "Select players in Performance Stats dataframe to view informational data and statistics."
             )
 
 
