@@ -1,12 +1,12 @@
 player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_order,status,team_id
-5543.0,Gabriel Jesus,2,Gabriel Fernando de Jesus,G.Jesus,4,(F),6.6,,i,0
+5543.0,Gabriel Jesus,2,Gabriel Fernando de Jesus,G.Jesus,4,(F),6.5,,i,0
 5613.0,Gabriel,3,Gabriel dos Santos Magalhães,Gabriel,2,(D),6.3,,a,0
-5220.0,Kai Havertz,4,Kai Havertz,Havertz,4,(F),7.8,3.0,d,0
+5220.0,Kai Havertz,4,Kai Havertz,Havertz,4,(F),7.8,3.0,i,0
 11707.0,Jurriën Timber,6,Jurriën Timber,J.Timber,2,(D),5.6,,a,0
 1389.0,Jorginho,7,Jorge Luiz Frello Filho,Jorginho,3,(M),4.7,,a,0
 10012.0,Jakub Kiwior,8,Jakub Kiwior,Kiwior,2,(D),4.8,,a,0
-7752.0,Gabriel Martinelli,9,Gabriel Martinelli Silva,Martinelli,3,(M),6.7,,d,0
-11132.0,Ethan Nwaneri,12,Ethan Nwaneri,Nwaneri,3,(M),4.5,,a,0
+7752.0,Gabriel Martinelli,9,Gabriel Martinelli Silva,Martinelli,3,(M),6.6,,i,0
+11132.0,Ethan Nwaneri,12,Ethan Nwaneri,Nwaneri,3,(M),4.6,,a,0
 2517.0,Martin Odegaard,13,Martin Ødegaard,Ødegaard,3,(M),8.2,2.0,a,0
 9676.0,David Raya,15,David Raya Martin,Raya,1,(G),5.5,,a,0
 5553.0,Declan Rice,16,Declan Rice,Rice,3,(M),6.2,,a,0
@@ -15,8 +15,8 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 2328.0,Thomas Partey,20,Thomas Partey,Thomas,3,(M),4.9,,a,0
 8089.0,Kieran Tierney,21,Kieran Tierney,Tierney,2,(D),4.3,,a,0
 7931.0,Takehiro Tomiyasu,22,Tomiyasu Takehiro,Tomiyasu,2,(D),4.8,,i,0
-7698.0,Leandro Trossard,23,Leandro Trossard,Trossard,3,(M),6.8,,a,0
-7298.0,Ben White,24,Benjamin White,White,2,(D),6.1,,i,0
+7698.0,Leandro Trossard,23,Leandro Trossard,Trossard,3,(M),6.9,,a,0
+7298.0,Ben White,24,Benjamin White,White,2,(D),6.1,,a,0
 2958.0,Oleksandr Zinchenko,25,Oleksandr Zinchenko,Zinchenko,2,(D),4.8,,a,0
 1297.0,Neto,73,Norberto Murara Neto,Neto,1,(G),4.1,,a,0
 618.0,Raheem Sterling,186,Raheem Sterling,Sterling,3,(M),6.7,,a,0
@@ -32,23 +32,23 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 ,,756,Jack Porter,Porter,1,(G),4.0,,a,0
 5221.0,Leon Bailey,28,Leon Bailey,Bailey,3,(M),6.2,,a,1
 592.0,Ross Barkley,29,Ross Barkley,Barkley,3,(M),5.2,,d,1
-8864.0,Matthew Cash,32,Matty Cash,Cash,2,(D),4.4,,i,1
+8864.0,Matthew Cash,32,Matty Cash,Cash,2,(D),4.4,,a,1
 1823.0,Lucas Digne,36,Lucas Digne,Digne,2,(D),4.6,,a,1
 ,,40,Kortney Hause,Hause,2,(D),3.9,,a,1
-5789.0,Boubacar Kamara,42,Boubacar Kamara,Kamara,3,(M),5.0,,a,1
+5789.0,Boubacar Kamara,42,Boubacar Kamara,Kamara,3,(M),5.0,,d,1
 7726.0,Ezri Konsa Ngoyo,44,Ezri Konsa Ngoyo,Konsa,2,(D),4.4,,d,1
 11807.0,Ian Maatsen,45,Ian Maatsen,Maatsen,2,(D),4.5,,a,1
 4401.0,Emiliano Martinez,47,Emiliano Martínez Romero,Martinez,1,(G),5.0,,a,1
 7723.0,John McGinn,48,John McGinn,McGinn,3,(M),5.2,2.0,a,1
-1024.0,Tyrone Mings,49,Tyrone Mings,Mings,2,(D),4.4,,d,1
+1024.0,Tyrone Mings,49,Tyrone Mings,Mings,2,(D),4.4,,a,1
 6962.0,Robin Olsen,51,Robin Olsen,Olsen,1,(G),4.5,,a,1
 6221.0,Pau Torres,52,Pau Torres,Pau,2,(D),4.2,,i,1
 8941.0,Jacob Ramsey,53,Jacob Ramsey,Ramsey,3,(M),5.4,,a,1
-12412.0,Morgan Rogers,54,Morgan Rogers,Rogers,3,(M),5.6,,a,1
+12412.0,Morgan Rogers,54,Morgan Rogers,Rogers,3,(M),5.7,,a,1
 5956.0,Youri Tielemans,57,Youri Tielemans,Tielemans,3,(M),5.5,1.0,a,1
-8865.0,Ollie Watkins,58,Ollie Watkins,Watkins,4,(F),8.9,3.0,d,1
-6885.0,Axel Disasi,167,Axel Disasi,Disasi,2,(D),4.2,,a,1
-9667.0,Amadou Onana,233,Amadou Onana,Onana,3,(M),4.8,,a,1
+8865.0,Ollie Watkins,58,Ollie Watkins,Watkins,4,(F),8.9,3.0,a,1
+6885.0,Axel Disasi,167,Axel Disasi,Disasi,2,(D),4.2,,n,1
+9667.0,Amadou Onana,233,Amadou Onana,Onana,3,(M),4.8,,d,1
 556.0,Marcus Rashford,385,Marcus Rashford,Rashford,3,(M),6.6,2.0,a,1
 10025.0,Lamare Bogarde,598,Lamare Bogarde,Bogarde,2,(D),4.0,,a,1
 ,,641,Oliwier Zych,Zych,1,(G),4.0,,a,1
@@ -56,9 +56,9 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 ,,679,Ben Broggio,Broggio,3,(M),4.5,,a,1
 ,,710,Jamaldeen Jimoh,Jimoh,3,(M),4.5,,a,1
 9749.0,Donyell Malen,725,Donyell Malen,Malen,3,(M),5.5,,a,1
-13392,Andrés García,731,Andrés García,A. Garcia,2,(D),4.5,,a,1
+13392.0,Andrés García,731,Andrés García,A. Garcia,2,(D),4.5,,a,1
 ,,737,Unai Emery,Emery,5,0,0.8,,a,1
-,,762,Marco Asensio,M.Asensio,3,(M),6.0,,a,1
+2117,Marco Asensio,762,Marco Asensio,M.Asensio,3,(M),6.0,,a,1
 7352.0,Tyler Adams,60,Tyler Adams,Adams,3,(M),4.9,,a,2
 11731.0,Andre Brooks,62,David Brooks,Brooks,3,(M),4.9,,a,2
 10744.0,Ryan Christie,63,Ryan Christie,Christie,3,(M),4.9,,a,2
@@ -67,17 +67,17 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 10747.0,James Hill,68,James Hill,Hill,2,(D),3.9,,d,2
 9509.0,Daniel Jebbison,69,Daniel Jebbison,Jebbison,4,(F),4.5,,a,2
 11709.0,Milos Kerkez,70,Milos Kerkez,Kerkez,2,(D),5.0,,a,2
-6963.0,Justin Kluivert,71,Justin Kluivert,Kluivert,3,(M),5.9,1.0,a,2
+6963.0,Justin Kluivert,71,Justin Kluivert,Kluivert,3,(M),6.0,1.0,a,2
 9662.0,Dango Ouattara,74,Dango Ouattara,O.Dango,3,(M),5.1,,a,2
-12149.0,Alex Scott,77,Alex Scott,Scott,3,(M),4.7,,d,2
+12149.0,Alex Scott,77,Alex Scott,Scott,3,(M),4.7,,a,2
 11363.0,Antoine Semenyo,78,Antoine Semenyo,Semenyo,3,(M),5.7,,a,2
 10864.0,Marcos Senesi,79,Marcos Senesi,Senesi,2,(D),4.6,,i,2
-10866.0,Luis Sinisterra,80,Luis Sinisterra,Sinisterra,3,(M),4.8,,d,2
-825.0,Adam Smith,81,Adam Smith,Smith,2,(D),4.4,,d,2
+10866.0,Luis Sinisterra,80,Luis Sinisterra,Sinisterra,3,(M),4.8,,a,2
+825.0,Adam Smith,81,Adam Smith,Smith,2,(D),4.4,,i,2
 10741.0,Marcus Tavernier,83,Marcus Tavernier,Tavernier,3,(M),5.4,,a,2
 11486.0,Illia Zabarnyi,85,Illia Zabarnyi,Zabarnyi,2,(D),4.4,,a,2
-5061.0,Kepa,152,Kepa Arrizabalaga,Arrizabalaga,1,(G),4.5,,a,2
-11943.0,Dean Huijsen,580,Dean Huijsen,Huijsen,2,(D),4.4,,a,2
+5061.0,Kepa,152,Kepa Arrizabalaga,Arrizabalaga,1,(G),4.6,,a,2
+11943.0,Dean Huijsen,580,Dean Huijsen,Huijsen,2,(D),4.5,,a,2
 11745.0,Julián Araujo,592,Julián Araujo Zúñiga,J.Araujo,2,(D),4.3,,i,2
 ,,599,Will Dennis,Dennis,1,(G),4.0,,a,2
 12963.0,Evanilson,617,Francisco Evanilson de Lima Barbosa,Evanilson,4,(F),5.6,,i,2
@@ -86,7 +86,7 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 ,,702,Archie Harris,Harris,2,(D),4.0,,a,2
 13307.0,Remy Rees-Dottin,707,Remy Rees-Dottin,Rees-Dottin,4,(F),4.5,,a,2
 ,,712,Matai Akinmboni,Akinmboni,2,(D),4.0,,a,2
-,,713,Julio Soler,Soler,2,(D),4.0,,i,2
+,,713,Julio Soler,Soler,2,(D),3.9,,d,2
 ,,722,Daniel Adu-Adjei,Adu-Adjei,4,(F),4.5,,a,2
 ,,723,Dominic Sadi,Sadi,3,(M),4.5,,a,2
 ,,727,Callan McKenna,McKenna,1,(G),4.0,,a,2
@@ -97,7 +97,7 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 9733.0,Nathan Collins,88,Nathan Collins,Collins,2,(D),4.5,,a,3
 8859.0,Mikkel Damsgaard,89,Mikkel Damsgaard,Damsgaard,3,(M),5.0,,a,3
 10405.0,Josh Dasilva,90,Josh Dasilva,Dasilva,3,(M),4.8,,i,3
-7047.0,Mark Flekken,91,Mark Flekken,Flekken,1,(G),4.4,,d,3
+7047.0,Mark Flekken,91,Mark Flekken,Flekken,1,(G),4.4,,a,3
 9679.0,Rico Henry,92,Rico Henry,Henry,2,(D),4.3,,i,3
 8942.0,Aaron Hickey,93,Aaron Hickey,Hickey,2,(D),4.3,,i,3
 9680.0,Vitaly Janelt,94,Vitaly Janelt,Janelt,3,(M),4.9,,a,3
@@ -114,23 +114,23 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 12595.0,Hákon Valdimarsson,109,Hákon Valdimarsson,Valdimarsson,1,(G),3.9,,a,3
 5786.0,Yoane Wissa,110,Yoane Wissa,Wissa,4,(F),6.3,2.0,a,3
 11772.0,Yehor Yarmolyuk,111,Yehor Yarmoliuk,Yarmoliuk,3,(M),4.4,,a,3
-9501.0,Fabio Carvalho,314,Fábio Freitas Gouveia Carvalho,Carvalho,3,(M),4.6,,a,3
-10721.0,Sepp van den Berg,338,Sepp van den Berg,Van den Berg,2,(D),4.1,,a,3
+9501.0,Fabio Carvalho,314,Fábio Freitas Gouveia Carvalho,Carvalho,3,(M),4.5,,a,3
+10721.0,Sepp van den Berg,338,Sepp van den Berg,Van den Berg,2,(D),4.1,,d,3
 ,,634,Gustavo Nunes Fernandes Gomes,G.Nunes,3,(M),4.9,,i,3
 10053.0,Paris Maghoma,674,Paris Maghoma,Maghoma,3,(M),4.5,,a,3
 ,,705,Benjamin Arthur,Arthur,2,(D),4.0,,a,3
 ,,752,Thomas Frank,Frank,5,0,0.8,,a,3
-11281,Michael Kayode,757,Michael Kayode,Kayode,2,(D),4.5,,a,3
+11281.0,Michael Kayode,757,Michael Kayode,Kayode,2,(D),4.5,,a,3
 ,,759,Julian Eyestone,Eyestone,1,(G),4.0,,a,3
 11710.0,Simon Adingra,113,Simon Adingra,Adingra,3,(M),5.1,,a,4
 10527.0,Carlos Baleba,115,Carlos Baleba,Baleba,3,(M),5.0,,a,4
 6048.0,Lewis Dunk,120,Lewis Dunk,Dunk,2,(D),4.2,,d,4
-5136.0,Estupiñán,122,Pervis Estupiñán,Estupiñan,2,(D),4.9,,d,4
+5136.0,Estupiñán,122,Pervis Estupiñán,Estupiñan,2,(D),4.9,,i,4
 11269.0,Jack Hinshelwood,126,Jack Hinshelwood,Hinshelwood,3,(M),4.9,,a,4
 7943.0,Igor Julio,128,Igor Julio dos Santos de Paulo,Igor,2,(D),4.3,,i,4
 8272.0,João Pedro,129,João Pedro Junqueira de Jesus,João Pedro,4,(F),5.5,1.0,a,4
 8226.0,Tariq Lamptey,131,Tariq Lamptey,Lamptey,2,(D),4.4,,a,4
-6049.0,Solly March,132,Solly March,March,3,(M),6.5,,i,4
+6049.0,Solly March,132,Solly March,March,3,(M),6.5,,d,4
 489.0,James Milner,134,James Milner,Milner,3,(M),5.0,,i,4
 12759.0,Yankuba Minteh,135,Yankuba Minteh,Minteh,3,(M),5.0,,a,4
 10806.0,Kaoru Mitoma,136,Mitoma Kaoru,Mitoma,3,(M),6.3,,a,4
@@ -140,7 +140,7 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 11711.0,Bart Verbruggen,146,Bart Verbruggen,Verbruggen,1,(G),4.5,,a,4
 7699.0,Adam Webster,147,Adam Webster,Webster,2,(D),4.3,,a,4
 501.0,Danny Welbeck,148,Danny Welbeck,Welbeck,4,(F),5.5,2.0,a,4
-12758.0,Mats Wieffer,149,Mats Wieffer,Wieffer,3,(M),4.7,,d,4
+12758.0,Mats Wieffer,149,Mats Wieffer,Wieffer,3,(M),4.7,,a,4
 11310.0,Brajan Gruda,595,Brajan Gruda,Gruda,3,(M),5.4,,a,4
 11385.0,Yasin Ayari,600,Yasin Ayari,Ayari,3,(M),5.0,,a,4
 ,,615,Carl Rushworth,Rushworth,1,(G),3.9,,a,4
@@ -162,29 +162,30 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 7134.0,Marc Cucurella,163,Marc Cucurella Saseta,Cucurella,2,(D),5.1,,a,5
 12033.0,Deivid Washington,165,Deivid Washington de Souza Eugênio,Deivid,4,(F),4.9,,a,5
 9739.0,Kiernan Dewsbury-Hall,166,Kiernan Dewsbury-Hall,Dewsbury-Hall,3,(M),5.5,,a,5
-11356.0,Enzo Fernández,168,Enzo Fernández,Enzo,3,(M),4.8,4.0,a,5
+11356.0,Enzo Fernández,168,Enzo Fernández,Enzo,3,(M),4.7,4.0,a,5
 9017.0,Malo Gusto,171,Malo Gusto,Gusto,2,(D),4.9,,a,5
 8067.0,Reece James,172,Reece James,James,2,(D),4.8,,a,5
 ,,173,Omari Kellyman,Kellyman,3,(M),4.3,,i,5
 10004.0,Romeo Lavia,174,Roméo Lavia,Lavia,3,(M),4.5,,i,5
-11357.0,Noni Madueke,177,Noni Madueke,Madueke,3,(M),6.1,3.0,a,5
-11633.0,Marc Guiu,178,Marc Guiu Paz,Marc Guiu,4,(F),4.7,,d,5
+11357.0,Noni Madueke,177,Noni Madueke,Madueke,3,(M),6.1,3.0,i,5
+11633.0,Marc Guiu,178,Marc Guiu Paz,Marc Guiu,4,(F),4.7,,i,5
 11305.0,Mykhailo Mudryk,179,Mykhailo Mudryk,Mudryk,3,(M),6.1,,s,5
-10048.0,Nicolas Jackson,180,Nicolas Jackson,N.Jackson,4,(F),7.8,,d,5
+10048.0,Nicolas Jackson,180,Nicolas Jackson,N.Jackson,4,(F),7.7,,i,5
 3300.0,Christopher Nkunku,181,Christopher Nkunku,Nkunku,3,(M),5.7,2.0,a,5
 8497.0,Cole Palmer,182,Cole Palmer,Palmer,3,(M),11.2,1.0,a,5
-9098.0,Robert Sánchez,185,Robert Sánchez,Sánchez,1,(G),4.7,,a,5
+9098.0,Robert Sánchez,185,Robert Sánchez,Sánchez,1,(G),4.6,,a,5
 5590.0,Tosin Adarabioyo,187,Tosin Adarabioyo,Tosin,2,(D),4.2,,a,5
 7589.0,Wesley Fofana,189,Wesley Fofana,W.Fofana,2,(D),4.3,,i,5
 6345.0,Jadon Sancho,386,Jadon Sancho,Sancho,3,(M),6.2,,a,5
 6382.0,Pedro Neto,560,Pedro Lomba Neto,Neto,3,(M),6.2,,a,5
 9272.0,Filip Jorgensen,581,Filip Jørgensen,Jørgensen,1,(G),4.2,,a,5
 ,,695,Samuel Rak-Sakyi,Rak-Sakyi,3,(M),4.5,,a,5
-,,696,Tyrique George,George,3,(M),4.5,,a,5
+12573,Tyrique George,696,Tyrique George,George,3,(M),4.5,,a,5
 12535.0,Josh Acheampong,697,Josh Acheampong,Acheampong,2,(D),4.0,,a,5
 ,,740,Enzo Maresca,Maresca,5,0,1.5,,a,5
 ,,771,Mathis Amougou,Amougou,3,(M),4.5,,a,5
-6482.0,Eddie Nketiah,11,Eddie Nketiah,Nketiah,4,(F),5.9,,d,6
+,,774,Aaron Anselmino,Anselmino,2,(D),4.0,,a,5
+6482.0,Eddie Nketiah,11,Eddie Nketiah,Nketiah,4,(F),5.9,,a,6
 782.0,Ben Chilwell,160,Ben Chilwell,Chilwell,2,(D),4.6,,a,6
 8666.0,Cheick Oumar Doucoure,193,Cheick Doucouré,C.Doucouré,3,(M),4.9,,i,6
 8430.0,Chris Richards,194,Chris Richards,C.Richards,2,(D),4.4,,a,6
@@ -204,7 +205,7 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 510.0,Joel Ward,215,Joel Ward,Ward,2,(D),4.3,,i,6
 12409.0,Adam Wharton,216,Adam Wharton,Wharton,3,(M),4.7,,a,6
 10700.0,Matt Turner,445,Matt Turner,Turner,1,(G),3.9,,a,6
-5675.0,Ismaila Sarr,585,Ismaïla Sarr,I.Sarr,3,(M),5.7,,a,6
+5675.0,Ismaila Sarr,585,Ismaïla Sarr,I.Sarr,3,(M),5.6,,a,6
 ,,644,Franco Umeh-Chibueze,Umeh-Chibueze,3,(M),4.4,,a,6
 13038.0,Justin Devenny,645,Justin Devenny,Devenny,3,(M),4.5,,a,6
 ,,647,Kaden Rodney,Rodney,3,(M),4.5,,a,6
@@ -214,11 +215,11 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 13387.0,Romain Esse,730,Romain Esse,Esse,3,(M),5.0,,a,6
 ,,741,Oliver Glasner,Glasner,5,0,0.8,,a,6
 8384.0,Armando Broja,156,Armando Broja,Broja,4,(F),5.4,,i,7
-1726.0,Abdoulaye Doucouré,217,Abdoulaye Doucouré,A.Doucoure,3,(M),5.1,,s,7
+1726.0,Abdoulaye Doucouré,217,Abdoulaye Doucouré,A.Doucoure,3,(M),5.1,,a,7
 9983.0,Beto,218,Norberto Bercique Gomes Betuncal,Beto,4,(F),4.9,,a,7
 8476.0,Jarrad Branthwaite,219,Jarrad Branthwaite,Branthwaite,2,(D),4.8,,a,7
 5555.0,Dominic Calvert-Lewin,220,Dominic Calvert-Lewin,Calvert-Lewin,4,(F),5.4,1.0,i,7
-585.0,Seamus Coleman,221,Séamus Coleman,Coleman,2,(D),4.3,,d,7
+585.0,Seamus Coleman,221,Séamus Coleman,Coleman,2,(D),4.3,,i,7
 668.0,Idrissa Gueye,222,Idrissa Gueye,Gana,3,(M),4.8,,a,7
 7438.0,James Garner,223,James Garner,Garner,3,(M),4.9,,a,7
 8720.0,Jack Harrison,224,Jack Harrison,Harrison,3,(M),5.2,,a,7
@@ -227,13 +228,13 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 1653.0,Michael Keane,228,Michael Keane,Keane,2,(D),3.9,,a,7
 6756.0,Dwight McNeil,230,Dwight McNeil,McNeil,3,(M),5.1,,i,7
 10291.0,Vitalii Mykolenko,231,Vitalii Mykolenko,Mykolenko,2,(D),4.4,,a,7
-9307.0,Iliman Ndiaye,232,Iliman Ndiaye,Ndiaye,4,(F),5.5,,d,7
-10292.0,Nathan Patterson,234,Nathan Patterson,Patterson,2,(D),4.4,,d,7
+9307.0,Iliman Ndiaye,232,Iliman Ndiaye,Ndiaye,4,(F),5.5,,i,7
+10292.0,Nathan Patterson,234,Nathan Patterson,Patterson,2,(D),4.4,,i,7
 741.0,Jordan Pickford,235,Jordan Pickford,Pickford,1,(G),5.1,,a,7
 1665.0,James Tarkowski,236,James Tarkowski,Tarkowski,2,(D),4.8,,a,7
 11984.0,Youssef Chermiti,237,Youssef Ramalho Chermiti,Y. Chermiti,4,(F),4.9,,i,7
 631.0,Ashley Young,238,Ashley Young,Young,2,(D),4.6,,a,7
-11297,Carlos Alcaraz,450,Carlos Alcaraz Durán,Alcaraz,3,(M),4.9,,a,7
+11297.0,Carlos Alcaraz,450,Carlos Alcaraz Durán,Alcaraz,3,(M),4.9,,a,7
 9752.0,Jesper Lindstrom,577,Jesper Lindstrøm,Lindstrøm,3,(M),5.0,,a,7
 12014.0,Jake O&#039;Brien,582,Jake O'Brien,O'Brien,2,(D),4.5,,a,7
 ,,624,Asmir Begovic,Begovic,1,(G),4.0,,a,7
@@ -243,19 +244,20 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 ,,724,Martin Sherif,Sherif,4,(F),4.5,,a,7
 ,,742,David Moyes,Moyes,5,0,0.5,,a,7
 ,,773,Isaac Heath,Heath,3,(M),4.5,,a,7
+,,775,Coby Ebere,Coby Ebere,3,(M),4.5,,a,7
 6492.0,Reiss Nelson,10,Reiss Nelson,Nelson,3,(M),5.0,,i,8
 7230.0,Emile Smith-Rowe,19,Emile Smith Rowe,Smith Rowe,3,(M),5.2,,a,8
 6314.0,Joachim Andersen,191,Joachim Andersen,Andersen,2,(D),4.2,,a,8
-900.0,Adama Traoré,239,Adama Traoré,Adama,3,(M),4.7,,a,8
-922.0,Andreas Pereira,240,Andreas Hoelgebaum Pereira,Andreas,3,(M),5.0,1.0,a,8
+900.0,Adama Traoré,239,Adama Traoré,Adama,3,(M),4.6,,a,8
+922.0,Andreas Pereira,240,Andreas Hoelgebaum Pereira,Andreas,3,(M),4.9,1.0,a,8
 11728.0,Calvin Bassey,241,Calvin Bassey,Bassey,2,(D),4.5,,a,8
 ,,242,Steven Benda,Benda,1,(G),3.9,,a,8
 6835.0,Tom Cairney,243,Tom Cairney,Cairney,3,(M),4.8,,a,8
 6157.0,Timothy Castagne,244,Timothy Castagne,Castagne,2,(D),4.2,,a,8
 3203.0,Issa Diop,245,Issa Diop,Diop,2,(D),4.4,,a,8
-500.0,Alex Iwobi,247,Alex Iwobi,Iwobi,3,(M),5.8,,a,8
+500.0,Alex Iwobi,247,Alex Iwobi,Iwobi,3,(M),5.7,,a,8
 181.0,Bernd Leno,248,Bernd Leno,Leno,1,(G),5.0,,a,8
-1537.0,Sasa Lukic,249,Saša Lukić,Lukić,3,(M),4.8,2.0,a,8
+1537.0,Sasa Lukic,249,Saša Lukić,Lukić,3,(M),4.8,2.0,d,8
 10717.0,Rodrigo Muniz,251,Rodrigo Muniz Carvalho,Muniz,4,(F),5.5,,a,8
 4105.0,Raúl Jiménez,252,Raúl Jiménez,Raúl,4,(F),5.6,1.0,a,8
 910.0,Harrison Reed,254,Harrison Reed,Reed,3,(M),4.7,,a,8
@@ -270,23 +272,23 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 8285.0,Sander Berge,622,Sander Berge,Berge,3,(M),5.0,,a,8
 ,,690,Samuel Amissah,Amissah,2,(D),4.0,,a,8
 ,,753,Marco Alexandre Saraiva da Silva,Silva,5,0,1.1,,a,8
-,,772,Willian Borges da Silva,Willian,3,(M),5.0,,a,8
-11058.0,Julio Enciso,121,Julio Enciso,Enciso,3,(M),5.4,,a,9
+700,Willian,772,Willian Borges da Silva,Willian,3,(M),5.0,,a,8
+11058.0,Julio Enciso,121,Julio Enciso,Enciso,3,(M),5.4,,d,9
 9406.0,Nathan Broadhead,262,Nathan Broadhead,Broadhead,3,(M),4.9,2.0,a,9
 12755.0,Cameron Burgess,263,Cameron Burgess,Burgess,2,(D),3.9,,a,9
 12749.0,Wes Burns,264,Wes Burns,Burns,3,(M),4.8,,i,9
-12750.0,Conor Chaplin,265,Conor Chaplin,Chaplin,3,(M),5.1,,d,9
-8919.0,Leif Davis,267,Leif Davis,Davis,2,(D),4.4,,a,9
+12750.0,Conor Chaplin,265,Conor Chaplin,Chaplin,3,(M),5.1,,i,9
+8919.0,Leif Davis,267,Leif Davis,Davis,2,(D),4.4,,d,9
 8868.0,Liam Delap,268,Liam Delap,Delap,4,(F),5.6,,a,9
 12745.0,Jacob Greaves,270,Jacob Greaves,Greaves,2,(D),3.9,,a,9
 8563.0,George Hirst,272,George Hirst,Hirst,4,(F),5.4,1.0,a,9
 10348.0,Omari Hutchinson,274,Omari Giraud-Hutchinson,Hutchinson,3,(M),5.2,,a,9
 6424.0,Ben Johnson,275,Ben Johnson,Johnson,2,(D),3.9,,a,9
 12747.0,Massimo Luongo,277,Massimo Luongo,Luongo,3,(M),4.4,,a,9
-12748.0,Sam Morsy,278,Sam Morsy,Morsy,3,(M),4.9,,a,9
+12748.0,Sam Morsy,278,Sam Morsy,Morsy,3,(M),4.9,,d,9
 ,,280,Cieran Slicker,Slicker,1,(G),3.9,,a,9
 12754.0,Jack Taylor,281,Jack Taylor,Taylor,3,(M),4.8,,a,9
-934.0,Axel Tuanzebe,282,Axel Tuanzebe,Tuanzebe,2,(D),3.9,,a,9
+934.0,Axel Tuanzebe,282,Axel Tuanzebe,Tuanzebe,2,(D),3.9,,s,9
 9251.0,Christian Walton,283,Christian Walton,Walton,1,(G),4.3,,i,9
 12746.0,Luke Woolfenden,284,Luke Woolfenden,Woolfenden,2,(D),4.0,,a,9
 8719.0,Kalvin Phillips,359,Kalvin Phillips,Phillips,3,(M),4.8,,a,9
@@ -300,7 +302,7 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 11719.0,Chiedozie Ogbene,632,Chiedozie Ogbene,Ogbene,3,(M),4.8,,i,9
 ,,715,Ben Godfrey,Godfrey,2,(D),4.0,,a,9
 ,,743,Kieran McKenna,McKenna,5,0,0.5,,a,9
-,,764,Alex Palmer,Palmer,1,(G),4.5,,a,9
+1038,Alex Palmer,764,Alex Palmer,Palmer,1,(G),4.5,,a,9
 11362.0,Facundo Buonanotte,117,Facundo Buonanotte,Buonanotte,3,(M),4.7,,a,10
 672.0,Jordan Ayew,192,Jordan Ayew,J.Ayew,3,(M),5.2,,a,10
 3697.0,Odsonne Edouard,198,Odsonne Edouard,Edouard,4,(F),5.1,,a,10
@@ -312,17 +314,17 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 ,,292,Michael Golding,Golding,3,(M),4.4,,a,10
 12910.0,Mads Hermansen,293,Mads Hermansen,Hermansen,1,(G),4.4,,a,10
 ,,294,Daniel Iversen,Iversen,1,(G),3.9,,a,10
-7753.0,James Justin,295,James Justin,Justin,2,(D),4.1,,a,10
-11367.0,Victor Kristiansen,296,Victor Kristiansen,Kristiansen,2,(D),4.5,,d,10
-7484.0,Stephy Mavididi,298,Stephy Mavididi,Mavididi,3,(M),5.1,3.0,a,10
+7753.0,James Justin,295,James Justin,Justin,2,(D),4.1,,d,10
+11367.0,Victor Kristiansen,296,Victor Kristiansen,Kristiansen,2,(D),4.4,,a,10
+7484.0,Stephy Mavididi,298,Stephy Mavididi,Mavididi,3,(M),5.0,3.0,a,10
 10166.0,Kasey McAteer,299,Kasey McAteer,McAteer,3,(M),4.7,,a,10
 5545.0,Wilfred Ndidi,300,Wilfred Ndidi,Ndidi,3,(M),4.9,,a,10
 7333.0,Caleb Okoli,301,Caleb Okoli,Okoli,2,(D),4.0,,a,10
 3303.0,Ricardo Pereira,302,Ricardo Barbosa Pereira,Ricardo,2,(D),4.1,,i,10
 13301.0,Jakub Stolarczyk,304,Jakub Stolarczyk,Stolarczyk,1,(G),4.0,,a,10
 8562.0,Luke Thomas,305,Luke Thomas,Thomas,2,(D),3.9,,a,10
-755.0,Jamie Vardy,306,Jamie Vardy,Vardy,4,(F),5.4,1.0,d,10
-111.0,Jannik Vestergaard,307,Jannik Vestergaard,Vestergaard,2,(D),3.9,,d,10
+755.0,Jamie Vardy,306,Jamie Vardy,Vardy,4,(F),5.4,1.0,a,10
+111.0,Jannik Vestergaard,307,Jannik Vestergaard,Vestergaard,2,(D),3.9,,a,10
 510.0,Joel Ward,308,Danny Ward,Ward,1,(G),3.9,,a,10
 971.0,Harry Winks,309,Harry Winks,Winks,3,(M),4.4,,a,10
 7198.0,Oliver Skipp,501,Oliver Skipp,Skipp,3,(M),4.7,,a,10
@@ -333,15 +335,15 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 ,,754,Ruud van Nistelrooij,Van Nistelrooy,5,0,0.5,,a,10
 1257.0,Alisson,310,Alisson Ramses Becker,A.Becker,1,(G),5.5,,a,11
 1791.0,Trent Alexander-Arnold,311,Trent Alexander-Arnold,Alexander-Arnold,2,(D),7.4,,a,11
-10120.0,Conor Bradley,313,Conor Bradley,Bradley,2,(D),4.7,,a,11
+10120.0,Conor Bradley,313,Conor Bradley,Bradley,2,(D),4.7,,d,11
 10720.0,Darwin Núñez,316,Darwin Núñez Ribeiro,Darwin,4,(F),7.0,2.0,a,11
 6854.0,Diogo Jota,317,Diogo Teixeira da Silva,Diogo J.,3,(M),7.2,,a,11
 7546.0,Harvey Elliott,319,Harvey Elliott,Elliott,3,(M),5.2,,a,11
 8808.0,Wataru Endo,320,Endo Wataru,Endo,3,(M),4.6,,a,11
-11296.0,Cody Gakpo,321,Cody Gakpo,Gakpo,4,(F),7.6,,a,11
-987.0,Joseph Gomez,322,Joe Gomez,Gomez,2,(D),4.7,,d,11
+11296.0,Cody Gakpo,321,Cody Gakpo,Gakpo,4,(F),7.6,,d,11
+987.0,Joseph Gomez,322,Joe Gomez,Gomez,2,(D),4.7,,i,11
 10697.0,Ryan Gravenberch,323,Ryan Gravenberch,Gravenberch,3,(M),5.0,,a,11
-6665.0,Curtis Jones,324,Curtis Jones,Jones,3,(M),5.3,,s,11
+6665.0,Curtis Jones,324,Curtis Jones,Jones,3,(M),5.3,,a,11
 7904.0,Caoimhin Kelleher,325,Caoimhin Kelleher,Kelleher,1,(G),4.0,,a,11
 6326.0,Ibrahima Konaté,326,Ibrahima Konaté,Konaté,2,(D),5.2,,a,11
 10408.0,Luis Díaz,327,Luis Díaz,Luis Díaz,3,(M),7.5,,a,11
@@ -360,16 +362,16 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 ,,688,Treymaurice Nyoni,Nyoni,3,(M),4.5,,a,11
 ,,692,Amara Nallo,Nallo,2,(D),4.0,,a,11
 ,,744,Arne Slot,Slot,5,0,1.5,,a,11
-6490.0,Manuel Akanji,340,Manuel Akanji,Akanji,2,(D),5.3,,d,12
+6490.0,Manuel Akanji,340,Manuel Akanji,Akanji,2,(D),5.3,,i,12
 579.0,Nathan Aké,341,Nathan Aké,Aké,2,(D),5.3,,a,12
 3635.0,Bernardo Silva,342,Bernardo Veiga de Carvalho e Silva,Bernardo,3,(M),6.2,,a,12
 11903.0,Oscar Bobb,343,Oscar Bobb,Bobb,3,(M),4.7,,d,12
 ,,344,Scott Carson,Carson,1,(G),3.9,,a,12
-447.0,Kevin De Bruyne,345,Kevin De Bruyne,De Bruyne,3,(M),9.4,2.0,a,12
+447.0,Kevin De Bruyne,345,Kevin De Bruyne,De Bruyne,3,(M),9.3,2.0,a,12
 8981.0,Jéremy Doku,346,Jérémy Doku,Doku,3,(M),6.2,,a,12
 6054.0,Ederson,347,Ederson Santana de Moraes,Ederson M.,1,(G),5.3,,a,12
 6055.0,Phil Foden,348,Phil Foden,Foden,3,(M),9.3,,a,12
-675.0,Jack Grealish,349,Jack Grealish,Grealish,3,(M),6.4,,d,12
+675.0,Jack Grealish,349,Jack Grealish,Grealish,3,(M),6.4,,a,12
 9790.0,Josko Gvardiol,350,Joško Gvardiol,Gvardiol,2,(D),5.9,,a,12
 8260.0,Erling Haaland,351,Erling Haaland,Haaland,4,(F),14.7,1.0,a,12
 2254.0,Mateo Kovacic,354,Mateo Kovačić,Kovačić,3,(M),5.4,,a,12
@@ -380,21 +382,21 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 2496.0,Rodri,360,Rodrigo 'Rodri' Hernandez,Rodrigo,3,(M),6.2,,i,12
 8961.0,Rúben Dias,361,Rúben Gato Alves Dias,Rúben,2,(D),5.4,,a,12
 586.0,John Stones,362,John Stones,Stones,2,(D),5.3,,a,12
-11735.0,Sávio,571,Sávio 'Savinho' Moreira de Oliveira,Savinho,3,(M),6.3,,a,12
+11735.0,Sávio,571,Sávio 'Savinho' Moreira de Oliveira,Savinho,3,(M),6.2,,a,12
 11592.0,Nico O&#039;Reilly,607,Nico O'Reilly,O’Reilly,3,(M),4.9,,a,12
-314.0,Ilkay Gündogan,625,Ilkay Gündogan,Gündogan,3,(M),6.4,,a,12
+314.0,Ilkay Gündogan,625,Ilkay Gündogan,Gündogan,3,(M),6.3,,a,12
 13185.0,Jahmai Simpson-Pusey,672,Jahmai Simpson-Pusey,Simpson-Pusey,2,(D),4.0,,a,12
 11242.0,Divin Mubama,698,Divin Mubama,Mubama,4,(F),4.5,,a,12
 ,,703,Max Alleyne,Alleyne,2,(D),4.0,,a,12
 ,,704,Spike Brits,Brits,1,(G),4.0,,a,12
-,,732,Abdukodir Khusanov,Khusanov,2,(D),5.0,,a,12
+11763,Abduqodir Khusanov,732,Abdukodir Khusanov,Khusanov,2,(D),5.0,,a,12
 ,,733,Vitor de Oliveira Nunes dos Reis,Vitor Reis,2,(D),4.5,,a,12
 ,,736,Pep Guardiola,Guardiola,5,0,1.5,,a,12
-8393.0,Omar Marmoush,755,Omar Marmoush,Marmoush,4,(F),7.0,,a,12
-,,765,Nico González,N.Gonzalez,3,(M),6.0,,a,12
-8127.0,Amad Diallo Traore,364,Amad Diallo,Amad,3,(M),5.6,,a,13
+8393.0,Omar Marmoush,755,Omar Marmoush,Marmoush,4,(F),7.1,,a,12
+9802,Nico González,765,Nico González,N.Gonzalez,3,(M),6.0,,a,12
+8127.0,Amad Diallo Traore,364,Amad Diallo,Amad,3,(M),5.5,,i,13
 1228.0,Bruno Fernandes,366,Bruno Borges Fernandes,B.Fernandes,3,(M),8.3,1.0,a,13
-,,367,Altay Bayindir,Bayindir,1,(G),4.3,,a,13
+,,367,Altay Bayindir,Bayindir,1,(G),4.3,,d,13
 2248.0,Casemiro,368,Carlos Henrique Casimiro,Casemiro,3,(M),4.7,,a,13
 7281.0,Diogo Dalot,369,Diogo Dalot Teixeira,Dalot,2,(D),5.0,,a,13
 646.0,Christian Eriksen,370,Christian Eriksen,Eriksen,3,(M),5.2,,a,13
@@ -404,17 +406,17 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 11055.0,Rasmus Højlund,375,Rasmus Højlund,Højlund,4,(F),6.9,,a,13
 6080.0,Victor Lindelöf,376,Victor Lindelöf,Lindelof,2,(D),4.3,,a,13
 1687.0,Harry Maguire,377,Harry Maguire,Maguire,2,(D),4.9,,a,13
-11174.0,Kobbie Mainoo,378,Kobbie Mainoo,Mainoo,3,(M),5.2,,a,13
+11174.0,Kobbie Mainoo,378,Kobbie Mainoo,Mainoo,3,(M),5.2,,i,13
 10802.0,Lisandro Martínez,380,Lisandro Martínez,Martinez,2,(D),4.4,,i,13
 7768.0,Mason Mount,382,Mason Mount,Mount,3,(M),6.3,,i,13
 10913.0,André Onana,383,André Onana,Onana,1,(G),5.0,,a,13
-1006.0,Luke Shaw,387,Luke Shaw,Shaw,2,(D),4.9,,d,13
+1006.0,Luke Shaw,387,Luke Shaw,Shaw,2,(D),4.9,,i,13
 8044.0,Joshua Zirkzee,389,Joshua Zirkzee,Zirkzee,4,(F),6.5,,a,13
 10564.0,Leny Yoro,572,Leny Yoro,Yoro,2,(D),4.3,,a,13
 7902.0,Matthijs de Ligt,593,Matthijs de Ligt,De Ligt,2,(D),4.9,,a,13
 10696.0,Noussair Mazraoui,594,Noussair Mazraoui,Mazraoui,2,(D),4.3,,a,13
-12461.0,Toby Collyer,613,Toby Collyer,Collyer,3,(M),4.5,,a,13
-11766.0,Manuel Ugarte,652,Manuel Ugarte,Ugarte,3,(M),4.9,,a,13
+12461.0,Toby Collyer,613,Toby Collyer,Collyer,3,(M),4.5,,d,13
+11766.0,Manuel Ugarte,652,Manuel Ugarte,Ugarte,3,(M),4.9,,d,13
 ,,658,Ayden Heaven,Heaven,2,(D),4.0,,a,13
 ,,667,Jack Fletcher,Fletcher,3,(M),4.5,,a,13
 ,,670,Harry Amass,Amass,2,(D),4.0,,a,13
@@ -422,14 +424,18 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 ,,691,Godwill Kukonki,Kukonki,2,(D),4.0,,a,13
 ,,745,Ruben Filipe Marques Diogo Amorim,Amorim,5,0,0.8,,a,13
 ,,761,Elyh Harrison,Harrison,1,(G),4.0,,a,13
-,,766,Patrick Dorgu,Dorgu,2,(D),4.5,,a,13
-6681.0,Harvey Barnes,392,Harvey Barnes,Barnes,3,(M),5.9,,i,14
+11944,Patrick Dorgu,766,Patrick Dorgu,Dorgu,2,(D),4.5,,a,13
+13466,Chido Obi-Martin,776,Chido Obi-Martin,Obi,4,(F),4.5,,a,13
+,,777,Tyler Fredricson,Fredricson,2,(D),4.0,,a,13
+,,778,Jack Moorhouse,Moorhouse,3,(M),4.5,,a,13
+,,779,Sékou Koné,Koné,3,(M),4.5,,a,13
+6681.0,Harvey Barnes,392,Harvey Barnes,Barnes,3,(M),5.9,,a,14
 8635.0,Sven Botman,393,Sven Botman,Botman,2,(D),4.4,,d,14
 8327.0,Bruno Guimarães,394,Bruno Guimarães Rodriguez Moura,Bruno G.,3,(M),6.1,,a,14
-7382.0,Dan Burn,395,Dan Burn,Burn,2,(D),4.4,,d,14
+7382.0,Dan Burn,395,Dan Burn,Burn,2,(D),4.4,,a,14
 6532.0,Martin Dubravka,396,Martin Dúbravka,Dúbravka,1,(G),4.3,,a,14
-8150.0,Anthony Gordon,398,Anthony Gordon,Gordon,3,(M),7.6,2.0,d,14
-10216.0,Lewis Hall,399,Lewis Hall,Hall,2,(D),5.1,,a,14
+8150.0,Anthony Gordon,398,Anthony Gordon,Gordon,3,(M),7.5,2.0,a,14
+10216.0,Lewis Hall,399,Lewis Hall,Hall,2,(D),5.0,,a,14
 5232.0,Alexander Isak,401,Alexander Isak,Isak,4,(F),9.5,1.0,a,14
 6063.0,Jacob Murphy,402,Jacob Murphy,J.Murphy,3,(M),5.1,,a,14
 87.0,Joelinton,403,Joelinton Cássio Apolinário de Lira,Joelinton,3,(M),6.0,,i,14
@@ -453,22 +459,22 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 4120.0,Álex Moreno,26,Álex Moreno Lopera,Alex Moreno,2,(D),4.2,,a,15
 725.0,Ola Aina,422,Ola Aina,Aina,2,(D),5.4,,a,15
 9154.0,Elliot Anderson,423,Elliot Anderson,Anderson,3,(M),5.0,,a,15
-7814.0,Taiwo Awoniyi,424,Taiwo Awoniyi,Awoniyi,4,(F),5.5,,a,15
+7814.0,Taiwo Awoniyi,424,Taiwo Awoniyi,Awoniyi,4,(F),5.5,,d,15
 6850.0,Willy Boly,425,Willy Boly,Boly,2,(D),4.2,,a,15
-,,427,Carlos Miguel dos Santos Pereira,C.Miguel,1,(G),4.1,,a,15
+,,427,Carlos Miguel dos Santos Pereira,C.Miguel,1,(G),4.1,,d,15
 12765.0,Eric da Silva Moreira,428,Eric da Silva Moreira,Da Silva Moreira,3,(M),4.4,,a,15
 11317.0,Danilo,429,Danilo dos Santos de Oliveira,Danilo,3,(M),4.7,,a,15
 8252.0,Nicolás Domínguez,431,Nicolás Domínguez,Dominguez,3,(M),4.8,,a,15
 9524.0,Anthony Elanga,432,Anthony Elanga,Elanga,3,(M),5.3,,a,15
 6857.0,Morgan Gibbs-White,433,Morgan Gibbs-White,Gibbs-White,3,(M),6.5,2.0,a,15
-6456.0,Callum Hudson-Odoi,434,Callum Hudson-Odoi,Hudson-Odoi,3,(M),5.2,,i,15
+6456.0,Callum Hudson-Odoi,434,Callum Hudson-Odoi,Hudson-Odoi,3,(M),5.2,,a,15
 12123.0,Murillo,436,Murillo Santiago Costa dos Santos,Murillo,2,(D),4.7,,a,15
 8204.0,Neco Williams,437,Neco Williams,N.Williams,2,(D),4.4,,a,15
 5722.0,Ibrahim Sangare,442,Ibrahim Sangaré,Sangaré,3,(M),4.3,,a,15
 6903.0,Matz Sels,443,Matz Sels,Sels,1,(G),5.0,,a,15
 10758.0,Harry Toffolo,444,Harry Toffolo,Toffolo,2,(D),4.2,,a,15
 4456.0,Chris Wood,447,Chris Wood,Wood,4,(F),7.1,1.0,a,15
-11003.0,Ryan Yates,449,Ryan Yates,Yates,3,(M),4.9,,a,15
+11003.0,Ryan Yates,449,Ryan Yates,Yates,3,(M),4.8,,a,15
 6174.0,Nikola Milenkovic,573,Nikola Milenković,Milenković,2,(D),4.8,,a,15
 12766.0,Jota Silva,596,João Pedro Ferreira Silva,Jota Silva,3,(M),5.9,,a,15
 13021.0,Ramón Sosa,620,Ramón Sosa,Sosa,3,(M),5.5,,a,15
@@ -484,9 +490,9 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 6042.0,Jan Bednarek,455,Jan Bednarek,Bednarek,2,(D),4.0,,a,16
 ,,456,Armel Bella-Kotchap,Bella-Kotchap,2,(D),3.9,,a,16
 11359.0,James Bree,457,James Bree,Bree,2,(D),3.9,,a,16
-8495.0,Taylor Harwood-Bellis,461,Taylor Harwood-Bellis,Harwood-Bellis,2,(D),4.0,,d,16
+8495.0,Taylor Harwood-Bellis,461,Taylor Harwood-Bellis,Harwood-Bellis,2,(D),4.0,,i,16
 9630.0,Kamaldeen Sulemana,462,Kamaldeen Sulemana,Kamaldeen,3,(M),5.0,,a,16
-486.0,Adam Lallana,463,Adam Lallana,Lallana,3,(M),5.0,,a,16
+486.0,Adam Lallana,463,Adam Lallana,Lallana,3,(M),5.0,,d,16
 ,,464,Juan Larios López,Larios,2,(D),3.9,,i,16
 12762.0,Joe Lumley,466,Joe Lumley,Lumley,1,(G),4.0,,a,16
 13134.0,Ryan Manning,467,Ryan Manning,Manning,2,(D),4.3,,a,16
@@ -502,37 +508,37 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 10845.0,Flynn Downes,518,Flynn Downes,Downes,3,(M),4.7,,a,16
 10586.0,Tyler Dibling,608,Tyler Dibling,Dibling,3,(M),4.5,,a,16
 12948.0,Mateus Fernandes,623,Mateus Gonçalo Espanha Fernandes,M.Fernandes,3,(M),5.0,,a,16
-13403,Welington,718,Welington Damascena Santos,Welington,2,(D),4.0,,a,16
+13403.0,Welington,718,Welington Damascena Santos,Welington,2,(D),4.0,,a,16
 ,,719,Joachim Kayi-Sanda,Kayi Sanda,2,(D),4.0,,a,16
-12880,Albert Grønbæk,734,Albert Grønbæk,Grønbæk,3,(M),5.0,,a,16
+12880.0,Albert Grønbæk,734,Albert Grønbæk,Grønbæk,3,(M),5.0,,a,16
 ,,748,Ivan Juric,Jurić,5,0,0.5,,a,16
-1679.0,Dominic Solanke,82,Dominic Solanke-Mitchell,Solanke,4,(F),7.4,2.0,i,17
+1679.0,Dominic Solanke,82,Dominic Solanke-Mitchell,Solanke,4,(F),7.3,2.0,i,17
 8093.0,Brandon Austin,479,Brandon Austin,Austin,1,(G),4.0,,a,17
-6108.0,Rodrigo Bentancur,480,Rodrigo Bentancur,Bentancur,3,(M),4.9,,a,17
+6108.0,Rodrigo Bentancur,480,Rodrigo Bentancur,Bentancur,3,(M),4.9,,d,17
 12912.0,Lucas Bergvall,481,Lucas Bergvall,Bergvall,3,(M),4.4,,a,17
 5609.0,Yves Bissouma,482,Yves Bissouma,Bissouma,3,(M),4.8,,a,17
 660.0,Ben Davies,484,Ben Davies,Davies,2,(D),4.3,,a,17
 9105.0,Radu Dragusin,486,Radu Drăgușin,Dragusin,2,(D),4.3,,i,17
 831.0,Fraser Forster,488,Fraser Forster,Forster,1,(G),4.3,,a,17
 10184.0,Archie Gray,489,Archie Gray,Gray,3,(M),4.6,,a,17
-10760.0,Brennan Johnson,491,Brennan Johnson,Johnson,3,(M),6.2,,d,17
+10760.0,Brennan Johnson,491,Brennan Johnson,Johnson,3,(M),6.2,,a,17
 6691.0,Dejan Kulusevski,492,Dejan Kulusevski,Kulusevski,3,(M),6.3,,a,17
-6818.0,James Maddison,494,James Maddison,Maddison,3,(M),7.4,2.0,d,17
+6818.0,James Maddison,494,James Maddison,Maddison,3,(M),7.4,2.0,a,17
 6912.0,Pedro Porro,495,Pedro Porro,Pedro Porro,2,(D),5.4,,a,17
 7187.0,Sergio Reguilón,496,Sergio Reguilón,Reguilón,2,(D),4.2,,a,17
-6026.0,Richarlison,497,Richarlison de Andrade,Richarlison,4,(F),6.8,2.0,d,17
+6026.0,Richarlison,497,Richarlison de Andrade,Richarlison,4,(F),6.8,2.0,i,17
 7218.0,Cristian Romero,498,Cristian Romero,Romero,2,(D),4.9,,i,17
 9021.0,Pape Sarr,499,Pape Matar Sarr,P.M.Sarr,3,(M),4.8,,a,17
-9332,Dane Scarlett,500,Dane Scarlett,Scarlett,4,(F),4.4,,a,17
-453.0,Son Heung-Min,503,Son Heung-min,Son,3,(M),9.8,1.0,a,17
+9332.0,Dane Scarlett,500,Dane Scarlett,Scarlett,4,(F),4.4,,a,17
+453.0,Son Heung-Min,503,Son Heung-min,Son,3,(M),9.7,1.0,d,17
 10764.0,Djed Spence,504,Djed Spence,Spence,2,(D),4.4,,a,17
-8831.0,Iyenoma Destiny Udogie,505,Destiny Udogie,Udogie,2,(D),4.8,,d,17
-10050.0,Micky van de Ven,506,Micky van de Ven,Van de Ven,2,(D),4.5,,a,17
-8858.0,Guglielmo Vicario,508,Guglielmo Vicario,Vicario,1,(G),4.8,,d,17
+8831.0,Iyenoma Destiny Udogie,505,Destiny Udogie,Udogie,2,(D),4.8,,a,17
+10050.0,Micky van de Ven,506,Micky van de Ven,Van de Ven,2,(D),4.5,,i,17
+8858.0,Guglielmo Vicario,508,Guglielmo Vicario,Vicario,1,(G),4.8,,a,17
 65.0,Timo Werner,509,Timo Werner,Werner,3,(M),6.2,,d,17
 ,,510,Alfie Whiteman,Whiteman,1,(G),3.9,,a,17
 12603.0,Mikey Moore,610,Mikey Moore,Moore,3,(M),4.5,,a,17
-10822.0,Wilson Odobert,612,Wilson Odobert,Odobert,3,(M),5.3,,d,17
+10822.0,Wilson Odobert,612,Wilson Odobert,Odobert,3,(M),5.3,,a,17
 ,,683,Callum Olusesi,Olusesi,3,(M),4.5,,a,17
 ,,684,Malachi Hardy,Hardy,2,(D),4.0,,a,17
 ,,700,Maeson King,King,2,(D),4.0,,a,17
@@ -540,11 +546,11 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 ,,729,Damola Ajayi,Ajayi,3,(M),4.5,,a,17
 ,,749,Ange Postecoglou,Postecoglou,5,0,1.1,,a,17
 ,,760,Dante Cassanova,Cassanova,2,(D),4.0,,a,17
-,,767,Kevin Danso,Danso,2,(D),4.5,,a,17
-,,768,Mathys Tel,Tel,3,(M),6.0,,a,17
+5261,Kevin Danso,767,Kevin Danso,Danso,2,(D),4.5,,d,17
+9780,Mathys Tel,768,Mathys Tel,Tel,3,(M),6.0,,a,17
 10177.0,Evan Ferguson,123,Evan Ferguson,Ferguson,4,(F),5.5,,a,18
-5584.0,Aaron Wan-Bissaka,388,Aaron Wan-Bissaka,Wan-Bissaka,2,(D),4.5,,a,18
-11926.0,Edson Álvarez,511,Edson Álvarez Velázquez,Álvarez,3,(M),5.0,,d,18
+5584.0,Aaron Wan-Bissaka,388,Aaron Wan-Bissaka,Wan-Bissaka,2,(D),4.4,,a,18
+11926.0,Edson Álvarez,511,Edson Álvarez Velázquez,Álvarez,3,(M),5.0,,a,18
 531.0,Michail Antonio,512,Michail Antonio,Antonio,4,(F),5.3,,i,18
 2310.0,Alphonse Areola,513,Alphonse Areola,Areola,1,(G),4.2,,a,18
 1776.0,Jarrod Bowen,514,Jarrod Bowen,Bowen,3,(M),7.3,2.0,a,18
@@ -553,46 +559,46 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 1245.0,Emerson,520,Emerson Palmieri dos Santos,Emerson,2,(D),4.4,,a,18
 706.0,Lukasz Fabianski,521,Łukasz Fabiański,Fabianski,1,(G),4.1,,a,18
 8776.0,Wes Foderingham,522,Wes Foderingham,Foderingham,1,(G),4.3,,a,18
-986.0,Danny Ings,523,Danny Ings,Ings,4,(F),5.0,,a,18
+986.0,Danny Ings,523,Danny Ings,Ings,4,(F),4.9,,a,18
 7332.0,Max Kilman,524,Max Kilman,Kilman,2,(D),4.3,,a,18
 12027.0,Mohammed Kudus,525,Mohammed Kudus,Kudus,3,(M),6.2,,a,18
 13026.0,Luis Guilherme,526,Luis Guilherme Lira dos Santos,L.Guilherme,3,(M),4.6,,a,18
-7365.0,Lucas Paquetá,527,Lucas Tolentino Coelho de Lima,L.Paquetá,3,(M),5.7,1.0,d,18
+7365.0,Lucas Paquetá,527,Lucas Tolentino Coelho de Lima,L.Paquetá,3,(M),5.7,1.0,a,18
 6722.0,Konstantinos Mavropanos,528,Konstantinos Mavropanos,Mavropanos,2,(D),4.3,,a,18
 8288.0,Tomas Soucek,530,Tomáš Souček,Souček,3,(M),4.9,,a,18
 843.0,James Ward-Prowse,531,James Ward-Prowse,Ward-Prowse,3,(M),6.1,,a,18
 12774.0,Andy Irving,576,Andy Irving,Irving,3,(M),4.7,,a,18
-9492.0,Crysencio Summerville,587,Crysencio Summerville,Summerville,3,(M),5.5,,d,18
+9492.0,Crysencio Summerville,587,Crysencio Summerville,Summerville,3,(M),5.5,,i,18
 8267.0,Guido Rodríguez,588,Guido Rodríguez,G.Rodríguez,3,(M),4.8,,a,18
 6098.0,Niclas Füllkrug,589,Niclas Füllkrug,Füllkrug,4,(F),6.7,,i,18
-6816.0,Jean-Clair Todibo,591,Jean-Clair Todibo,Todibo,2,(D),4.2,,i,18
+6816.0,Jean-Clair Todibo,591,Jean-Clair Todibo,Todibo,2,(D),4.2,,a,18
 11409.0,Kaelan Casey,643,Kaelan Casey,Casey,2,(D),4.0,,a,18
 2478.0,Carlos Soler,654,Carlos Soler,C.Soler,3,(M),5.0,,a,18
 12358.0,Oliver Scarles,677,Ollie Scarles,Scarles,2,(D),4.0,,a,18
 ,,686,Ezra Mayers,Mayers,2,(D),4.0,,a,18
 12296.0,Lewis Orford,701,Lewis Orford,Orford,3,(M),4.5,,a,18
 ,,750,Graham Potter,Potter,5,0,0.5,,a,18
-978.0,Sam Johnstone,204,Sam Johnstone,Johnstone,1,(G),4.2,,a,19
+978.0,Sam Johnstone,204,Sam Johnstone,Johnstone,1,(G),4.2,,d,19
 6674.0,Rayan Ait Nouri,533,Rayan Aït-Nouri,Aït-Nouri,2,(D),4.7,,a,19
-,,534,Boubacar Traoré,B.Traore,3,(M),4.8,,d,19
+,,534,Boubacar Traoré,B.Traore,3,(M),4.8,,a,19
 7762.0,Jean-Ricner Bellegarde,535,Jean-Ricner Bellegarde,Bellegarde,3,(M),4.9,,a,19
 11361.0,Daniel Bentley,536,Daniel Bentley,Bentley,1,(G),3.9,,a,19
 ,,539,Leon Chiwome,Chiwome,4,(F),4.5,,i,19
 7080.0,Matheus Cunha,541,Matheus Santos Carneiro Da Cunha,Cunha,4,(F),6.8,3.0,a,19
 804.0,Craig Dawson,542,Craig Dawson,Dawson,2,(D),4.3,,a,19
 6852.0,Matt Doherty,543,Matt Doherty,Doherty,2,(D),4.3,,a,19
-8496.0,Tommy Doyle,544,Tommy Doyle,Doyle,3,(M),4.8,,a,19
+8496.0,Tommy Doyle,544,Tommy Doyle,Doyle,3,(M),4.7,,a,19
 ,,547,Enso González,Gonzalez,3,(M),4.4,,i,19
 5682.0,Gonçalo Guedes,548,Gonçalo Manuel Ganchinho Guedes,Guedes,3,(M),5.3,,a,19
-8845.0,Hee-Chan Hwang,550,Hwang Hee-chan,Hee Chan,3,(M),6.1,1.0,d,19
+8845.0,Hee-Chan Hwang,550,Hwang Hee-chan,Hee Chan,3,(M),6.1,1.0,i,19
 11384.0,João Gomes,553,João Victor Gomes da Silva,J.Gomes,3,(M),4.9,,a,19
 9740.0,José Sá,554,José Malheiro de Sá,José Sá,1,(G),4.3,,a,19
 ,,555,Saša Kalajdžić,Kalajdžić,4,(F),4.8,,i,19
 ,,556,Tom King,King,1,(G),4.0,,a,19
 9958.0,Yerson Mosquera,558,Yerson Mosquera,Mosquera,2,(D),3.8,,i,19
 6163.0,Nélson Semedo,559,Nélson Cabral Semedo,N.Semedo,2,(D),4.5,,a,19
-,,561,Pedro Cardoso de Lima,Pedro Lima,2,(D),3.9,,a,19
-12756.0,Rodrigo Gomes,563,Rodrigo Martins Gomes,R.Gomes,3,(M),5.1,,a,19
+13156,Pedro Lima,561,Pedro Cardoso de Lima,Pedro Lima,2,(D),3.9,,a,19
+12756.0,Rodrigo Gomes,563,Rodrigo Martins Gomes,R.Gomes,3,(M),5.1,,d,19
 10945.0,Santiago Bueno,564,Santiago Bueno,S.Bueno,2,(D),4.3,,a,19
 2199.0,Pablo Sarabia,565,Pablo Sarabia,Sarabia,3,(M),5.0,2.0,a,19
 11070.0,Jørgen Strand Larsen,566,Jørgen Strand Larsen,Strand Larsen,4,(F),5.2,,d,19
@@ -603,7 +609,7 @@ player_id,player,fpl_id,fpl_name,web_name,element_type,pos,now_cost,penalties_or
 13117.0,Alfie Pond,664,Alfie Pond,Pond,2,(D),3.9,,a,19
 ,,682,Tom Edozie,Edozie,3,(M),4.5,,a,19
 ,,711,Wes Okoduwa,Okoduwa,2,(D),4.0,,a,19
-10856.0,Emmanuel Agbadou,720,Emmanuel Agbadou,Agbadou,2,(D),4.0,,a,19
+10856.0,Emmanuel Agbadou,720,Emmanuel Agbadou,Agbadou,2,(D),4.0,,d,19
 ,,751,Vítor Manuel de Oliveira Lopes Pereira,Pereira,5,0,0.8,,a,19
 ,,769,Nasser Djiga,Djiga,2,(D),4.5,,a,19
-,,770,Marshall Munetsi,Munetsi,3,(M),5.0,,a,19
+7908,Marshall Munetsi,770,Marshall Munetsi,Munetsi,3,(M),5.0,,a,19
