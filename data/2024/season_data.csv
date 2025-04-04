@@ -330,11 +330,11 @@ fixture_id,datetime,home,away,h_id,a_id,h,a,gameweek
 26930,2025-04-19 14:00:00,Tottenham,Nottingham Forest,17,15,82,249,33
 26931,2025-04-19 14:00:00,West Ham,Southampton,18,16,81,74,33
 26932,2025-04-26 14:00:00,Bournemouth,Manchester United,2,13,73,89,34
-26933,2025-04-26 14:00:00,Arsenal,Crystal Palace,0,6,83,78,34
+26933,2025-04-26 14:00:00,Arsenal,Crystal Palace,0,6,83,78,33
 26934,2025-04-26 14:00:00,Brighton,West Ham,4,18,220,81,34
 26935,2025-04-26 14:00:00,Chelsea,Everton,5,7,80,72,34
 26936,2025-04-26 14:00:00,Liverpool,Tottenham,11,17,87,82,34
-26937,2025-04-26 14:00:00,Manchester City,Aston Villa,12,1,88,71,34
+26937,2025-04-26 14:00:00,Manchester City,Aston Villa,12,1,88,71,33
 26938,2025-04-26 14:00:00,Newcastle United,Ipswich,14,9,86,285,34
 26939,2025-04-26 14:00:00,Nottingham Forest,Brentford,15,3,249,244,34
 26940,2025-04-26 14:00:00,Southampton,Fulham,16,8,74,228,34
