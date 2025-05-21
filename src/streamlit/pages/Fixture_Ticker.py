@@ -66,13 +66,16 @@ with st.expander("Options", expanded=False):
     model_option = st.selectbox("Data Source", ("Full Season", "Past 6 Gameweeks"))
 
     # slider to filter upcoming gameweeks shown
-    gw_option = st.slider(
-        "Gameweek Range", curr_gw, 38, (curr_gw, min(curr_gw + 5, 38))
-    )
+    if curr_gw < 38:
+        gw_option = st.slider(
+            "Gameweek Range", curr_gw, 38, (curr_gw, min(curr_gw + 5, 38))
+        )
+    else:
+        gw_option = [38, 38]
 
     # slider to filter upcoming gameweeks shown
     home_advantage = st.slider("Home Advantage (%)", 0, 50, 33)
-    home_advantage = home_advantage/100
+    home_advantage = home_advantage / 100
 
 # generate fixtures dataframes
 o_fx, o_fx_v, min_o, max_o, d_fx, d_fx_v, min_d, max_d = generate_fixtures_df(

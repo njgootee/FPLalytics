@@ -38,7 +38,11 @@ player_mapping["web_name_pos"] = (
     player_mapping["web_name"] + " " + player_mapping["pos"]
 )
 projections_df = projections_df.merge(
-    player_mapping[["player_id", "web_name_pos", "now_cost", "element_type", "team_id"]], how="left", on="player_id"
+    player_mapping[
+        ["player_id", "web_name_pos", "now_cost", "element_type", "team_id"]
+    ],
+    how="left",
+    on="player_id",
 )
 # add team name
 projections_df = projections_df.merge(
@@ -75,9 +79,12 @@ The model considers the following:
 # options
 with st.expander("Options", expanded=False):
     # gameweek lookahead slider
-    gw_lookahead = st.slider(
-                "Gameweek Lookahead", curr_gw, 38, min(curr_gw + 5, 38)
-    )
+    if curr_gw < 38:
+        gw_lookahead = st.slider(
+            "Gameweek Lookahead", curr_gw, 38, min(curr_gw + 5, 38)
+        )
+    else:
+        gw_lookahead = 38
     # price filter
     price_filter = st.slider(
         "Max Price",
@@ -104,12 +111,12 @@ gameweek_columns = [
         "web_name_pos",
         "now_cost",
         "element_type",
-        "team_short"
+        "team_short",
     ]
 ]
 
 # filter gameweeks
-gameweek_columns = gameweek_columns[curr_gw-1:gw_lookahead]
+gameweek_columns = gameweek_columns[curr_gw - 1 : gw_lookahead]
 
 # get total points over gameweek range
 projections_df["Total"] = projections_df[gameweek_columns].sum(axis=1)
@@ -147,7 +154,11 @@ with by_pos_tab:
                 help="Total predicted points over gameweek range."
             ),
         },
-        column_order=(["web_name_pos", "team_short", "now_cost", "minutes"] + gameweek_columns + ["Total"]),
+        column_order=(
+            ["web_name_pos", "team_short", "now_cost", "minutes"]
+            + gameweek_columns
+            + ["Total"]
+        ),
         hide_index=True,
         use_container_width=True,
     )
@@ -171,7 +182,11 @@ with by_pos_tab:
                 help="Total predicted points over gameweek range."
             ),
         },
-        column_order=(["web_name_pos", "team_short", "now_cost", "minutes"] + gameweek_columns + ["Total"]),
+        column_order=(
+            ["web_name_pos", "team_short", "now_cost", "minutes"]
+            + gameweek_columns
+            + ["Total"]
+        ),
         hide_index=True,
         use_container_width=True,
     )
@@ -195,7 +210,11 @@ with by_pos_tab:
                 help="Total predicted points over gameweek range."
             ),
         },
-        column_order=(["web_name_pos", "team_short", "now_cost", "minutes"] + gameweek_columns + ["Total"]),
+        column_order=(
+            ["web_name_pos", "team_short", "now_cost", "minutes"]
+            + gameweek_columns
+            + ["Total"]
+        ),
         hide_index=True,
         use_container_width=True,
     )
@@ -219,7 +238,11 @@ with by_pos_tab:
                 help="Total predicted points over gameweek range."
             ),
         },
-        column_order=(["web_name_pos", "team_short", "now_cost", "minutes"] + gameweek_columns + ["Total"]),
+        column_order=(
+            ["web_name_pos", "team_short", "now_cost", "minutes"]
+            + gameweek_columns
+            + ["Total"]
+        ),
         hide_index=True,
         use_container_width=True,
     )
@@ -244,7 +267,11 @@ with combine_tab:
                 help="Total predicted points over gameweek range."
             ),
         },
-        column_order=(["web_name_pos", "team_short", "now_cost", "minutes"] + gameweek_columns + ["Total"]),
+        column_order=(
+            ["web_name_pos", "team_short", "now_cost", "minutes"]
+            + gameweek_columns
+            + ["Total"]
+        ),
         hide_index=True,
         use_container_width=True,
     )

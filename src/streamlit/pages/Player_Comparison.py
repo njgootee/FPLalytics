@@ -154,9 +154,12 @@ Utilize the filters in the options section to narrow your search for the perfect
             ]
         # select gameweek lookahead
         with ff_col2:
-            gw_lookahead = st.slider(
-                "Gameweek Lookahead", latest_gw + 1, 38, min(latest_gw + 6, 38)
-            )
+            if latest_gw < 37:
+                gw_lookahead = st.slider(
+                    "Gameweek Lookahead", latest_gw + 1, 38, min(latest_gw + 6, 38)
+                )
+            else:
+                gw_lookahead = 38
 
         st.divider()
         st.write("#### Stat Filters")
