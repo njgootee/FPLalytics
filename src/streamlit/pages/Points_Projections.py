@@ -31,6 +31,8 @@ projections_df = pd.read_csv(
 player_mapping = pd.read_csv("data/" + str(season_option)[:4] + "/player_mapping.csv")
 team_mapping = pd.read_csv("data/" + str(season_option)[:4] + "/team_mapping.csv")
 curr_gw = latest_gw + 1
+if latest_gw == 38:
+    curr_gw = 33
 
 # add fpl info
 player_mapping = player_mapping.dropna(subset="fpl_id")
